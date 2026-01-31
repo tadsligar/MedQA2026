@@ -45,7 +45,7 @@ echo
 echo "Starting vLLM server for Olmo-3-1025-7B (BASE MODEL)..."
 RANDOM_SEED=$(($(date +%s%N) % 2147483647))
 echo "Using random seed: $RANDOM_SEED"
-vllm serve Qwen/Olmo-3-1025-7B \
+vllm serve allenai/Olmo-3-1025-7B \
     --port 8000 \
     --tensor-parallel-size 2 \
     --gpu-memory-utilization 0.9 \
@@ -98,7 +98,7 @@ echo
 
 # Run the base model test
 python scripts/base_runs/test_base_model.py \
-    --model-name "Qwen/Olmo-3-1025-7B" \
+    --model-name "allenai/Olmo-3-1025-7B" \
     --output-dir "results/base_runs/olmo3_7b" \
     --dataset "data/datasets/medqa_focused_1030.json" \
     --vllm-url "http://localhost:8000"
