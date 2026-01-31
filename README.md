@@ -78,6 +78,8 @@ Questions were categorized and validated using two independent methods:
 
 This process required 8 iterations of validation and consumed ~700k tokens, ensuring high-quality categorization for reliable downstream evaluation.
 
+**Implementation:** See `scripts/dataset_generation/categorize_questions.py` for the complete categorization code and `scripts/dataset_generation/README.md` for detailed methodology.
+
 ### Infrastructure
 - **Inference**: vLLM on dual A100 GPUs
 - **Cluster**: Auburn University HPC
