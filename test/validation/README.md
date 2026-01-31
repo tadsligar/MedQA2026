@@ -92,27 +92,55 @@ Investigates why keyword re-categorization doesn't match validated categories.
 python3 test/validation/analyze_agreement_mystery.py
 ```
 
-## Key Findings
+## ✅ Methodology CONFIRMED (from FL_Project Documentation)
 
-1. **Datasets are confirmed US USMLE questions**
-   - medqa_full_train.json: 10,178 questions (5 options)
-   - medqa_focused_1030.json: 1,030 questions (4 options, balanced categories)
-   - Meta info shows step1/step2&3 distribution
+### Complete 3-Stage Pipeline
 
-2. **Categorization was genuinely independent**
-   - No hybrid resolution
-   - Simple agreement filtering
-   - Disagreements discarded
+**Stage 1: Create Balanced Dataset (1,764 questions)**
+- Source: 10,178 US USMLE training questions
+- Keyword categorization into 8 categories
+- Sample up to 250 per category
+- Output: 1,764 questions pre-filtered by keywords
 
-3. **68.4% agreement rate is relatively low**
-   - Suggests keyword method is imprecise
-   - Qwen provides semantic understanding
-   - Many questions have ambiguous keywords
+**Stage 2: Iterative Qwen Validation**
+- ✅ **Independent dual categorization**: Keyword + Qwen
+- ✅ **Simple agreement filtering**: Both must agree
+- ✅ **No hybrid resolution**: Disagreements discarded
+- Validated all 1,764 questions over 8 iterations
+- Output: 1,206 agreements (68.4% rate)
+  - Clinical Findings: 250
+  - Diagnosis: 250
+  - Mechanism/Pathophysiology: 250
+  - Next Step/Workup: 250
+  - Treatment/Management: 206 ⚠️ **BOTTLENECK**
 
-4. **Final dataset represents high-confidence categorization**
-   - Both methods independently agreed on these questions
-   - Balanced across 5 clinical reasoning categories
-   - Quality over quantity (1,030 from 1,764 validated)
+**Stage 3: Balance Final Dataset**
+- Sample 206 from each of 5 categories
+- Limited by Treatment/Management (only 206 available)
+- Random seed: 42
+- Output: **1,030 final questions**
+
+### Key Findings
+
+1. **Treatment/Management Bottleneck**
+   - Only 54% agreement (206/380 validated)
+   - Many questions have "treatment" keywords but ask about mechanism
+   - Context vs intent distinction is challenging
+
+2. **High-Confidence Filtering Worked**
+   - Removed ambiguous questions (32% disagreement rate)
+   - Quality over quantity approach
+   - Only clear, unambiguous examples kept
+
+3. **Independent Validation Confirmed**
+   - No hybrid resolution used
+   - Both methods had to agree independently
+   - Disagreements completely discarded
+
+4. **Datasets Verified as US USMLE**
+   - medqa_full_train.json: 10,178 questions
+   - medqa_focused_1030.json: 1,030 questions (4 options, balanced)
+   - Meta info: step1 (589), step2&3 (441)
 
 ## References
 
