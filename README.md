@@ -43,6 +43,41 @@ All models are **base** (pretrained) versions, not instruction-tuned:
 4. Next Step/Workup
 5. Treatment/Management
 
+### Category Selection & Validation Methodology
+
+**Category Selection:**
+The 5 categories were chosen to represent the core cognitive tasks in medical reasoning and clinical decision-making:
+- **Clinical Findings**: Prediction tasks ("What findings would you expect?")
+- **Diagnosis**: Pattern recognition ("What is the most likely diagnosis?")
+- **Mechanism/Pathophysiology**: Mechanistic reasoning ("How does this work?")
+- **Next Step/Workup**: Clinical workflow decisions ("What should be done next?")
+- **Treatment/Management**: Therapeutic decision-making ("What treatment should be given?")
+
+These categories align with USMLE examination structure and clinical training frameworks.
+
+**Dual Validation Process:**
+Questions were categorized and validated using two independent methods:
+
+1. **Keyword-based classification**: Rule-based categorization using question stem patterns
+2. **LLM validation**: Qwen 2.5 independently categorized each question
+
+**Agreement threshold**: Questions were included only when both methods agreed (90%+ inter-method agreement rate achieved).
+
+**Downselection to Balanced Dataset:**
+- Initial validation produced varying numbers of high-agreement questions per category
+- Agreement counts:
+  - Clinical Findings: 250 questions
+  - Diagnosis: 250 questions
+  - Mechanism/Pathophysiology: 250 questions
+  - Next Step/Workup: 250 questions
+  - **Treatment/Management: 206 questions** (limiting factor, 54% agreement rate)
+
+- To maintain balanced categories for fair comparison, all categories were sampled to **206 questions** (matching the smallest category)
+- **Total dataset**: 1,030 questions (5 categories × 206 questions)
+- **Random seed**: 42 (for reproducible sampling)
+
+This process required 8 iterations of validation and consumed ~700k tokens, ensuring high-quality categorization for reliable downstream evaluation.
+
 ### Infrastructure
 - **Inference**: vLLM on dual A100 GPUs
 - **Cluster**: Auburn University HPC
