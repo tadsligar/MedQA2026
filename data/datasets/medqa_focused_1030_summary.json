@@ -1,0 +1,30 @@
+{
+  "total_questions": 1030,
+  "questions_per_category": 206,
+  "categories": [
+    "Clinical Findings",
+    "Diagnosis",
+    "Mechanism/Pathophysiology",
+    "Next Step/Workup",
+    "Treatment/Management"
+  ],
+  "category_distribution": {
+    "Clinical Findings": 206,
+    "Diagnosis": 206,
+    "Mechanism/Pathophysiology": 206,
+    "Next Step/Workup": 206,
+    "Treatment/Management": 206
+  },
+  "total_validated": 1764,
+  "validation_tokens_used": 699981,
+  "iterations_required": 8,
+  "constraint": "Limited by Treatment/Management with only 206 agreements (54% agreement rate)",
+  "agreement_counts": {
+    "Clinical Findings": 250,
+    "Diagnosis": 250,
+    "Mechanism/Pathophysiology": 250,
+    "Next Step/Workup": 250,
+    "Treatment/Management": 206
+  },
+  "random_seed": 42
+}

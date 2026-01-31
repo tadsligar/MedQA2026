@@ -1,0 +1,35 @@
+# Qwen2.5-14B Base Model Configuration
+# For temperature impact testing on MedQA
+# Base model (not instruct) for research purposes
+
+model: "Qwen/Qwen2.5-14B"
+provider: "vllm"
+
+# vLLM-specific settings
+vllm:
+  base_url: "http://localhost:8000"
+  use_chat_api: false  # Base model - use completions endpoint
+
+# Temperature will be overridden by test script (0.0, 0.3, 0.7)
+temperature: 0.0
+max_output_tokens: 800
+
+# Budgets for timeouts
+budgets:
+  max_retries: 1
+  timeout_seconds: 120
+
+# Logging
+logging:
+  traces_dir: "results/base_runs/qwen25_14b"
+  backend: "jsonl"
+  level: "INFO"
+  save_full_prompts: true
+  save_raw_responses: true
+
+# Metadata
+metadata:
+  model_type: "base"
+  model_family: "qwen2.5"
+  model_size: "14B"
+  run_type: "base_run"
