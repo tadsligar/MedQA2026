@@ -41,13 +41,6 @@ D. Lenticulostriate artery occlusion
 
 **Correct Answer:** A. Vertebral artery occlusion
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 2
@@ -64,13 +57,6 @@ C. Expectant management
 D. Stop the medication
 
 **Correct Answer:** D. Stop the medication
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -89,13 +75,6 @@ D. Electroconvulsive therapy
 
 **Correct Answer:** B. Valproate and olanzapine
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 4
@@ -112,13 +91,6 @@ C. Pulmonary embolism
 D. Right ventricular failure
 
 **Correct Answer:** D. Right ventricular failure
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -137,13 +109,6 @@ D. Stranger anxiety
 
 **Correct Answer:** D. Stranger anxiety
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 6
@@ -160,13 +125,6 @@ C. Anti-PLA2R antibody
 D. P-ANCA
 
 **Correct Answer:** A. Anti-GBM antibody
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -185,13 +143,6 @@ D. Non-caseating granuloma
 
 **Correct Answer:** B. Increase Reid index
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 8
@@ -208,13 +159,6 @@ C. H1 receptor antagonist
 D. M1 receptor antagonist
 
 **Correct Answer:** A. 5-HT3 receptor antagonist
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -233,13 +177,6 @@ D. 6
 
 **Correct Answer:** C. 5
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 10
@@ -256,13 +193,6 @@ C. Bronchial asthma
 D. Bronchiectasis
 
 **Correct Answer:** B. Emphysema
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -281,13 +211,6 @@ D. Enlarged ventricles with mild cortical atrophy
 
 **Correct Answer:** B. Midbrain atrophy with intact pons
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 12
@@ -305,13 +228,6 @@ D. Right ventricular outflow obstruction
 
 **Correct Answer:** B. Low tissue oxygenation in the legs
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 13
@@ -328,13 +244,6 @@ C. Tenderness at the Achilles tendon insertion site
 D. Ulnar deviation of the fingers bilaterally
 
 **Correct Answer:** C. Tenderness at the Achilles tendon insertion site
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -381,13 +290,6 @@ D. Visual halos
 
 **Correct Answer:** A. Hypertension
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 15
@@ -404,13 +306,6 @@ C. Consult hospital ethics committee
 D. Proceed to surgery without transfusion
 
 **Correct Answer:** B. Transfusion of packed red blood cells
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -429,13 +324,6 @@ D. Tubal ligation
 
 **Correct Answer:** A. Surgery
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 17
@@ -452,13 +340,6 @@ C. Convalescent stage
 D. Intermittent stage
 
 **Correct Answer:** B. Paroxysmal stage
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -477,13 +358,6 @@ D. After 28 weeks gestation, administration of RhoGAM will have no benefit
 
 **Correct Answer:** A. If mother is Rh-negative and father is Rh-positive then administer RhoGAM
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 19
@@ -500,13 +374,6 @@ C. Schistocytes on peripheral smear
 D. Thrombocytopenia
 
 **Correct Answer:** A. Decreased erythrocyte sedimentation rate
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -525,13 +392,6 @@ D. IV pyelography
 
 **Correct Answer:** B. Transurethral catheterization
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 21
@@ -548,13 +408,6 @@ C. Anticentromere antibodies
 D. Anti-Scl-70 antibodies
 
 **Correct Answer:** C. Anticentromere antibodies
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -592,13 +445,6 @@ D. Statin cessation
 
 **Correct Answer:** C. Muscle biopsy
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 23
@@ -615,13 +461,6 @@ C. Amoxicillin-clavulanate and laceration closure
 D. Laceration closure
 
 **Correct Answer:** B. Amoxicillin-clavulanate
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -640,13 +479,6 @@ D. Hemoglobin and hematocrit
 
 **Correct Answer:** C. Serum TSH
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 25
@@ -663,13 +495,6 @@ C. Protects against gastrointestinal infections
 D. Crosses the placenta
 
 **Correct Answer:** B. Forms a pentamer when secreted
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -688,13 +513,6 @@ D. Lymphatic spread
 
 **Correct Answer:** C. Local invasion via collagenase
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 27
@@ -711,13 +529,6 @@ C. Decreased intra-abdominal pressure
 D. Decreased pulse rate
 
 **Correct Answer:** B. Decreased left ventricular stroke volume
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -736,13 +547,6 @@ D. Holosystolic murmur at the lower left sternal border
 
 **Correct Answer:** D. Holosystolic murmur at the lower left sternal border
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 29
@@ -760,13 +564,6 @@ D. Dermatitis herpetiformis
 
 **Correct Answer:** A. Erythema multiforme
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 30
@@ -783,13 +580,6 @@ C. Herpes esophagitis
 D. Medication-induced esophagitis
 
 **Correct Answer:** B. Esophageal candidiasis
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -816,13 +606,6 @@ D. Central diabetes insipidus
 
 **Correct Answer:** C. Nephrogenic diabetes insipidus
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 32
@@ -839,13 +622,6 @@ C. Acute insufficiency of cerebral blood flow
 D. Bleeding between dura mater and skull
 
 **Correct Answer:** D. Bleeding between dura mater and skull
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -864,13 +640,6 @@ D. Granular immunofluorescence around the glomerular basement membrane
 
 **Correct Answer:** B. Lymphocytic infiltrate of the tubules and interstitium
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 34
@@ -887,13 +656,6 @@ C. GABAA receptor
 D. 5-HT2A receptor
 
 **Correct Answer:** B. μ-receptor
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -912,13 +674,6 @@ D. Posterior cruciate ligament tear
 
 **Correct Answer:** B. Lateral collateral ligament tear
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 36
@@ -935,13 +690,6 @@ C. Toxoid
 D. Conjugated polysaccharide
 
 **Correct Answer:** D. Conjugated polysaccharide
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -965,13 +713,6 @@ D. Leucine
 
 **Correct Answer:** A. Glutamine
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 38
@@ -989,13 +730,6 @@ D. Transjugular intrahepatic portosystemic shunt
 
 **Correct Answer:** B. Nadolol
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 39
@@ -1012,13 +746,6 @@ C. The patient should undergo screening every 3 years after she turns 21 years o
 D. HPV testing is more preferable than Pap testing in sexually active women under 21 years of age.
 
 **Correct Answer:** C. The patient should undergo screening every 3 years after she turns 21 years of age.
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -1053,13 +780,6 @@ D. Frequent hand washing
 
 **Correct Answer:** B. Mosquito repellent
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 41
@@ -1076,13 +796,6 @@ C. Algorithmic analysis
 D. Heuristic analysis
 
 **Correct Answer:** B. Root cause analysis
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -1101,13 +814,6 @@ D. Fibrin clot formation
 
 **Correct Answer:** D. Fibrin clot formation
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 43
@@ -1124,13 +830,6 @@ C. Begin 5-year interval cervical cancer screening via Pap smear at age 21
 D. Offer to administer the HPV vaccine so that Pap smears can be avoided
 
 **Correct Answer:** B. Begin 3-year interval cervical cancer screening via Pap smear at age 21
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -1149,13 +848,6 @@ D. Inability to flex the elbow
 
 **Correct Answer:** A. Absent distal radial pulse
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 45
@@ -1172,13 +864,6 @@ C. HLA-B27 positive genotype
 D. HLA-DR3-positive genotype
 
 **Correct Answer:** C. HLA-B27 positive genotype
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -1197,13 +882,6 @@ D. Sleep hygiene education
 
 **Correct Answer:** D. Sleep hygiene education
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 47
@@ -1220,13 +898,6 @@ C. Brown-sequard syndrome
 D. Anterior spinal cord syndrome
 
 **Correct Answer:** A. Cauda equina syndrome
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -1245,13 +916,6 @@ D. Dicloxacillin
 
 **Correct Answer:** A. Permethrin
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 49
@@ -1268,13 +932,6 @@ C. Contemplation
 D. Action
 
 **Correct Answer:** B. Maintenance
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -1293,13 +950,6 @@ D. GABA-A receptors; increasing the frequency of activation of a chloride ion ch
 
 **Correct Answer:** D. GABA-A receptors; increasing the frequency of activation of a chloride ion channel
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 51
@@ -1316,13 +966,6 @@ C. Parinaud’s syndrome
 D. Pure motor syndrome
 
 **Correct Answer:** A. Dysarthria-clumsy hand syndrome
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -1341,13 +984,6 @@ D. Observation
 
 **Correct Answer:** A. Iron studies
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 53
@@ -1364,13 +1000,6 @@ C. Non-fasting oral glucose load test with 75 g of glucose
 D. Measurement of HbA1c
 
 **Correct Answer:** A. Non-fasting oral glucose tolerance test with 50 g of glucose
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -1396,13 +1025,6 @@ D. Metoprolol
 
 **Correct Answer:** A. Atorvastatin
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 55
@@ -1420,13 +1042,6 @@ D. Vascular vasodilation
 
 **Correct Answer:** D. Vascular vasodilation
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 56
@@ -1443,13 +1058,6 @@ C. Inpatient treatment with azithromycin and cefotaxime
 D. Inpatient treatment with ceftriaxone
 
 **Correct Answer:** C. Inpatient treatment with azithromycin and cefotaxime
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -1475,13 +1083,6 @@ D. Increased flow rate of tubular contents
 
 **Correct Answer:** A. Saturation of PAH transport carriers
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 58
@@ -1499,13 +1100,6 @@ D. Elevated pulmonary arterial pressure
 
 **Correct Answer:** D. Elevated pulmonary arterial pressure
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 59
@@ -1522,13 +1116,6 @@ C. Dendritic cells
 D. Ciliary epithelium
 
 **Correct Answer:** C. Dendritic cells
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -1552,13 +1139,6 @@ D. Translocation between chromosomes 15 and 17
 
 **Correct Answer:** C. Philadelphia chromosome
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 61
@@ -1576,13 +1156,6 @@ D. Supine abdominal radiograph
 
 **Correct Answer:** C. Non-contrast CT of the abdomen and pelvis
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 62
@@ -1599,13 +1172,6 @@ C. Obstructive lung disease
 D. Restrictive lung disease
 
 **Correct Answer:** D. Restrictive lung disease
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -1645,13 +1211,6 @@ D. Acute obstructing nephrolithiasis
 
 **Correct Answer:** A. Pyelonephritis
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 64
@@ -1668,13 +1227,6 @@ C. Triploidy in amniotic fluid
 D. Decreased inhibin A in maternal serum
 
 **Correct Answer:** A. Additional chromosome in placental tissue
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -1693,13 +1245,6 @@ D. Repressor releases from lac operator
 
 **Correct Answer:** A. Increased cAMP levels result in binding to the catabolite activator protein
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 66
@@ -1717,13 +1262,6 @@ D. Proteus mirabilis
 
 **Correct Answer:** D. Proteus mirabilis
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 67
@@ -1740,13 +1278,6 @@ C. Intestinal inflammatory reaction to gluten
 D. Small intestine bacterial overgrowth
 
 **Correct Answer:** A. Inactivation of pancreatic enzymes
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -1771,13 +1302,6 @@ D. Huntington's disease
 
 **Correct Answer:** D. Huntington's disease
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 69
@@ -1794,13 +1318,6 @@ C. Increased cerebrospinal production
 D. Systemic hypertension
 
 **Correct Answer:** B. Elevated intracranial venous pressure
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -1820,13 +1337,6 @@ D. Selective antagonist at estrogen receptors in endometrium
 
 **Correct Answer:** A. Selective agonist at estrogen receptors in bone tissue
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 71
@@ -1843,13 +1353,6 @@ C. Unprotected sexual intercourse
 D. Mosquito bites
 
 **Correct Answer:** B. Undercooked pork
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -1868,13 +1371,6 @@ D. Diffusion hypoxia
 
 **Correct Answer:** D. Diffusion hypoxia
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 73
@@ -1891,13 +1387,6 @@ C. Cortisol secretion
 D. Cellular uptake of glucose
 
 **Correct Answer:** D. Cellular uptake of glucose
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -1916,13 +1405,6 @@ D. Eczematous dermatitis
 
 **Correct Answer:** D. Eczematous dermatitis
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 75
@@ -1939,13 +1421,6 @@ C. Positive rapid plasma reagin test
 D. Elevated hemoglobin A1c
 
 **Correct Answer:** D. Elevated hemoglobin A1c
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -1965,13 +1440,6 @@ D. Retroauricular ecchymosis
 
 **Correct Answer:** B. Bilateral periorbital ecchymosis
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 77
@@ -1988,13 +1456,6 @@ C. In dermal papillae
 D. In dermal vessel walls
 
 **Correct Answer:** A. At the dermoepidermal junction
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -2013,13 +1474,6 @@ D. Intestinal obstruction
 
 **Correct Answer:** C. Angiodysplasia
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 79
@@ -2036,13 +1490,6 @@ C. Rett syndrome
 D. Tourette syndrome
 
 **Correct Answer:** C. Rett syndrome
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -2062,13 +1509,6 @@ D. Positive swinging-flashlight test
 
 **Correct Answer:** A. Ptosis
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 81
@@ -2087,13 +1527,6 @@ D. ↑ ↑ ↓ ↑
 
 **Correct Answer:** C. Normal normal normal normal
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 82
@@ -2110,13 +1543,6 @@ C. Inability to stand on tiptoes
 D. Decreased ankle reflex
 
 **Correct Answer:** A. Impaired dorsiflexion of the foot
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -2135,13 +1561,6 @@ D. Irritable bowel disease
 
 **Correct Answer:** B. Non-tropical sprue
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 84
@@ -2158,13 +1577,6 @@ C. Persistent cough
 D. Tachypnea
 
 **Correct Answer:** B. Biliary tract dysfunction
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -2183,13 +1595,6 @@ D. Schizoid personality disorder
 
 **Correct Answer:** C. Conduct disorder
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 86
@@ -2206,13 +1611,6 @@ C. Excessive protease activity
 D. Hyperplasia of mucous glands
 
 **Correct Answer:** B. Defective protein folding
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -2231,13 +1629,6 @@ D. Harsh, late systolic murmur that radiates to the carotids
 
 **Correct Answer:** A. High-pitched, holosystolic murmur that radiates to the axilla
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 88
@@ -2254,13 +1645,6 @@ C. Tolerance
 D. Immune evasion
 
 **Correct Answer:** A. Herd immunity
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -2279,13 +1663,6 @@ D. Between the arachnoid mater and the pia mater
 
 **Correct Answer:** D. Between the arachnoid mater and the pia mater
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 90
@@ -2302,13 +1679,6 @@ C. Decreased resting membrane potential
 D. Increased action potential refractory period
 
 **Correct Answer:** A. Decreased action potential amplitude
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -2327,13 +1697,6 @@ D. Immunoglobulin against a bacterial protein
 
 **Correct Answer:** B. Chemically-inactivated virus
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 92
@@ -2350,13 +1713,6 @@ C. Olanzapine
 D. Clozapine
 
 **Correct Answer:** D. Clozapine
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -2375,13 +1731,6 @@ D. Fas ligand
 
 **Correct Answer:** C. Variable beta portion of the T-cell receptor
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 94
@@ -2398,13 +1747,6 @@ C. Hypermotile esophageal contractions
 D. Fungal infection of the lower esophagus
 
 **Correct Answer:** B. Esophageal exposure to gastric acid
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -2423,13 +1765,6 @@ D. Clubbed feet
 
 **Correct Answer:** D. Clubbed feet
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 96
@@ -2446,13 +1781,6 @@ C. Referral to orthopedic surgery
 D. Referral to physical therapy
 
 **Correct Answer:** D. Referral to physical therapy
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -2472,13 +1800,6 @@ D. Intravenous dihydroergotamine
 
 **Correct Answer:** C. Intravenous vancomycin, ceftriaxone, and metronidazole
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 98
@@ -2495,13 +1816,6 @@ C. Phosphoribosyl pyrophosphate synthetase
 D. Hypoxanthine-guanine phosphoribosyl transferase
 
 **Correct Answer:** D. Hypoxanthine-guanine phosphoribosyl transferase
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -2520,13 +1834,6 @@ D. Polycystic ovaries on ultrasonography of the pelvis
 
 **Correct Answer:** D. Polycystic ovaries on ultrasonography of the pelvis
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 100
@@ -2543,13 +1850,6 @@ C. Basilar artery
 D. Posterior cerebral artery
 
 **Correct Answer:** C. Basilar artery
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -2568,13 +1868,6 @@ D. Serum FSH level
 
 **Correct Answer:** D. Serum FSH level
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 102
@@ -2591,13 +1884,6 @@ C. Positive direct Coombs test
 D. Bilateral pulmonary infiltrates on chest x-ray
 
 **Correct Answer:** C. Positive direct Coombs test
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -2616,13 +1902,6 @@ D. Urinary 5-hydroxyindoleacetic acid level
 
 **Correct Answer:** D. Urinary 5-hydroxyindoleacetic acid level
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 104
@@ -2639,13 +1918,6 @@ C. Loculated epiphyseal cyst with thinning of the overlying cortex
 D. Bony ankylosis and bone proliferation at the entheses
 
 **Correct Answer:** A. Osteophytes and narrowing of the joint-space
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -2664,13 +1936,6 @@ D. Psychodynamic psychotherapy and aripiprazole
 
 **Correct Answer:** B. Cognitive behavioral therapy and fluoxetine
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 106
@@ -2687,13 +1952,6 @@ C. Depersonalization disorder
 D. Dissociative fugue disorder
 
 **Correct Answer:** C. Depersonalization disorder
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -2712,13 +1970,6 @@ D. Pale skin color on the volar surface when pressure is applied to the radial a
 
 **Correct Answer:** A. Paresthesia over the volar aspect of the first 3 fingers on wrist flexion
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 108
@@ -2736,13 +1987,6 @@ D. Increase of tension in all phases
 
 **Correct Answer:** D. Increase of tension in all phases
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 109
@@ -2759,13 +2003,6 @@ C. Topical antibiotic application of mafenide acetate
 D. Fluid resuscitation with Ringer’s lactate solution per the Parkland formula
 
 **Correct Answer:** A. Early excision and split-thickness skin grafting
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -2791,13 +2028,6 @@ D. Congestive heart failure
 
 **Correct Answer:** C. Prolonged immobilization
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 111
@@ -2814,13 +2044,6 @@ C. Reduction of alveolar surface tension
 D. Retention of potassium
 
 **Correct Answer:** A. Constriction of efferent renal arterioles
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -2839,13 +2062,6 @@ D. Extranodal marginal zone lymphoma
 
 **Correct Answer:** A. Lymphocyte-depleted lymphoma
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 113
@@ -2862,13 +2078,6 @@ C. Partial aorticopulmonary septum development
 D. Anterosuperior displacement of aorticopulmonary septum
 
 **Correct Answer:** D. Anterosuperior displacement of aorticopulmonary septum
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -2887,13 +2096,6 @@ D. Impaired reaction time
 
 **Correct Answer:** D. Impaired reaction time
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 115
@@ -2910,13 +2112,6 @@ C. Nonreceptor tyrosine kinase
 D. Serine/threonine kinase
 
 **Correct Answer:** C. Nonreceptor tyrosine kinase
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -2935,13 +2130,6 @@ D. Bone metastases
 
 **Correct Answer:** C. Paget disease of bone
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 117
@@ -2959,13 +2147,6 @@ D. Breast cancer
 
 **Correct Answer:** A. Clear cell renal cell carcinoma
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 118
@@ -2982,13 +2163,6 @@ C. Gram-negative diplococci
 D. Flagellated protozoa
 
 **Correct Answer:** A. Gram-variable rod
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -3009,13 +2183,6 @@ D. Hepatitis D virus
 **Correct Answer:** D. Hepatitis D virus
 "
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 120
@@ -3032,13 +2199,6 @@ C. “It seems as though you are having a schizophrenia relapse. If you don't fo
 D. """You are clearly distressed. However, your tests do not suggest a physical problem that can be addressed with medications or surgery. I suggest that we meet and evaluate your symptoms on a regular basis."""
 
 **Correct Answer:** A. “I cannot see any injury of your wrist and the physical exam as well as the x-ray don't show any injury. I imagine that feeling as if your wrist was broken may be very uncomfortable. Can you tell me more about what it feels like?”
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -3057,13 +2217,6 @@ D. Self mutilation
 
 **Correct Answer:** B. Portal hypertension
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 122
@@ -3080,13 +2233,6 @@ C. DiGeorge syndrome
 D. Hereditary angioedema
 
 **Correct Answer:** A. Bruton agammaglobulinemia
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -3105,13 +2251,6 @@ D. Inform the local Physician Health Program
 
 **Correct Answer:** D. Inform the local Physician Health Program
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 124
@@ -3129,13 +2268,6 @@ D. Cyclooxygenase activator
 
 **Correct Answer:** C. ADP receptor inhibitor
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 125
@@ -3152,13 +2284,6 @@ C. Try to contact the father for consent
 D. Consult ethics committee
 
 **Correct Answer:** C. Try to contact the father for consent
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -3179,13 +2304,6 @@ D. Obtain throat culture
 **Correct Answer:** D. Obtain throat culture
 "
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 127
@@ -3202,13 +2320,6 @@ C. Piperacillin-tazobactam
 D. Piperacillin-tazobactam + steroids
 
 **Correct Answer:** B. Trimethoprim-sulfamethoxazole + steroids
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -3227,13 +2338,6 @@ D. Inhibits the H+/K+ ATPase
 
 **Correct Answer:** C. Forms toxic metabolites that damage bacterial DNA
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 129
@@ -3250,13 +2354,6 @@ C. Giant cells and noncaseating granulomas
 D. Lymphocytic infiltrate and germinal center formation
 
 **Correct Answer:** B. Collagen deposition and decreased number of follicles
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -3275,13 +2372,6 @@ D. Red blood cell casts
 
 **Correct Answer:** C. Leukocyte esterase positive
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 131
@@ -3298,13 +2388,6 @@ C. Pyogenic brain abscess
 D. Cavernous sinus thrombosis
 
 **Correct Answer:** C. Pyogenic brain abscess
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -3323,13 +2406,6 @@ D. Increased serum K+
 
 **Correct Answer:** D. Increased serum K+
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 133
@@ -3346,13 +2422,6 @@ C. Nucleus accumbens
 D. Raphe nucleus
 
 **Correct Answer:** D. Raphe nucleus
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -3371,13 +2440,6 @@ D. Psoriasis
 
 **Correct Answer:** B. Staphylococcus aureus infection
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 135
@@ -3394,13 +2456,6 @@ C. Uniparental disomy of chromosome 15
 D. Trinucleotide repeat in FMR1 gene
 
 **Correct Answer:** C. Uniparental disomy of chromosome 15
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -3419,13 +2474,6 @@ D. Inhibition of arabinosyltransferase
 
 **Correct Answer:** D. Inhibition of arabinosyltransferase
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 137
@@ -3442,13 +2490,6 @@ C. Hepatic metastasis
 D. Amebic liver abscess
 
 **Correct Answer:** B. Congestive heart failure
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -3467,13 +2508,6 @@ D. Thrombocytopenia
 
 **Correct Answer:** B. Hematuria
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 139
@@ -3490,13 +2524,6 @@ C. Polycythemia
 D. Hematuria
 
 **Correct Answer:** B. Abdominal bruit
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -3515,13 +2542,6 @@ D. Lithium
 
 **Correct Answer:** A. Gestational diabetes
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 141
@@ -3538,13 +2558,6 @@ C. Decreased intrapleural pressure
 D. Decreased plasma oncotic pressure
 
 **Correct Answer:** B. Increased pulmonary capillary permeability
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -3563,13 +2576,6 @@ D. Decreased fibrinogen concentration
 
 **Correct Answer:** D. Decreased fibrinogen concentration
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 143
@@ -3586,13 +2592,6 @@ C. Acute mesenteric ischemia
 D. Diverticular disease
 
 **Correct Answer:** C. Acute mesenteric ischemia
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -3636,13 +2635,6 @@ D. Platelet count alone
 
 **Correct Answer:** C. aPTT and platelet count
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 145
@@ -3674,13 +2666,6 @@ D. Central pancreatectomy
 
 **Correct Answer:** B. Pancreaticoduodenectomy
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 146
@@ -3697,13 +2682,6 @@ C. Lithium use
 D. Diabetic ketoacidosis
 
 **Correct Answer:** A. Syndrome of Inappropriate Antidiuretic Hormone (SIADH)
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -3728,13 +2706,6 @@ D. Bernard-Soulier syndrome
 
 **Correct Answer:** C. Hemophilia
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 148
@@ -3751,13 +2722,6 @@ C. Protein catabolism
 D. Fatty acid metabolism
 
 **Correct Answer:** B. Collagen synthesis
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -3776,13 +2740,6 @@ D. Inflammatory breast cancer
 
 **Correct Answer:** D. Inflammatory breast cancer
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 150
@@ -3799,13 +2756,6 @@ C. Tight junctions
 D. Capillary fenestrations
 
 **Correct Answer:** C. Tight junctions
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -3824,13 +2774,6 @@ D. Pinealoma
 
 **Correct Answer:** B. Pilocytic astrocytoma
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 152
@@ -3847,13 +2790,6 @@ C. Intravascular hemolysis
 D. Extravascular hemolysis
 
 **Correct Answer:** D. Extravascular hemolysis
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -3879,13 +2815,6 @@ D. Superior and middle rectal vein – inferior rectal veins
 
 **Correct Answer:** B. Esophageal branch of left gastric vein – esophageal branches of azygos vein
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 154
@@ -3903,13 +2832,6 @@ D. Decreased echogenicity of the liver
 
 **Correct Answer:** B. Gallstone in the cystic duct
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 155
@@ -3926,13 +2848,6 @@ C. Decrease dobutamine rate
 D. Decrease positive inspiratory pressure
 
 **Correct Answer:** D. Decrease positive inspiratory pressure
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -3958,13 +2873,6 @@ D. Peripheral smear
 
 **Correct Answer:** B. Eosin-5-maleimide binding test
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 157
@@ -3982,13 +2890,6 @@ D. Positive hydrogen breath test
 
 **Correct Answer:** A. IgA tissue transglutaminase antibodies
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 158
@@ -4005,13 +2906,6 @@ C. Quaternary prevention
 D. Cancer screening does not fit into these categories
 
 **Correct Answer:** A. Secondary prevention
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -4049,13 +2943,6 @@ D. Presence of gut contents in the abdominal cavity
 
 **Correct Answer:** B. Burn out of pancreatic beta cells
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 160
@@ -4079,13 +2966,6 @@ D. Voiding cystourethrography
 
 **Correct Answer:** C. Renal and bladder ultrasonography
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 161
@@ -4102,13 +2982,6 @@ C. Multinucleated giant cells, macrophages, and degenerated follicular cells
 D. Lymphocytic infiltration, Hürthle cells, and germinal centers
 
 **Correct Answer:** D. Lymphocytic infiltration, Hürthle cells, and germinal centers
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -4127,13 +3000,6 @@ D. Multiple endocrine neoplasia (MEN) IIb
 
 **Correct Answer:** C. Multiple endocrine neoplasia (MEN) IIa
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 163
@@ -4150,13 +3016,6 @@ C. Pyridoxine supplementation
 D. Folic acid supplementation
 
 **Correct Answer:** B. Cyanocobalamin supplementation
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -4175,13 +3034,6 @@ D. Clomipramine
 
 **Correct Answer:** D. Clomipramine
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 165
@@ -4198,13 +3050,6 @@ C. GAA triplet expansion on chromosome 9
 D. Presence of misfolded proteins in the brain
 
 **Correct Answer:** A. CAG triplet expansion on chromosome 4
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -4223,13 +3068,6 @@ D. Prescribe oseltamivir for standby emergency treatment
 
 **Correct Answer:** A. Administer inactivated influenza vaccine
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 167
@@ -4246,13 +3084,6 @@ C. Dialectical behavioral therapy
 D. Interpersonal psychotherapy
 
 **Correct Answer:** B. Fluoxetine
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -4271,13 +3102,6 @@ D. Inhibition of hepatic gluconeogenesis
 
 **Correct Answer:** D. Inhibition of hepatic gluconeogenesis
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 169
@@ -4294,13 +3118,6 @@ C. Serum PSA every 2-4 years
 D. No screening test is recommended
 
 **Correct Answer:** D. No screening test is recommended
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -4319,13 +3136,6 @@ D. Thoracodorsal nerve
 
 **Correct Answer:** B. Long thoracic nerve
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 171
@@ -4343,13 +3153,6 @@ D. Confirm the diagnosis with a sputum culture
 
 **Correct Answer:** A. Inform the local public health department of the diagnosis
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 172
@@ -4366,13 +3169,6 @@ C. Stevens-Johnson syndrome
 D. Eczema herpeticum
 
 **Correct Answer:** D. Eczema herpeticum
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -4404,13 +3200,6 @@ D. Dilated bronchi on chest CT
 
 **Correct Answer:** A. Rouleaux formation on peripheral smear
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 174
@@ -4427,13 +3216,6 @@ C. No cervical cancer screening is indicated at this time
 D. Cytology (pap smear) and HPV DNA co-testing every 3 years
 
 **Correct Answer:** C. No cervical cancer screening is indicated at this time
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -4452,13 +3234,6 @@ D. Giant platelets
 
 **Correct Answer:** C. Fibrinogen
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 176
@@ -4476,13 +3251,6 @@ D. Plasma exchange transfusion
 
 **Correct Answer:** C. No therapy indicated
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 177
@@ -4499,13 +3267,6 @@ C. Inhibition of erythrocyte carbonic anhydrase
 D. Increased solubility of carbon dioxide in plasma
 
 **Correct Answer:** C. Inhibition of erythrocyte carbonic anhydrase
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -4529,13 +3290,6 @@ D. Iron supplementation
 
 **Correct Answer:** C. Reassurance
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 179
@@ -4552,13 +3306,6 @@ C. The unopposed inferior oblique muscle rotates the eye downward.
 D. The sympathetic nerve fibers of this patient’s eye are inhibited.
 
 **Correct Answer:** B. The unopposed superior oblique muscle rotates the eye downward.
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -4587,13 +3334,6 @@ D. Abdominal radiography and contrast CT of the abdomen
 
 **Correct Answer:** B. Intravenous cefotaxime
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 181
@@ -4610,13 +3350,6 @@ C. Coronary angiography
 D. Cardiac pharmacological stress test
 
 **Correct Answer:** D. Cardiac pharmacological stress test
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -4635,13 +3368,6 @@ D. Chronic autoimmune gastritis
 
 **Correct Answer:** A. Malignant proliferation of squamous cells
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 183
@@ -4658,13 +3384,6 @@ C. An acute asthma exacerbation
 D. Pneumothorax
 
 **Correct Answer:** B. Non-cardiogenic pulmonary edema
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -4683,13 +3402,6 @@ D. Subclavian steal syndrome
 
 **Correct Answer:** A. Apical lung tumor
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 185
@@ -4706,13 +3418,6 @@ C. Hypertrophic cardiomyopathy
 D. Infective endocarditis
 
 **Correct Answer:** D. Infective endocarditis
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -4731,13 +3436,6 @@ D. Vestibular schwannoma
 
 **Correct Answer:** C. Chiari II malformation
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 187
@@ -4754,13 +3452,6 @@ C. Fetal distress
 D. Abdominal tenderness
 
 **Correct Answer:** A. Loss of fetal station
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -4779,13 +3470,6 @@ D. Mediastinitis
 
 **Correct Answer:** A. Benign tumor of the thymus
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 189
@@ -4802,13 +3486,6 @@ C. Friction rub
 D. Pulsus paradoxus
 
 **Correct Answer:** D. Pulsus paradoxus
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -4827,13 +3504,6 @@ D. Superficial thrombophlebitis
 
 **Correct Answer:** D. Superficial thrombophlebitis
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 191
@@ -4850,13 +3520,6 @@ C. Metformin
 D. MRI of the head
 
 **Correct Answer:** A. Dexamethasone suppression test
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -4875,13 +3538,6 @@ D. Phase I
 
 **Correct Answer:** B. Phase III
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 193
@@ -4898,13 +3554,6 @@ C. Activation of NF-κB
 D. Suppression of the appetite center in the hypothalamus
 
 **Correct Answer:** C. Activation of NF-κB
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -4923,13 +3572,6 @@ D. Polysomnography
 
 **Correct Answer:** C. MRI scan of the spine
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 195
@@ -4946,13 +3588,6 @@ C. Stimulation of the Beta 2 receptor
 D. Inhibition of the Na/K/Cl triple transporter of the thick ascending limb
 
 **Correct Answer:** A. Inhibition of angiotensin-converting enzyme
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -4971,13 +3606,6 @@ D. DNA ligase
 
 **Correct Answer:** C. DNA polymerase I 5’ to 3’ exonuclease activity
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 197
@@ -4995,13 +3623,6 @@ D. RAS cycle transduction inhibitor
 
 **Correct Answer:** C. DNA mismatch repair
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 198
@@ -5018,13 +3639,6 @@ C. 30S ribosomal subunit inhibitor
 D. 50S ribosomal subunit inhibitor
 
 **Correct Answer:** D. 50S ribosomal subunit inhibitor
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -5048,13 +3662,6 @@ D. ↓ Mentzer index
 
 **Correct Answer:** A. ↑ reticulocyte count
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 200
@@ -5071,13 +3678,6 @@ C. CT angiography
 D. Exercise stress testing
 
 **Correct Answer:** D. Exercise stress testing
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -5107,13 +3707,6 @@ D. Pacemaker placement
 
 **Correct Answer:** A. Observation
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 202
@@ -5130,13 +3723,6 @@ C. Bronchoalveolar lavage with cytology
 D. Pulmonary function tests
 
 **Correct Answer:** A. Low-dose CT
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -5163,13 +3749,6 @@ D. Crohn’s disease
 
 **Correct Answer:** D. Crohn’s disease
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 204
@@ -5186,13 +3765,6 @@ C. Intact cough reflex
 D. Absent gag reflex
 
 **Correct Answer:** D. Absent gag reflex
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 
@@ -5211,13 +3783,6 @@ D. Short stature
 
 **Correct Answer:** C. Hoarseness of voice
 
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
-
 ---
 
 ### Question 206
@@ -5234,13 +3799,6 @@ C. Weakness of shoulder shrug
 D. Shortness of breath
 
 **Correct Answer:** A. Voice pitch limitation
-
-**Review Assessment:**
-- [ ] ✓ Correctly categorized
-- [ ] ✗ Miscategorized (should be: _____________)
-- [ ] ? Ambiguous
-
-**Comments:** _______________________________________________
 
 ---
 

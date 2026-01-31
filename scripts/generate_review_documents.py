@@ -90,13 +90,6 @@ for category, questions_list in sorted(categories.items()):
             answer_idx = q.get('answer_idx', 'Unknown')
             f.write(f"**Correct Answer:** {answer_idx}. {answer}\n\n")
 
-            # Review checkbox
-            f.write("**Review Assessment:**\n")
-            f.write("- [ ] ✓ Correctly categorized\n")
-            f.write("- [ ] ✗ Miscategorized (should be: _____________)\n")
-            f.write("- [ ] ? Ambiguous\n\n")
-            f.write("**Comments:** _______________________________________________\n\n")
-
             f.write("---\n\n")
 
         # Summary section
