@@ -55,13 +55,18 @@ The 5 categories were chosen to represent the core cognitive tasks in medical re
 
 These categories align with USMLE examination structure and clinical training frameworks.
 
-**Dual Validation Process:**
-Questions were categorized and validated using two independent methods:
+**Hybrid Validation Process:**
+Questions were categorized using a confidence-scored hybrid approach combining two methods:
 
 1. **Keyword-based classification**: Rule-based categorization using question stem patterns
 2. **LLM validation**: Qwen 2.5 independently categorized each question
+3. **Hybrid resolution**: When methods disagreed, explicit markers determined final category:
+   - Trust Qwen for "mechanism"/"action"/"pathway" questions (semantic understanding)
+   - Trust keywords for "most appropriate treatment" questions (standard phrasing)
+   - Use Qwen for other disagreements (generally better semantic understanding)
 
-**Agreement threshold**: Questions were included only when both methods agreed (90%+ inter-method agreement rate achieved).
+**Initial agreement rate**: 78.17% (992/1,269 questions)
+**Estimated accuracy with hybrid approach**: ~88%
 
 **Downselection to Balanced Dataset:**
 - Initial validation produced varying numbers of high-agreement questions per category
