@@ -48,9 +48,10 @@ echo "Using random seed: $RANDOM_SEED"
 vllm serve allenai/Olmo-3-1125-32B \
     --port 8000 \
     --tensor-parallel-size 2 \
-    --gpu-memory-utilization 0.9 \
+    --gpu-memory-utilization 0.75 \
     --dtype bfloat16 \
     --max-model-len 4096 \
+    --max-num-seqs 128 \
     --disable-log-requests \
     --seed $RANDOM_SEED \
     > logs/vllm_server_olmo3_32b_base_${SLURM_JOB_ID}.log 2>&1 &
@@ -61,8 +62,8 @@ echo
 
 # Wait for vLLM server to be ready
 echo "Waiting for vLLM server to be ready..."
-echo "Note: Initial startup takes ~10-15 minutes for model loading"
-MAX_WAIT=1800  # 30 minutes
+echo "Note: Initial startup takes ~15-30 minutes for large model loading"
+MAX_WAIT=3600  # 60 minutes
 ELAPSED=0
 while ! curl -s http://localhost:8000/health > /dev/null 2>&1; do
     if [ $ELAPSED -ge $MAX_WAIT ]; then
