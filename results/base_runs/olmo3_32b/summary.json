@@ -1,0 +1,40 @@
+{
+  "dataset": "data/datasets/medqa_focused_1030.json",
+  "total_questions": 1030,
+  "model": "allenai/Olmo-3-1125-32B",
+  "model_type": "base",
+  "run_type": "base_run",
+  "prompt_style": "simple",
+  "temperatures": [
+    0.0,
+    0.3,
+    0.7
+  ],
+  "n_runs_per_temperature": 3,
+  "temperature_results": [
+    {
+      "temperature": 0.0,
+      "run1_accuracy": 58.64077669902913,
+      "run2_accuracy": 58.64077669902913,
+      "run3_accuracy": 58.64077669902913,
+      "mean_accuracy": 58.64077669902914,
+      "std_dev": 8.702335715267317e-15
+    },
+    {
+      "temperature": 0.3,
+      "run1_accuracy": 58.7378640776699,
+      "run2_accuracy": 56.21359223300971,
+      "run3_accuracy": 57.0873786407767,
+      "mean_accuracy": 57.346278317152105,
+      "std_dev": 1.2818965903131574
+    },
+    {
+      "temperature": 0.7,
+      "run1_accuracy": 51.067961165048544,
+      "run2_accuracy": 50.77669902912621,
+      "run3_accuracy": 50.77669902912621,
+      "mean_accuracy": 50.87378640776699,
+      "std_dev": 0.16816027257950308
+    }
+  ]
+}
