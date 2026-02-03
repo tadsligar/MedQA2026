@@ -46,12 +46,12 @@ data/umls_index/
 *.db
 
 # Results (generated outputs)
-results/
+# results/  # Commented out to track experiment results
 runs/
 *.jsonl.gz
 
 # Checkpoints
-*checkpoint.json
+# *checkpoint.json  # Commented out to track experiment checkpoints
 
 # Temporary files
 .DS_Store

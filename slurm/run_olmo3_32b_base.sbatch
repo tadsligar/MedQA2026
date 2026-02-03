@@ -48,7 +48,7 @@ echo "Using random seed: $RANDOM_SEED"
 vllm serve allenai/Olmo-3-1125-32B \
     --port 8000 \
     --tensor-parallel-size 2 \
-    --gpu-memory-utilization 0.75 \
+    --gpu-memory-utilization 0.7 \
     --dtype bfloat16 \
     --max-model-len 4096 \
     --max-num-seqs 128 \

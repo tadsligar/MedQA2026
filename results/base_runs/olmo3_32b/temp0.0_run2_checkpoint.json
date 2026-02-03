@@ -1,0 +1,1608 @@
+{
+  "temperature": 0.0,
+  "run_number": 2,
+  "results": [
+    {
+      "question_id": 0,
+      "category": "Treatment/Management",
+      "correct": "C",
+      "predicted": "C",
+      "is_correct": true,
+      "tokens": 222,
+      "latency": 13.686683654785156,
+      "response": " C. 1.1 mg/dL\n\nExplanation: Lisinopril is an angiotensin-converting enzyme (ACE) inhibitor used to treat hypertension. ACE inhibitors work by blocking the conversion of angiotensin I to angiotensin II"
+    },
+    {
+      "question_id": 1,
+      "category": "Diagnosis",
+      "correct": "A",
+      "predicted": "A",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.22590160369873047,
+      "response": " A"
+    },
+    {
+      "question_id": 2,
+      "category": "Diagnosis",
+      "correct": "D",
+      "predicted": "C",
+      "is_correct": false,
+      "tokens": 52,
+      "latency": 3.3795650005340576,
+      "response": " C. Expectant management\n\nExplanation: The patient is experiencing tardive dyskinesia, a side effect of fluphenazine. The next best step is to expectant management, as the condition may resolve on its"
+    },
+    {
+      "question_id": 3,
+      "category": "Diagnosis",
+      "correct": "B",
+      "predicted": "B",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.22262167930603027,
+      "response": " B"
+    },
+    {
+      "question_id": 4,
+      "category": "Clinical Findings",
+      "correct": "A",
+      "predicted": "A",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.24048733711242676,
+      "response": " A"
+    },
+    {
+      "question_id": 5,
+      "category": "Mechanism/Pathophysiology",
+      "correct": "B",
+      "predicted": "B",
+      "is_correct": true,
+      "tokens": 79,
+      "latency": 4.966468811035156,
+      "response": " B. Enalapril\n\nExplanation: The patient's abnormal albumin result is most likely due to diabetic nephropathy, a common complication of diabetes mellitus. Enalapril, an ACE inhibitor, is effective in s"
+    },
+    {
+      "question_id": 6,
+      "category": "Diagnosis",
+      "correct": "D",
+      "predicted": "D",
+      "is_correct": true,
+      "tokens": 178,
+      "latency": 11.132927656173706,
+      "response": " D. Right ventricular failure\n\nExplanation: The patient's symptoms and findings are consistent with obstructive sleep apnea (OSA), which is characterized by recurrent episodes of partial or complete u"
+    },
+    {
+      "question_id": 7,
+      "category": "Treatment/Management",
+      "correct": "B",
+      "predicted": "B",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.24096989631652832,
+      "response": " B"
+    },
+    {
+      "question_id": 8,
+      "category": "Clinical Findings",
+      "correct": "B",
+      "predicted": "B",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.2341785430908203,
+      "response": " B"
+    },
+    {
+      "question_id": 9,
+      "category": "Clinical Findings",
+      "correct": "D",
+      "predicted": "C",
+      "is_correct": false,
+      "tokens": 2,
+      "latency": 0.2313542366027832,
+      "response": " C"
+    },
+    {
+      "question_id": 10,
+      "category": "Clinical Findings",
+      "correct": "D",
+      "predicted": "C",
+      "is_correct": false,
+      "tokens": 77,
+      "latency": 4.883602857589722,
+      "response": " C. No treatment\n\nExplanation: The patient has a positive PPD test (12 mm induration) but no symptoms of active tuberculosis. The negative acid-fast smear of the sputum sample further supports the abs"
+    },
+    {
+      "question_id": 11,
+      "category": "Diagnosis",
+      "correct": "D",
+      "predicted": "C",
+      "is_correct": false,
+      "tokens": 2,
+      "latency": 0.19734859466552734,
+      "response": " C"
+    },
+    {
+      "question_id": 12,
+      "category": "Clinical Findings",
+      "correct": "A",
+      "predicted": "B",
+      "is_correct": false,
+      "tokens": 2,
+      "latency": 0.2304835319519043,
+      "response": " B"
+    },
+    {
+      "question_id": 13,
+      "category": "Mechanism/Pathophysiology",
+      "correct": "D",
+      "predicted": "D",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.23616862297058105,
+      "response": " D"
+    },
+    {
+      "question_id": 14,
+      "category": "Diagnosis",
+      "correct": "A",
+      "predicted": "D",
+      "is_correct": false,
+      "tokens": 2,
+      "latency": 0.23462510108947754,
+      "response": " D"
+    },
+    {
+      "question_id": 15,
+      "category": "Mechanism/Pathophysiology",
+      "correct": "D",
+      "predicted": "A",
+      "is_correct": false,
+      "tokens": 2,
+      "latency": 0.20042204856872559,
+      "response": " A"
+    },
+    {
+      "question_id": 16,
+      "category": "Clinical Findings",
+      "correct": "B",
+      "predicted": "C",
+      "is_correct": false,
+      "tokens": 250,
+      "latency": 15.528123140335083,
+      "response": " C. Upper endoscopy\n\nExplanation: The patient's presentation of copious blood-stained stools, hypotension, tachycardia, and a history of hypertension and family history of gastric and colorectal cance"
+    },
+    {
+      "question_id": 17,
+      "category": "Diagnosis",
+      "correct": "B",
+      "predicted": "B",
+      "is_correct": true,
+      "tokens": 136,
+      "latency": 8.495985746383667,
+      "response": " B. Increase Reid index\n\nExplanation: The patient's history of chronic smoking, productive cough with yellowish sputum, and use of an inhaler for respiratory disease suggest chronic bronchitis. The FE"
+    },
+    {
+      "question_id": 18,
+      "category": "Next Step/Workup",
+      "correct": "D",
+      "predicted": "D",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.2466564178466797,
+      "response": " D"
+    },
+    {
+      "question_id": 19,
+      "category": "Mechanism/Pathophysiology",
+      "correct": "A",
+      "predicted": "B",
+      "is_correct": false,
+      "tokens": 2,
+      "latency": 0.22698116302490234,
+      "response": " B"
+    },
+    {
+      "question_id": 20,
+      "category": "Next Step/Workup",
+      "correct": "C",
+      "predicted": "C",
+      "is_correct": true,
+      "tokens": 57,
+      "latency": 3.63566517829895,
+      "response": " C. Cesarean section\n\nExplanation: The ultrasonography findings indicate a transverse lie of the fetus, which is a contraindication for vaginal delivery. The most appropriate next step is cesarean sec"
+    },
+    {
+      "question_id": 21,
+      "category": "Next Step/Workup",
+      "correct": "A",
+      "predicted": "A",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.2742733955383301,
+      "response": " A"
+    },
+    {
+      "question_id": 22,
+      "category": "Mechanism/Pathophysiology",
+      "correct": "B",
+      "predicted": "B",
+      "is_correct": true,
+      "tokens": 32,
+      "latency": 2.1030030250549316,
+      "response": " B\n\nExplanation: Cholera toxin ADP-ribosylates Gs, keeping adenylate cyclase active and increasing cAMP levels."
+    },
+    {
+      "question_id": 23,
+      "category": "Treatment/Management",
+      "correct": "A",
+      "predicted": "D",
+      "is_correct": false,
+      "tokens": 83,
+      "latency": 5.212544918060303,
+      "response": " D. Dilation of the aortic root\n\nExplanation: The physical examination finding is likely due to dilation of the aortic root, which can lead to aortic regurgitation. This is supported by the patient's "
+    },
+    {
+      "question_id": 24,
+      "category": "Next Step/Workup",
+      "correct": "C",
+      "predicted": "C",
+      "is_correct": true,
+      "tokens": 76,
+      "latency": 4.844573020935059,
+      "response": " C. Perform plasmapheresis\n\nExplanation: The patient's presentation of hemoptysis, hematuria, and positive anti-GBM antibodies is consistent with Goodpasture syndrome, an autoimmune disorder character"
+    },
+    {
+      "question_id": 25,
+      "category": "Treatment/Management",
+      "correct": "A",
+      "predicted": "D",
+      "is_correct": false,
+      "tokens": 90,
+      "latency": 5.6301867961883545,
+      "response": " D. Basophilic intranuclear inclusions\n\nExplanation: The clinical presentation of painful genital sores, malaise, fever, tender lymphadenopathy, and multiple ulcers on the penis is consistent with pri"
+    },
+    {
+      "question_id": 26,
+      "category": "Diagnosis",
+      "correct": "A",
+      "predicted": "B",
+      "is_correct": false,
+      "tokens": 2,
+      "latency": 0.24467968940734863,
+      "response": " B"
+    },
+    {
+      "question_id": 27,
+      "category": "Treatment/Management",
+      "correct": "A",
+      "predicted": "A",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.2701103687286377,
+      "response": " A"
+    },
+    {
+      "question_id": 28,
+      "category": "Diagnosis",
+      "correct": "C",
+      "predicted": "C",
+      "is_correct": true,
+      "tokens": 146,
+      "latency": 8.549410581588745,
+      "response": " C. 5\n\nExplanation: The APGAR score is assessed at 1 and 5 minutes after birth. The components are Appearance (skin color), Pulse (heart rate), Grimace (reflex irritability), Activity (muscle tone), a"
+    },
+    {
+      "question_id": 29,
+      "category": "Clinical Findings",
+      "correct": "C",
+      "predicted": "C",
+      "is_correct": true,
+      "tokens": 94,
+      "latency": 5.858238220214844,
+      "response": " C. Perform an HPV DNA test\n\nExplanation: ASCUS is a common finding on Pap smears and is often associated with HPV infection. The next step in management is to perform an HPV DNA test to determine if "
+    },
+    {
+      "question_id": 30,
+      "category": "Diagnosis",
+      "correct": "B",
+      "predicted": "B",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.22089910507202148,
+      "response": " B"
+    },
+    {
+      "question_id": 31,
+      "category": "Diagnosis",
+      "correct": "B",
+      "predicted": "D",
+      "is_correct": false,
+      "tokens": 2,
+      "latency": 0.23900318145751953,
+      "response": " D"
+    },
+    {
+      "question_id": 32,
+      "category": "Diagnosis",
+      "correct": "B",
+      "predicted": "B",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.23801708221435547,
+      "response": " B"
+    },
+    {
+      "question_id": 33,
+      "category": "Next Step/Workup",
+      "correct": "B",
+      "predicted": "D",
+      "is_correct": false,
+      "tokens": 2,
+      "latency": 0.21180176734924316,
+      "response": " D"
+    },
+    {
+      "question_id": 34,
+      "category": "Next Step/Workup",
+      "correct": "C",
+      "predicted": "B",
+      "is_correct": false,
+      "tokens": 2,
+      "latency": 0.21115708351135254,
+      "response": " B"
+    },
+    {
+      "question_id": 35,
+      "category": "Diagnosis",
+      "correct": "C",
+      "predicted": "A",
+      "is_correct": false,
+      "tokens": 2,
+      "latency": 0.235792875289917,
+      "response": " A"
+    },
+    {
+      "question_id": 36,
+      "category": "Treatment/Management",
+      "correct": "A",
+      "predicted": "B",
+      "is_correct": false,
+      "tokens": 2,
+      "latency": 0.19828128814697266,
+      "response": " B"
+    },
+    {
+      "question_id": 37,
+      "category": "Next Step/Workup",
+      "correct": "D",
+      "predicted": "A",
+      "is_correct": false,
+      "tokens": 2,
+      "latency": 0.2804372310638428,
+      "response": " A"
+    },
+    {
+      "question_id": 38,
+      "category": "Clinical Findings",
+      "correct": "A",
+      "predicted": "A",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.2391815185546875,
+      "response": " A"
+    },
+    {
+      "question_id": 39,
+      "category": "Treatment/Management",
+      "correct": "C",
+      "predicted": "B",
+      "is_correct": false,
+      "tokens": 2,
+      "latency": 0.22843027114868164,
+      "response": " B"
+    },
+    {
+      "question_id": 40,
+      "category": "Treatment/Management",
+      "correct": "B",
+      "predicted": "B",
+      "is_correct": true,
+      "tokens": 10,
+      "latency": 0.774033784866333,
+      "response": " B. Transabdominal ultrasonography"
+    },
+    {
+      "question_id": 41,
+      "category": "Clinical Findings",
+      "correct": "B",
+      "predicted": "B",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.26854968070983887,
+      "response": " B"
+    },
+    {
+      "question_id": 42,
+      "category": "Diagnosis",
+      "correct": "A",
+      "predicted": "B",
+      "is_correct": false,
+      "tokens": 2,
+      "latency": 0.32909393310546875,
+      "response": " B"
+    },
+    {
+      "question_id": 43,
+      "category": "Diagnosis",
+      "correct": "B",
+      "predicted": "C",
+      "is_correct": false,
+      "tokens": 2,
+      "latency": 0.2520618438720703,
+      "response": " C"
+    },
+    {
+      "question_id": 44,
+      "category": "Diagnosis",
+      "correct": "A",
+      "predicted": "C",
+      "is_correct": false,
+      "tokens": 90,
+      "latency": 5.661040306091309,
+      "response": " C. Methotrexate\n\nExplanation: Methotrexate is the drug of choice for the treatment of ectopic pregnancy. It is administered intramuscularly and is effective in 90% of cases. Surgery is reserved for p"
+    },
+    {
+      "question_id": 45,
+      "category": "Clinical Findings",
+      "correct": "D",
+      "predicted": "C",
+      "is_correct": false,
+      "tokens": 136,
+      "latency": 8.499252796173096,
+      "response": " C. Oral fluconazole\n\nExplanation: The patient has vulvar pruritus and dysuria, which are symptoms of a vaginal infection. The microscopic examination of the wet mount shows yeast cells, indicating a "
+    },
+    {
+      "question_id": 46,
+      "category": "Next Step/Workup",
+      "correct": "C",
+      "predicted": "B",
+      "is_correct": false,
+      "tokens": 2,
+      "latency": 0.24521207809448242,
+      "response": " B"
+    },
+    {
+      "question_id": 47,
+      "category": "Next Step/Workup",
+      "correct": "C",
+      "predicted": "C",
+      "is_correct": true,
+      "tokens": 114,
+      "latency": 7.1683056354522705,
+      "response": " C. Myocardial stunning\n\nExplanation: Myocardial stunning is a condition where the heart muscle temporarily loses its ability to contract after a period of ischemia (lack of blood flow) and subsequent"
+    },
+    {
+      "question_id": 48,
+      "category": "Diagnosis",
+      "correct": "B",
+      "predicted": "B",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.23840689659118652,
+      "response": " B"
+    },
+    {
+      "question_id": 49,
+      "category": "Clinical Findings",
+      "correct": "D",
+      "predicted": "A",
+      "is_correct": false,
+      "tokens": 2,
+      "latency": 0.23533177375793457,
+      "response": " A"
+    },
+    {
+      "question_id": 50,
+      "category": "Clinical Findings",
+      "correct": "C",
+      "predicted": "A",
+      "is_correct": false,
+      "tokens": 2,
+      "latency": 0.18992209434509277,
+      "response": " A"
+    },
+    {
+      "question_id": 51,
+      "category": "Diagnosis",
+      "correct": "A",
+      "predicted": "A",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.2340695858001709,
+      "response": " A"
+    },
+    {
+      "question_id": 52,
+      "category": "Clinical Findings",
+      "correct": "D",
+      "predicted": "B",
+      "is_correct": false,
+      "tokens": 2,
+      "latency": 0.2331538200378418,
+      "response": " B"
+    },
+    {
+      "question_id": 53,
+      "category": "Clinical Findings",
+      "correct": "A",
+      "predicted": "D",
+      "is_correct": false,
+      "tokens": 94,
+      "latency": 5.950541019439697,
+      "response": " D. Vascular bypass surgery\n\nExplanation: The patient has a history of bilateral calf pain that is more severe on the right side and is associated with walking. The ABI is 0.5 in the right leg and 0.6"
+    },
+    {
+      "question_id": 54,
+      "category": "Next Step/Workup",
+      "correct": "C",
+      "predicted": "A",
+      "is_correct": false,
+      "tokens": 2,
+      "latency": 0.22862648963928223,
+      "response": " A"
+    },
+    {
+      "question_id": 55,
+      "category": "Diagnosis",
+      "correct": "A",
+      "predicted": "B",
+      "is_correct": false,
+      "tokens": 2,
+      "latency": 0.24381232261657715,
+      "response": " B"
+    },
+    {
+      "question_id": 56,
+      "category": "Next Step/Workup",
+      "correct": "C",
+      "predicted": "B",
+      "is_correct": false,
+      "tokens": 2,
+      "latency": 0.22769546508789062,
+      "response": " B"
+    },
+    {
+      "question_id": 57,
+      "category": "Next Step/Workup",
+      "correct": "B",
+      "predicted": "C",
+      "is_correct": false,
+      "tokens": 146,
+      "latency": 9.093199491500854,
+      "response": " C. Kimmelstiel-Wilson nodules and tubulointerstitial fibrosis\n\nExplanation: Kimmelstiel-Wilson nodules are a characteristic finding in diabetic nephropathy, which is a complication of long-standing d"
+    },
+    {
+      "question_id": 58,
+      "category": "Treatment/Management",
+      "correct": "D",
+      "predicted": "D",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.2890598773956299,
+      "response": " D"
+    },
+    {
+      "question_id": 59,
+      "category": "Treatment/Management",
+      "correct": "D",
+      "predicted": "D",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.23830842971801758,
+      "response": " D"
+    },
+    {
+      "question_id": 60,
+      "category": "Treatment/Management",
+      "correct": "C",
+      "predicted": "C",
+      "is_correct": true,
+      "tokens": 42,
+      "latency": 2.6442365646362305,
+      "response": " C. 64%\n\nExplanation: Relative risk = (Number of events in treatment group / Number of events in control group) = (134 / 210) = 0.64 = 64%"
+    },
+    {
+      "question_id": 61,
+      "category": "Clinical Findings",
+      "correct": "A",
+      "predicted": "A",
+      "is_correct": true,
+      "tokens": 70,
+      "latency": 4.413936138153076,
+      "response": " A. Bulging erythematous tympanic membrane\n\nExplanation: The child's symptoms of fever, irritability, and tugging at the right ear suggest an acute otitis media. The most likely finding on otoscopic e"
+    },
+    {
+      "question_id": 62,
+      "category": "Mechanism/Pathophysiology",
+      "correct": "C",
+      "predicted": "D",
+      "is_correct": false,
+      "tokens": 2,
+      "latency": 0.2365269660949707,
+      "response": " D"
+    },
+    {
+      "question_id": 63,
+      "category": "Next Step/Workup",
+      "correct": "B",
+      "predicted": "C",
+      "is_correct": false,
+      "tokens": 77,
+      "latency": 4.809117078781128,
+      "response": " C\n\nExplanation: The patient's symptoms are likely due to inhibition of ferrochelatase and ALA dehydratase, which are enzymes involved in heme synthesis. This inhibition can lead to anemia and fatigue"
+    },
+    {
+      "question_id": 64,
+      "category": "Mechanism/Pathophysiology",
+      "correct": "A",
+      "predicted": "A",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.22432899475097656,
+      "response": " A"
+    },
+    {
+      "question_id": 65,
+      "category": "Clinical Findings",
+      "correct": "B",
+      "predicted": "B",
+      "is_correct": true,
+      "tokens": 149,
+      "latency": 9.38075852394104,
+      "response": " B. Radionuclide myocardial perfusion imaging\n\nExplanation: The patient has a history of myocardial infarction and unstable angina, which are significant risk factors for perioperative cardiac events."
+    },
+    {
+      "question_id": 66,
+      "category": "Treatment/Management",
+      "correct": "D",
+      "predicted": "A",
+      "is_correct": false,
+      "tokens": 2,
+      "latency": 0.251875638961792,
+      "response": " A"
+    },
+    {
+      "question_id": 67,
+      "category": "Next Step/Workup",
+      "correct": "D",
+      "predicted": "D",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.19198036193847656,
+      "response": " D"
+    },
+    {
+      "question_id": 68,
+      "category": "Next Step/Workup",
+      "correct": "A",
+      "predicted": "A",
+      "is_correct": true,
+      "tokens": 134,
+      "latency": 8.51017689704895,
+      "response": " A. Eosinophilic granulomatosis with polyangiitis (EGPA)\n\nExplanation: The patient's presentation of worsening breathlessness, asthma history, and elevated eosinophil count suggest a hypersensitivity "
+    },
+    {
+      "question_id": 69,
+      "category": "Treatment/Management",
+      "correct": "D",
+      "predicted": "D",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.2329087257385254,
+      "response": " D"
+    },
+    {
+      "question_id": 70,
+      "category": "Mechanism/Pathophysiology",
+      "correct": "C",
+      "predicted": "C",
+      "is_correct": true,
+      "tokens": 71,
+      "latency": 4.4578657150268555,
+      "response": " C. Eplerenone\n\nExplanation: The patient's symptoms of muscle cramps and weakness, along with the ECG findings, suggest hyperkalemia. The addition of eplerenone, a potassium-sparing diuretic, would ha"
+    },
+    {
+      "question_id": 71,
+      "category": "Treatment/Management",
+      "correct": "A",
+      "predicted": "A",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.2464158535003662,
+      "response": " A"
+    },
+    {
+      "question_id": 72,
+      "category": "Treatment/Management",
+      "correct": "D",
+      "predicted": "C",
+      "is_correct": false,
+      "tokens": 70,
+      "latency": 4.416222095489502,
+      "response": " C. Urine analysis and culture\n\nExplanation: The patient's history of a recent urinary tract infection in her daughter and her own sexual activity without condom use suggests a possible sexually trans"
+    },
+    {
+      "question_id": 73,
+      "category": "Diagnosis",
+      "correct": "B",
+      "predicted": "B",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.269545316696167,
+      "response": " B"
+    },
+    {
+      "question_id": 74,
+      "category": "Mechanism/Pathophysiology",
+      "correct": "D",
+      "predicted": "D",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.23375701904296875,
+      "response": " D"
+    },
+    {
+      "question_id": 75,
+      "category": "Treatment/Management",
+      "correct": "B",
+      "predicted": "D",
+      "is_correct": false,
+      "tokens": 2,
+      "latency": 0.2690403461456299,
+      "response": " D"
+    },
+    {
+      "question_id": 76,
+      "category": "Mechanism/Pathophysiology",
+      "correct": "C",
+      "predicted": "C",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.23563027381896973,
+      "response": " C"
+    },
+    {
+      "question_id": 77,
+      "category": "Diagnosis",
+      "correct": "C",
+      "predicted": "C",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.23186254501342773,
+      "response": " C"
+    },
+    {
+      "question_id": 78,
+      "category": "Treatment/Management",
+      "correct": "B",
+      "predicted": "D",
+      "is_correct": false,
+      "tokens": 2,
+      "latency": 0.23984837532043457,
+      "response": " D"
+    },
+    {
+      "question_id": 79,
+      "category": "Diagnosis",
+      "correct": "C",
+      "predicted": "C",
+      "is_correct": true,
+      "tokens": 153,
+      "latency": 9.835340738296509,
+      "response": " C. Muscle biopsy\n\nExplanation: The patient presents with progressive weakness, elevated muscle enzymes (AST and ALT), and elevated creatine kinase, which are indicative of a myopathy. The most accura"
+    },
+    {
+      "question_id": 80,
+      "category": "Diagnosis",
+      "correct": "B",
+      "predicted": "D",
+      "is_correct": false,
+      "tokens": 2,
+      "latency": 0.23143863677978516,
+      "response": " D"
+    },
+    {
+      "question_id": 81,
+      "category": "Next Step/Workup",
+      "correct": "A",
+      "predicted": "A",
+      "is_correct": true,
+      "tokens": 116,
+      "latency": 7.2944371700286865,
+      "response": " A. Asbestosis\n\nExplanation: The patient's history of working in construction and at a ship dry-dock, where asbestos exposure is common, along with the presence of pleural scarring on CT scan, suggest"
+    },
+    {
+      "question_id": 82,
+      "category": "Clinical Findings",
+      "correct": "A",
+      "predicted": "B",
+      "is_correct": false,
+      "tokens": 102,
+      "latency": 6.435874700546265,
+      "response": " B. Bone marrow biopsy\n\nExplanation: The patient's presentation of fatigue, anemia (low hemoglobin and hematocrit), and decreased proprioception and muscle strength suggests a possible diagnosis of pe"
+    },
+    {
+      "question_id": 83,
+      "category": "Clinical Findings",
+      "correct": "B",
+      "predicted": "B",
+      "is_correct": true,
+      "tokens": 109,
+      "latency": 6.9050397872924805,
+      "response": " B. Muddy brown casts\n\nExplanation: The patient has acute kidney injury (AKI) due to sepsis, as evidenced by decreased urinary output, elevated creatinine, and a fractional excretion of sodium of 2.1%"
+    },
+    {
+      "question_id": 84,
+      "category": "Mechanism/Pathophysiology",
+      "correct": "B",
+      "predicted": "C",
+      "is_correct": false,
+      "tokens": 218,
+      "latency": 13.579728603363037,
+      "response": " C\n\nExplanation: The patient developed unprovoked epistaxis four days after starting unfractionated heparin. Unfractionated heparin is known to cause thrombocytopenia by inducing platelet aggregation "
+    },
+    {
+      "question_id": 85,
+      "category": "Next Step/Workup",
+      "correct": "D",
+      "predicted": "B",
+      "is_correct": false,
+      "tokens": 800,
+      "latency": 50.32470726966858,
+      "response": " B\n\nExplanation: This patient is at risk of developing megaloblastic anemia. She is taking metformin, which can cause vitamin B12 deficiency, and she is also taking HAART, which can cause folate defic"
+    },
+    {
+      "question_id": 86,
+      "category": "Clinical Findings",
+      "correct": "C",
+      "predicted": "A",
+      "is_correct": false,
+      "tokens": 2,
+      "latency": 0.1864614486694336,
+      "response": " A"
+    },
+    {
+      "question_id": 87,
+      "category": "Mechanism/Pathophysiology",
+      "correct": "D",
+      "predicted": "D",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.22396349906921387,
+      "response": " D"
+    },
+    {
+      "question_id": 88,
+      "category": "Next Step/Workup",
+      "correct": "D",
+      "predicted": "D",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.24146509170532227,
+      "response": " D"
+    },
+    {
+      "question_id": 89,
+      "category": "Clinical Findings",
+      "correct": "A",
+      "predicted": "A",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.19776272773742676,
+      "response": " A"
+    },
+    {
+      "question_id": 90,
+      "category": "Next Step/Workup",
+      "correct": "B",
+      "predicted": "B",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.3082847595214844,
+      "response": " B"
+    },
+    {
+      "question_id": 91,
+      "category": "Next Step/Workup",
+      "correct": "B",
+      "predicted": "B",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.2797524929046631,
+      "response": " B"
+    },
+    {
+      "question_id": 92,
+      "category": "Clinical Findings",
+      "correct": "A",
+      "predicted": "C",
+      "is_correct": false,
+      "tokens": 2,
+      "latency": 0.22405195236206055,
+      "response": " C"
+    },
+    {
+      "question_id": 93,
+      "category": "Next Step/Workup",
+      "correct": "B",
+      "predicted": "B",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.23580241203308105,
+      "response": " B"
+    },
+    {
+      "question_id": 94,
+      "category": "Mechanism/Pathophysiology",
+      "correct": "B",
+      "predicted": "C",
+      "is_correct": false,
+      "tokens": 7,
+      "latency": 0.5385785102844238,
+      "response": " C. Adenoidectomy"
+    },
+    {
+      "question_id": 95,
+      "category": "Clinical Findings",
+      "correct": "B",
+      "predicted": "B",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.22681975364685059,
+      "response": " B"
+    },
+    {
+      "question_id": 96,
+      "category": "Diagnosis",
+      "correct": "C",
+      "predicted": "C",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.2319810390472412,
+      "response": " C"
+    },
+    {
+      "question_id": 97,
+      "category": "Diagnosis",
+      "correct": "B",
+      "predicted": "D",
+      "is_correct": false,
+      "tokens": 2,
+      "latency": 0.20605206489562988,
+      "response": " D"
+    },
+    {
+      "question_id": 98,
+      "category": "Clinical Findings",
+      "correct": "A",
+      "predicted": "A",
+      "is_correct": true,
+      "tokens": 93,
+      "latency": 5.816378355026245,
+      "response": " A. Obsessive compulsive disorder (OCD)\n\nExplanation: The patient's symptoms of repetitive cleaning behaviors and distress related to thoughts of dirtiness are characteristic of OCD. Tic disorder invo"
+    },
+    {
+      "question_id": 99,
+      "category": "Clinical Findings",
+      "correct": "B",
+      "predicted": "B",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.20712637901306152,
+      "response": " B"
+    },
+    {
+      "question_id": 100,
+      "category": "Clinical Findings",
+      "correct": "C",
+      "predicted": "D",
+      "is_correct": false,
+      "tokens": 2,
+      "latency": 0.2225186824798584,
+      "response": " D"
+    },
+    {
+      "question_id": 101,
+      "category": "Mechanism/Pathophysiology",
+      "correct": "B",
+      "predicted": "A",
+      "is_correct": false,
+      "tokens": 2,
+      "latency": 0.24410128593444824,
+      "response": " A"
+    },
+    {
+      "question_id": 102,
+      "category": "Mechanism/Pathophysiology",
+      "correct": "D",
+      "predicted": "D",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.23628950119018555,
+      "response": " D"
+    },
+    {
+      "question_id": 103,
+      "category": "Treatment/Management",
+      "correct": "D",
+      "predicted": "B",
+      "is_correct": false,
+      "tokens": 2,
+      "latency": 0.21438145637512207,
+      "response": " B"
+    },
+    {
+      "question_id": 104,
+      "category": "Treatment/Management",
+      "correct": "D",
+      "predicted": "D",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.2380843162536621,
+      "response": " D"
+    },
+    {
+      "question_id": 105,
+      "category": "Treatment/Management",
+      "correct": "D",
+      "predicted": "A",
+      "is_correct": false,
+      "tokens": 2,
+      "latency": 0.23444843292236328,
+      "response": " A"
+    },
+    {
+      "question_id": 106,
+      "category": "Diagnosis",
+      "correct": "C",
+      "predicted": "C",
+      "is_correct": true,
+      "tokens": 138,
+      "latency": 8.627930641174316,
+      "response": " C. Local invasion via collagenase\n\nExplanation: The lesion described is a basal cell carcinoma (BCC), which is the most common type of skin cancer. BCCs typically grow slowly and locally invade surro"
+    },
+    {
+      "question_id": 107,
+      "category": "Clinical Findings",
+      "correct": "B",
+      "predicted": "A",
+      "is_correct": false,
+      "tokens": 2,
+      "latency": 0.22441864013671875,
+      "response": " A"
+    },
+    {
+      "question_id": 108,
+      "category": "Next Step/Workup",
+      "correct": "A",
+      "predicted": "A",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.23154115676879883,
+      "response": " A"
+    },
+    {
+      "question_id": 109,
+      "category": "Treatment/Management",
+      "correct": "C",
+      "predicted": "A",
+      "is_correct": false,
+      "tokens": 2,
+      "latency": 0.22663521766662598,
+      "response": " A"
+    },
+    {
+      "question_id": 110,
+      "category": "Next Step/Workup",
+      "correct": "D",
+      "predicted": "B",
+      "is_correct": false,
+      "tokens": 2,
+      "latency": 0.22687721252441406,
+      "response": " B"
+    },
+    {
+      "question_id": 111,
+      "category": "Clinical Findings",
+      "correct": "A",
+      "predicted": "A",
+      "is_correct": true,
+      "tokens": 8,
+      "latency": 0.6131062507629395,
+      "response": " A. Human papillomavirus"
+    },
+    {
+      "question_id": 112,
+      "category": "Mechanism/Pathophysiology",
+      "correct": "B",
+      "predicted": "B",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.2462923526763916,
+      "response": " B"
+    },
+    {
+      "question_id": 113,
+      "category": "Treatment/Management",
+      "correct": "A",
+      "predicted": "D",
+      "is_correct": false,
+      "tokens": 2,
+      "latency": 0.2894730567932129,
+      "response": " D"
+    },
+    {
+      "question_id": 114,
+      "category": "Treatment/Management",
+      "correct": "D",
+      "predicted": "D",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.2227025032043457,
+      "response": " D"
+    },
+    {
+      "question_id": 115,
+      "category": "Clinical Findings",
+      "correct": "C",
+      "predicted": "A",
+      "is_correct": false,
+      "tokens": 2,
+      "latency": 0.23659801483154297,
+      "response": " A"
+    },
+    {
+      "question_id": 116,
+      "category": "Next Step/Workup",
+      "correct": "D",
+      "predicted": "C",
+      "is_correct": false,
+      "tokens": 195,
+      "latency": 12.172939777374268,
+      "response": " C. Atresia of the bilary tract\n\nExplanation: The newborn has jaundice, which is indicated by the elevated total bilirubin level (6.1 mg/dL) and the presence of scleral icterus. The direct bilirubin l"
+    },
+    {
+      "question_id": 117,
+      "category": "Next Step/Workup",
+      "correct": "C",
+      "predicted": "C",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.22508859634399414,
+      "response": " C"
+    },
+    {
+      "question_id": 118,
+      "category": "Diagnosis",
+      "correct": "B",
+      "predicted": "B",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.2066199779510498,
+      "response": " B"
+    },
+    {
+      "question_id": 119,
+      "category": "Mechanism/Pathophysiology",
+      "correct": "D",
+      "predicted": "D",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.23045706748962402,
+      "response": " D"
+    },
+    {
+      "question_id": 120,
+      "category": "Treatment/Management",
+      "correct": "A",
+      "predicted": "D",
+      "is_correct": false,
+      "tokens": 2,
+      "latency": 0.22856640815734863,
+      "response": " D"
+    },
+    {
+      "question_id": 121,
+      "category": "Treatment/Management",
+      "correct": "D",
+      "predicted": "D",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.21973776817321777,
+      "response": " D"
+    },
+    {
+      "question_id": 122,
+      "category": "Clinical Findings",
+      "correct": "B",
+      "predicted": "B",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.2293834686279297,
+      "response": " B"
+    },
+    {
+      "question_id": 123,
+      "category": "Clinical Findings",
+      "correct": "A",
+      "predicted": "C",
+      "is_correct": false,
+      "tokens": 2,
+      "latency": 0.19547748565673828,
+      "response": " C"
+    },
+    {
+      "question_id": 124,
+      "category": "Next Step/Workup",
+      "correct": "C",
+      "predicted": "B",
+      "is_correct": false,
+      "tokens": 6,
+      "latency": 0.517463207244873,
+      "response": " B. Muscle cell breakdown"
+    },
+    {
+      "question_id": 125,
+      "category": "Mechanism/Pathophysiology",
+      "correct": "B",
+      "predicted": "A",
+      "is_correct": false,
+      "tokens": 3,
+      "latency": 0.3043632507324219,
+      "response": " A."
+    },
+    {
+      "question_id": 126,
+      "category": "Next Step/Workup",
+      "correct": "C",
+      "predicted": "C",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.23487424850463867,
+      "response": " C"
+    },
+    {
+      "question_id": 127,
+      "category": "Clinical Findings",
+      "correct": "C",
+      "predicted": "C",
+      "is_correct": true,
+      "tokens": 163,
+      "latency": 10.16632342338562,
+      "response": " C. Amyloid angiopathy\n\nExplanation: Amyloid angiopathy is a condition characterized by the deposition of amyloid protein in the walls of small and medium-sized blood vessels in the brain. This can le"
+    },
+    {
+      "question_id": 128,
+      "category": "Diagnosis",
+      "correct": "D",
+      "predicted": "D",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.23653507232666016,
+      "response": " D"
+    },
+    {
+      "question_id": 129,
+      "category": "Diagnosis",
+      "correct": "A",
+      "predicted": "A",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.23104000091552734,
+      "response": " A"
+    },
+    {
+      "question_id": 130,
+      "category": "Next Step/Workup",
+      "correct": "C",
+      "predicted": "C",
+      "is_correct": true,
+      "tokens": 800,
+      "latency": 49.93093705177307,
+      "response": " C. Adenovirus infection\n\nExplanation: The child's symptoms of fever, diarrhea, and bilateral red eye with watery discharge, along with the presence of preauricular adenopathy, are consistent with ade"
+    },
+    {
+      "question_id": 131,
+      "category": "Diagnosis",
+      "correct": "B",
+      "predicted": "B",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.2274019718170166,
+      "response": " B"
+    },
+    {
+      "question_id": 132,
+      "category": "Mechanism/Pathophysiology",
+      "correct": "A",
+      "predicted": "A",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.20763373374938965,
+      "response": " A"
+    },
+    {
+      "question_id": 133,
+      "category": "Diagnosis",
+      "correct": "C",
+      "predicted": "A",
+      "is_correct": false,
+      "tokens": 2,
+      "latency": 0.27071428298950195,
+      "response": " A"
+    },
+    {
+      "question_id": 134,
+      "category": "Clinical Findings",
+      "correct": "D",
+      "predicted": "D",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.2232363224029541,
+      "response": " D"
+    },
+    {
+      "question_id": 135,
+      "category": "Treatment/Management",
+      "correct": "A",
+      "predicted": "D",
+      "is_correct": false,
+      "tokens": 2,
+      "latency": 0.2307448387145996,
+      "response": " D"
+    },
+    {
+      "question_id": 136,
+      "category": "Mechanism/Pathophysiology",
+      "correct": "A",
+      "predicted": "C",
+      "is_correct": false,
+      "tokens": 124,
+      "latency": 7.76754903793335,
+      "response": " C. Immotile cilia syndrome\n\nExplanation: The infant has a flat face with upward-slanting eyes and a short neck, which are characteristic features of immotile cilia syndrome. This condition is caused "
+    },
+    {
+      "question_id": 137,
+      "category": "Clinical Findings",
+      "correct": "D",
+      "predicted": "A",
+      "is_correct": false,
+      "tokens": 2,
+      "latency": 0.22513628005981445,
+      "response": " A"
+    },
+    {
+      "question_id": 138,
+      "category": "Mechanism/Pathophysiology",
+      "correct": "B",
+      "predicted": "A",
+      "is_correct": false,
+      "tokens": 2,
+      "latency": 0.23205113410949707,
+      "response": " A"
+    },
+    {
+      "question_id": 139,
+      "category": "Diagnosis",
+      "correct": "D",
+      "predicted": "B",
+      "is_correct": false,
+      "tokens": 2,
+      "latency": 0.23618030548095703,
+      "response": " B"
+    },
+    {
+      "question_id": 140,
+      "category": "Treatment/Management",
+      "correct": "C",
+      "predicted": "B",
+      "is_correct": false,
+      "tokens": 2,
+      "latency": 0.21552753448486328,
+      "response": " B"
+    },
+    {
+      "question_id": 141,
+      "category": "Next Step/Workup",
+      "correct": "B",
+      "predicted": "B",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.22855234146118164,
+      "response": " B"
+    },
+    {
+      "question_id": 142,
+      "category": "Mechanism/Pathophysiology",
+      "correct": "C",
+      "predicted": "C",
+      "is_correct": true,
+      "tokens": 193,
+      "latency": 11.950038433074951,
+      "response": " C. Failed obliteration of an allantoic remnant\n\nExplanation: The newborn's symptoms are most likely due to a failed obliteration of an allantoic remnant. The straw-colored fluid leaking from the umbi"
+    },
+    {
+      "question_id": 143,
+      "category": "Mechanism/Pathophysiology",
+      "correct": "D",
+      "predicted": "D",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.22828984260559082,
+      "response": " D"
+    },
+    {
+      "question_id": 144,
+      "category": "Diagnosis",
+      "correct": "B",
+      "predicted": "B",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.2340238094329834,
+      "response": " B"
+    },
+    {
+      "question_id": 145,
+      "category": "Next Step/Workup",
+      "correct": "A",
+      "predicted": "A",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.23299765586853027,
+      "response": " A"
+    },
+    {
+      "question_id": 146,
+      "category": "Clinical Findings",
+      "correct": "B",
+      "predicted": "B",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.22545146942138672,
+      "response": " B"
+    },
+    {
+      "question_id": 147,
+      "category": "Next Step/Workup",
+      "correct": "A",
+      "predicted": "D",
+      "is_correct": false,
+      "tokens": 2,
+      "latency": 0.24684953689575195,
+      "response": " D"
+    },
+    {
+      "question_id": 148,
+      "category": "Clinical Findings",
+      "correct": "D",
+      "predicted": "D",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.23558282852172852,
+      "response": " D"
+    },
+    {
+      "question_id": 149,
+      "category": "Mechanism/Pathophysiology",
+      "correct": "A",
+      "predicted": "B",
+      "is_correct": false,
+      "tokens": 2,
+      "latency": 0.23767781257629395,
+      "response": " B"
+    },
+    {
+      "question_id": 150,
+      "category": "Diagnosis",
+      "correct": "B",
+      "predicted": "C",
+      "is_correct": false,
+      "tokens": 113,
+      "latency": 7.0917932987213135,
+      "response": " C. GABAA receptor\n\nExplanation: The patient's symptoms (unresponsiveness, pinpoint pupils, slow respiratory rate) suggest an opioid overdose. The drug administered to reverse this is naloxone, which "
+    },
+    {
+      "question_id": 151,
+      "category": "Clinical Findings",
+      "correct": "C",
+      "predicted": "A",
+      "is_correct": false,
+      "tokens": 2,
+      "latency": 0.23321104049682617,
+      "response": " A"
+    },
+    {
+      "question_id": 152,
+      "category": "Next Step/Workup",
+      "correct": "C",
+      "predicted": "C",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.22657084465026855,
+      "response": " C"
+    },
+    {
+      "question_id": 153,
+      "category": "Treatment/Management",
+      "correct": "A",
+      "predicted": "B",
+      "is_correct": false,
+      "tokens": 2,
+      "latency": 0.24120116233825684,
+      "response": " B"
+    },
+    {
+      "question_id": 154,
+      "category": "Clinical Findings",
+      "correct": "A",
+      "predicted": "A",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.20601558685302734,
+      "response": " A"
+    },
+    {
+      "question_id": 155,
+      "category": "Treatment/Management",
+      "correct": "D",
+      "predicted": "D",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.2780873775482178,
+      "response": " D"
+    },
+    {
+      "question_id": 156,
+      "category": "Mechanism/Pathophysiology",
+      "correct": "B",
+      "predicted": "A",
+      "is_correct": false,
+      "tokens": 2,
+      "latency": 0.2196047306060791,
+      "response": " A"
+    },
+    {
+      "question_id": 157,
+      "category": "Mechanism/Pathophysiology",
+      "correct": "A",
+      "predicted": "A",
+      "is_correct": true,
+      "tokens": 2,
+      "latency": 0.2779984474182129,
+      "response": " A"
+    },
+    {
+      "question_id": 158,
+      "category": "Treatment/Management",
+      "correct": "B",
+      "predicted": "D",
+      "is_correct": false,
+      "tokens": 2,
+      "latency": 0.2386622428894043,
+      "response": " D"
+    },
+    {
+      "question_id": 159,
+      "category": "Clinical Findings",
+      "correct": "B",
+      "predicted": "B",
+      "is_correct": true,
+      "tokens": 154,
+      "latency": 9.546931266784668,
+      "response": " B. Meckel's diverticulum\n\nExplanation: Meckel's diverticulum is a congenital outpouching of the ileum that can cause abdominal pain and inflammation. It is characterized by the presence of mucosa, su"
+    }
+  ],
+  "next_index": 160,
+  "timestamp": 1770090597.836759
+}

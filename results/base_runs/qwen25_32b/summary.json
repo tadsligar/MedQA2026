@@ -1,0 +1,40 @@
+{
+  "dataset": "data/datasets/medqa_focused_1030.json",
+  "total_questions": 1030,
+  "model": "Qwen/Qwen2.5-32B",
+  "model_type": "base",
+  "run_type": "base_run",
+  "prompt_style": "simple",
+  "temperatures": [
+    0.0,
+    0.3,
+    0.7
+  ],
+  "n_runs_per_temperature": 3,
+  "temperature_results": [
+    {
+      "temperature": 0.0,
+      "run1_accuracy": 73.39805825242719,
+      "run2_accuracy": 73.39805825242719,
+      "run3_accuracy": 73.39805825242719,
+      "mean_accuracy": 73.39805825242719,
+      "std_dev": 0.0
+    },
+    {
+      "temperature": 0.3,
+      "run1_accuracy": 72.33009708737865,
+      "run2_accuracy": 70.97087378640776,
+      "run3_accuracy": 71.6504854368932,
+      "mean_accuracy": 71.6504854368932,
+      "std_dev": 0.679611650485441
+    },
+    {
+      "temperature": 0.7,
+      "run1_accuracy": 64.36893203883494,
+      "run2_accuracy": 65.14563106796116,
+      "run3_accuracy": 63.980582524271846,
+      "mean_accuracy": 64.49838187702265,
+      "std_dev": 0.5932136821949296
+    }
+  ]
+}
