@@ -1,0 +1,456 @@
+{
+  "jobs": {
+    "olmo3_7b_t0.0_r1": {
+      "status": "pending",
+      "slurm_id": null,
+      "retries": 0,
+      "last_attempt": null,
+      "completed_at": null,
+      "model": "olmo3_7b",
+      "temperature": 0.0,
+      "run": 1
+    },
+    "olmo3_7b_t0.0_r2": {
+      "status": "pending",
+      "slurm_id": null,
+      "retries": 0,
+      "last_attempt": null,
+      "completed_at": null,
+      "model": "olmo3_7b",
+      "temperature": 0.0,
+      "run": 2
+    },
+    "olmo3_7b_t0.0_r3": {
+      "status": "pending",
+      "slurm_id": null,
+      "retries": 0,
+      "last_attempt": null,
+      "completed_at": null,
+      "model": "olmo3_7b",
+      "temperature": 0.0,
+      "run": 3
+    },
+    "olmo3_7b_t0.3_r1": {
+      "status": "pending",
+      "slurm_id": null,
+      "retries": 0,
+      "last_attempt": null,
+      "completed_at": null,
+      "model": "olmo3_7b",
+      "temperature": 0.3,
+      "run": 1
+    },
+    "olmo3_7b_t0.3_r2": {
+      "status": "pending",
+      "slurm_id": null,
+      "retries": 0,
+      "last_attempt": null,
+      "completed_at": null,
+      "model": "olmo3_7b",
+      "temperature": 0.3,
+      "run": 2
+    },
+    "olmo3_7b_t0.3_r3": {
+      "status": "pending",
+      "slurm_id": null,
+      "retries": 0,
+      "last_attempt": null,
+      "completed_at": null,
+      "model": "olmo3_7b",
+      "temperature": 0.3,
+      "run": 3
+    },
+    "olmo3_7b_t0.7_r1": {
+      "status": "pending",
+      "slurm_id": null,
+      "retries": 0,
+      "last_attempt": null,
+      "completed_at": null,
+      "model": "olmo3_7b",
+      "temperature": 0.7,
+      "run": 1
+    },
+    "olmo3_7b_t0.7_r2": {
+      "status": "pending",
+      "slurm_id": null,
+      "retries": 0,
+      "last_attempt": null,
+      "completed_at": null,
+      "model": "olmo3_7b",
+      "temperature": 0.7,
+      "run": 2
+    },
+    "olmo3_7b_t0.7_r3": {
+      "status": "pending",
+      "slurm_id": null,
+      "retries": 0,
+      "last_attempt": null,
+      "completed_at": null,
+      "model": "olmo3_7b",
+      "temperature": 0.7,
+      "run": 3
+    },
+    "olmo3_32b_t0.0_r1": {
+      "status": "running",
+      "slurm_id": "13325",
+      "retries": 2,
+      "last_attempt": "2026-02-03T11:43:30.991205",
+      "completed_at": null,
+      "model": "olmo3_32b",
+      "temperature": 0.0,
+      "run": 1
+    },
+    "olmo3_32b_t0.0_r2": {
+      "status": "running",
+      "slurm_id": "13326",
+      "retries": 2,
+      "last_attempt": "2026-02-03T11:43:31.000764",
+      "completed_at": null,
+      "model": "olmo3_32b",
+      "temperature": 0.0,
+      "run": 2
+    },
+    "olmo3_32b_t0.0_r3": {
+      "status": "running",
+      "slurm_id": "13327",
+      "retries": 2,
+      "last_attempt": "2026-02-03T11:43:31.010225",
+      "completed_at": null,
+      "model": "olmo3_32b",
+      "temperature": 0.0,
+      "run": 3
+    },
+    "olmo3_32b_t0.3_r1": {
+      "status": "running",
+      "slurm_id": "13328",
+      "retries": 2,
+      "last_attempt": "2026-02-03T11:43:31.019160",
+      "completed_at": null,
+      "model": "olmo3_32b",
+      "temperature": 0.3,
+      "run": 1
+    },
+    "olmo3_32b_t0.3_r2": {
+      "status": "running",
+      "slurm_id": "13329",
+      "retries": 2,
+      "last_attempt": "2026-02-03T11:43:31.028080",
+      "completed_at": null,
+      "model": "olmo3_32b",
+      "temperature": 0.3,
+      "run": 2
+    },
+    "olmo3_32b_t0.3_r3": {
+      "status": "running",
+      "slurm_id": "13330",
+      "retries": 2,
+      "last_attempt": "2026-02-03T11:43:31.036747",
+      "completed_at": null,
+      "model": "olmo3_32b",
+      "temperature": 0.3,
+      "run": 3
+    },
+    "olmo3_32b_t0.7_r1": {
+      "status": "running",
+      "slurm_id": "13331",
+      "retries": 2,
+      "last_attempt": "2026-02-03T11:43:31.045927",
+      "completed_at": null,
+      "model": "olmo3_32b",
+      "temperature": 0.7,
+      "run": 1
+    },
+    "olmo3_32b_t0.7_r2": {
+      "status": "running",
+      "slurm_id": "13332",
+      "retries": 2,
+      "last_attempt": "2026-02-03T11:43:31.055176",
+      "completed_at": null,
+      "model": "olmo3_32b",
+      "temperature": 0.7,
+      "run": 2
+    },
+    "olmo3_32b_t0.7_r3": {
+      "status": "pending",
+      "slurm_id": null,
+      "retries": 0,
+      "last_attempt": null,
+      "completed_at": null,
+      "model": "olmo3_32b",
+      "temperature": 0.7,
+      "run": 3
+    },
+    "qwen25_7b_t0.0_r1": {
+      "status": "pending",
+      "slurm_id": null,
+      "retries": 0,
+      "last_attempt": null,
+      "completed_at": null,
+      "model": "qwen25_7b",
+      "temperature": 0.0,
+      "run": 1
+    },
+    "qwen25_7b_t0.0_r2": {
+      "status": "pending",
+      "slurm_id": null,
+      "retries": 0,
+      "last_attempt": null,
+      "completed_at": null,
+      "model": "qwen25_7b",
+      "temperature": 0.0,
+      "run": 2
+    },
+    "qwen25_7b_t0.0_r3": {
+      "status": "pending",
+      "slurm_id": null,
+      "retries": 0,
+      "last_attempt": null,
+      "completed_at": null,
+      "model": "qwen25_7b",
+      "temperature": 0.0,
+      "run": 3
+    },
+    "qwen25_7b_t0.3_r1": {
+      "status": "pending",
+      "slurm_id": null,
+      "retries": 0,
+      "last_attempt": null,
+      "completed_at": null,
+      "model": "qwen25_7b",
+      "temperature": 0.3,
+      "run": 1
+    },
+    "qwen25_7b_t0.3_r2": {
+      "status": "pending",
+      "slurm_id": null,
+      "retries": 0,
+      "last_attempt": null,
+      "completed_at": null,
+      "model": "qwen25_7b",
+      "temperature": 0.3,
+      "run": 2
+    },
+    "qwen25_7b_t0.3_r3": {
+      "status": "pending",
+      "slurm_id": null,
+      "retries": 0,
+      "last_attempt": null,
+      "completed_at": null,
+      "model": "qwen25_7b",
+      "temperature": 0.3,
+      "run": 3
+    },
+    "qwen25_7b_t0.7_r1": {
+      "status": "pending",
+      "slurm_id": null,
+      "retries": 0,
+      "last_attempt": null,
+      "completed_at": null,
+      "model": "qwen25_7b",
+      "temperature": 0.7,
+      "run": 1
+    },
+    "qwen25_7b_t0.7_r2": {
+      "status": "pending",
+      "slurm_id": null,
+      "retries": 0,
+      "last_attempt": null,
+      "completed_at": null,
+      "model": "qwen25_7b",
+      "temperature": 0.7,
+      "run": 2
+    },
+    "qwen25_7b_t0.7_r3": {
+      "status": "pending",
+      "slurm_id": null,
+      "retries": 0,
+      "last_attempt": null,
+      "completed_at": null,
+      "model": "qwen25_7b",
+      "temperature": 0.7,
+      "run": 3
+    },
+    "qwen25_14b_t0.0_r1": {
+      "status": "pending",
+      "slurm_id": null,
+      "retries": 0,
+      "last_attempt": null,
+      "completed_at": null,
+      "model": "qwen25_14b",
+      "temperature": 0.0,
+      "run": 1
+    },
+    "qwen25_14b_t0.0_r2": {
+      "status": "pending",
+      "slurm_id": null,
+      "retries": 0,
+      "last_attempt": null,
+      "completed_at": null,
+      "model": "qwen25_14b",
+      "temperature": 0.0,
+      "run": 2
+    },
+    "qwen25_14b_t0.0_r3": {
+      "status": "pending",
+      "slurm_id": null,
+      "retries": 0,
+      "last_attempt": null,
+      "completed_at": null,
+      "model": "qwen25_14b",
+      "temperature": 0.0,
+      "run": 3
+    },
+    "qwen25_14b_t0.3_r1": {
+      "status": "pending",
+      "slurm_id": null,
+      "retries": 0,
+      "last_attempt": null,
+      "completed_at": null,
+      "model": "qwen25_14b",
+      "temperature": 0.3,
+      "run": 1
+    },
+    "qwen25_14b_t0.3_r2": {
+      "status": "pending",
+      "slurm_id": null,
+      "retries": 0,
+      "last_attempt": null,
+      "completed_at": null,
+      "model": "qwen25_14b",
+      "temperature": 0.3,
+      "run": 2
+    },
+    "qwen25_14b_t0.3_r3": {
+      "status": "pending",
+      "slurm_id": null,
+      "retries": 0,
+      "last_attempt": null,
+      "completed_at": null,
+      "model": "qwen25_14b",
+      "temperature": 0.3,
+      "run": 3
+    },
+    "qwen25_14b_t0.7_r1": {
+      "status": "pending",
+      "slurm_id": null,
+      "retries": 0,
+      "last_attempt": null,
+      "completed_at": null,
+      "model": "qwen25_14b",
+      "temperature": 0.7,
+      "run": 1
+    },
+    "qwen25_14b_t0.7_r2": {
+      "status": "pending",
+      "slurm_id": null,
+      "retries": 0,
+      "last_attempt": null,
+      "completed_at": null,
+      "model": "qwen25_14b",
+      "temperature": 0.7,
+      "run": 2
+    },
+    "qwen25_14b_t0.7_r3": {
+      "status": "pending",
+      "slurm_id": null,
+      "retries": 0,
+      "last_attempt": null,
+      "completed_at": null,
+      "model": "qwen25_14b",
+      "temperature": 0.7,
+      "run": 3
+    },
+    "qwen25_32b_t0.0_r1": {
+      "status": "pending",
+      "slurm_id": null,
+      "retries": 0,
+      "last_attempt": null,
+      "completed_at": null,
+      "model": "qwen25_32b",
+      "temperature": 0.0,
+      "run": 1
+    },
+    "qwen25_32b_t0.0_r2": {
+      "status": "pending",
+      "slurm_id": null,
+      "retries": 0,
+      "last_attempt": null,
+      "completed_at": null,
+      "model": "qwen25_32b",
+      "temperature": 0.0,
+      "run": 2
+    },
+    "qwen25_32b_t0.0_r3": {
+      "status": "pending",
+      "slurm_id": null,
+      "retries": 0,
+      "last_attempt": null,
+      "completed_at": null,
+      "model": "qwen25_32b",
+      "temperature": 0.0,
+      "run": 3
+    },
+    "qwen25_32b_t0.3_r1": {
+      "status": "pending",
+      "slurm_id": null,
+      "retries": 0,
+      "last_attempt": null,
+      "completed_at": null,
+      "model": "qwen25_32b",
+      "temperature": 0.3,
+      "run": 1
+    },
+    "qwen25_32b_t0.3_r2": {
+      "status": "pending",
+      "slurm_id": null,
+      "retries": 0,
+      "last_attempt": null,
+      "completed_at": null,
+      "model": "qwen25_32b",
+      "temperature": 0.3,
+      "run": 2
+    },
+    "qwen25_32b_t0.3_r3": {
+      "status": "pending",
+      "slurm_id": null,
+      "retries": 0,
+      "last_attempt": null,
+      "completed_at": null,
+      "model": "qwen25_32b",
+      "temperature": 0.3,
+      "run": 3
+    },
+    "qwen25_32b_t0.7_r1": {
+      "status": "pending",
+      "slurm_id": null,
+      "retries": 0,
+      "last_attempt": null,
+      "completed_at": null,
+      "model": "qwen25_32b",
+      "temperature": 0.7,
+      "run": 1
+    },
+    "qwen25_32b_t0.7_r2": {
+      "status": "pending",
+      "slurm_id": null,
+      "retries": 0,
+      "last_attempt": null,
+      "completed_at": null,
+      "model": "qwen25_32b",
+      "temperature": 0.7,
+      "run": 2
+    },
+    "qwen25_32b_t0.7_r3": {
+      "status": "pending",
+      "slurm_id": null,
+      "retries": 0,
+      "last_attempt": null,
+      "completed_at": null,
+      "model": "qwen25_32b",
+      "temperature": 0.7,
+      "run": 3
+    }
+  },
+  "start_time": "2026-02-03T11:33:30.601303",
+  "last_update": "2026-02-03T12:03:31.207483"
+}

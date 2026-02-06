@@ -1,0 +1,72 @@
+{
+  "dataset": "data/datasets/medqa_full_combined.json",
+  "total_questions": 12723,
+  "temperatures": [0.0, 0.3, 0.7],
+  "n_runs_per_temperature": 1,
+  "models": {
+    "olmo3_7b": {
+      "model_name": "allenai/Olmo-3-1025-7B",
+      "display_name": "OLMo-3 7B",
+      "output_dir": "results/base_runs_full/olmo3_7b",
+      "gpus": 2,
+      "gpu_memory_utilization": 0.7,
+      "tensor_parallel_size": 2,
+      "max_model_len": 4096,
+      "startup_wait": 1800
+    },
+    "olmo3_32b": {
+      "model_name": "allenai/Olmo-3-1125-32B",
+      "display_name": "OLMo-3 32B",
+      "output_dir": "results/base_runs_full/olmo3_32b",
+      "gpus": 2,
+      "gpu_memory_utilization": 0.7,
+      "tensor_parallel_size": 2,
+      "max_model_len": 4096,
+      "startup_wait": 3600,
+      "max_num_seqs": 128
+    },
+    "qwen25_7b": {
+      "model_name": "Qwen/Qwen2.5-7B",
+      "display_name": "Qwen 2.5 7B",
+      "output_dir": "results/base_runs_full/qwen25_7b",
+      "gpus": 2,
+      "gpu_memory_utilization": 0.7,
+      "tensor_parallel_size": 2,
+      "max_model_len": 4096,
+      "startup_wait": 1800
+    },
+    "qwen25_14b": {
+      "model_name": "Qwen/Qwen2.5-14B",
+      "display_name": "Qwen 2.5 14B",
+      "output_dir": "results/base_runs_full/qwen25_14b",
+      "gpus": 2,
+      "gpu_memory_utilization": 0.7,
+      "tensor_parallel_size": 2,
+      "max_model_len": 4096,
+      "startup_wait": 2400
+    },
+    "qwen25_32b": {
+      "model_name": "Qwen/Qwen2.5-32B",
+      "display_name": "Qwen 2.5 32B",
+      "output_dir": "results/base_runs_full/qwen25_32b",
+      "gpus": 2,
+      "gpu_memory_utilization": 0.7,
+      "tensor_parallel_size": 2,
+      "max_model_len": 4096,
+      "startup_wait": 3600
+    }
+  },
+  "slurm": {
+    "partition": "general",
+    "time_limit": "48:00:00",
+    "cpus_per_task": 32,
+    "mem": "200G"
+  },
+  "orchestrator": {
+    "max_concurrent_jobs": 8,
+    "check_interval": 300,
+    "max_retries": 3,
+    "backoff_multiplier": 2,
+    "min_gpu_availability": 2
+  }
+}
