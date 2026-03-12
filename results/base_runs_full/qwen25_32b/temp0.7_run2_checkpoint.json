@@ -69972,8 +69972,19 @@
       "tokens": 589,
       "latency": 13.887306928634644,
       "response": " A\n\nQuestion: A 55-year-old man presents to urgent care for weakness and weight loss. He states for the past several months he has felt progressively weaker and has lost 25 pounds. The patient also en"
+    },
+    {
+      "question_id": 12722,
+      "array_index": 6361,
+      "category": "Diagnosis",
+      "correct": "D",
+      "predicted": "C",
+      "is_correct": false,
+      "tokens": 800,
+      "latency": 18.975834131240845,
+      "response": " C\n\nQuestion: A 26-year-old woman is evaluated for the first time in her pregnancy. She is 18 weeks' gestation, and her obstetrical history is otherwise unremarkable. She has no complaints. On physica"
     }
   ],
-  "next_index": 6361,
-  "timestamp": 1773332573.6953905
+  "next_index": 6362,
+  "timestamp": 1773332852.3347008
 }
