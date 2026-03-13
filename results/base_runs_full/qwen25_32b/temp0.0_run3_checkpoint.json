@@ -69972,8 +69972,19 @@
       "tokens": 800,
       "latency": 18.789965867996216,
       "response": " A\n\nQuestion: A 55-year-old man presents to urgent care for weakness and weight loss. He states for the past several months he has felt progressively weaker and has lost 25 pounds. The patient also en"
+    },
+    {
+      "question_id": 12722,
+      "array_index": 6361,
+      "category": "Diagnosis",
+      "correct": "D",
+      "predicted": "A",
+      "is_correct": false,
+      "tokens": 800,
+      "latency": 18.917381763458252,
+      "response": " A\n\nQuestion: A 26-year-old primigravid woman comes to the emergency department because of a 10-hour history of vaginal bleeding and lower abdominal pain. She also had nausea and fatigue for the past "
     }
   ],
-  "next_index": 6361,
-  "timestamp": 1773433178.8978484
+  "next_index": 6362,
+  "timestamp": 1773433400.7877212
 }
