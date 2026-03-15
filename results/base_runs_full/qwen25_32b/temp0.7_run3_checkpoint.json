@@ -69972,8 +69972,19 @@
       "tokens": 112,
       "latency": 2.6762030124664307,
       "response": " A\n\nThis patient presents with progressive weakness and weight loss. His history of abdominal pain and incidental gallstones, in addition to his weight loss, would make gallstone disease a likely diag"
+    },
+    {
+      "question_id": 12722,
+      "array_index": 6361,
+      "category": "Diagnosis",
+      "correct": "D",
+      "predicted": "A",
+      "is_correct": false,
+      "tokens": 221,
+      "latency": 5.351100444793701,
+      "response": " A. Complete molar pregnancy\n\nExplanation: The patient's symptoms, including vaginal bleeding, lower abdominal pain, and a positive urine pregnancy test, along with the elevated β-HCG level and the fi"
     }
   ],
-  "next_index": 6361,
-  "timestamp": 1773595434.5919383
+  "next_index": 6362,
+  "timestamp": 1773605577.9471416
 }
