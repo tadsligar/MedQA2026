@@ -18,7 +18,7 @@ echo "Job ID: $SLURM_JOB_ID  Node: $SLURM_NODELIST  GPUs: $CUDA_VISIBLE_DEVICES"
 echo "Start: $(date)"
 echo "=========================================="
 
-cd /aiau010_scratch/tzs0128/projects/MedQA2026
+cd /aiau010_scratch/tzs0128/repo/MedQA2026
 source ~/.bashrc
 conda activate medqa
 export HF_HOME=/aiau010_scratch/tzs0128/hf_cache
@@ -63,4 +63,20 @@ EXIT=$?
 
 echo "Shutting down vLLM..."; kill $VLLM_PID 2>/dev/null; wait $VLLM_PID 2>/dev/null
 echo "Finished at $(date) with exit $EXIT"
+
+# --- Paper1 EXP1: auto commit & push results (sequential calibration run) ---
+if [ $EXIT -eq 0 ]; then
+    echo "Committing results to git..."
+    cd /aiau010_scratch/tzs0128/repo/MedQA2026
+    git add results/base_runs_logprobs/olmo3_7b
+    if git commit -m "EXP1 logprobs: OLMo-3-7B calibration results (job ${SLURM_JOB_ID})"; then
+        git push origin master && echo "Pushed results to GitHub." \
+            || echo "WARN: git push failed; commit is local. Flush from login node: git push origin master"
+    else
+        echo "Nothing new to commit."
+    fi
+else
+    echo "Run exited $EXIT; skipping git commit."
+fi
+
 exit $EXIT

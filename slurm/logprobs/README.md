@@ -10,17 +10,22 @@ true calibration (ECE, reliability diagrams, risk-coverage) instead of the stabi
   anywhere after the jobs finish.
 
 ## Submit (from the repo root on AIAU)
+Run from `/aiau010_scratch/tzs0128/repo/MedQA2026` (the up-to-date clone; the jobs `cd` here).
+The jobs are submitted as a **SLURM dependency chain** so they run strictly one-after-another and
+each one auto-commits + pushes its own results to `master` on success:
 ```bash
-cd /aiau010_scratch/tzs0128/projects/MedQA2026
-sbatch slurm/logprobs/run_qwen25_7b_logprobs.sbatch
-sbatch slurm/logprobs/run_qwen25_14b_logprobs.sbatch
-sbatch slurm/logprobs/run_qwen25_32b_logprobs.sbatch
-sbatch slurm/logprobs/run_olmo3_7b_logprobs.sbatch
-sbatch slurm/logprobs/run_olmo3_32b_logprobs.sbatch
+cd /aiau010_scratch/tzs0128/repo/MedQA2026
+J=$(sbatch --parsable slurm/logprobs/run_qwen25_7b_logprobs.sbatch)
+J=$(sbatch --parsable --dependency=afterany:$J slurm/logprobs/run_qwen25_14b_logprobs.sbatch)
+J=$(sbatch --parsable --dependency=afterany:$J slurm/logprobs/run_qwen25_32b_logprobs.sbatch)
+J=$(sbatch --parsable --dependency=afterany:$J slurm/logprobs/run_olmo3_7b_logprobs.sbatch)
+J=$(sbatch --parsable --dependency=afterany:$J slurm/logprobs/run_olmo3_32b_logprobs.sbatch)
 ```
 Each job: starts a vLLM server for its model, waits for `/health`, runs t=0.0 run 1 with
 logprobs, writes `results/base_runs_logprobs/<model>/temp0.0_run1_results.json`, then stops the
-server. Jobs checkpoint every 10 questions and resume if resubmitted.
+server and (on exit 0) runs `git add results/... && git commit && git push origin master`.
+`afterany` means a failed model is skipped (no commit) and the chain continues to the next.
+Jobs checkpoint every 10 questions and resume if resubmitted.
 
 To also capture confidence-vs-temperature, edit the job's final command to
 `--temperatures "0.0,0.3,0.7" --n-runs 1`.
