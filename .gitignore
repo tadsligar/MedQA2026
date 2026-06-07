@@ -76,3 +76,11 @@ htmlcov/
 .mypy_cache/
 .dmypy.json
 dmypy.json
+
+# --- UMLS licensed data (do NOT commit; redistribution prohibited) ---
+data/umls/
+**/*.RRF
+**/umls_*_index.db
+# --- secrets ---
+.env
+*.apikey

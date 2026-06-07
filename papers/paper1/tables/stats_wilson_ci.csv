@@ -1,0 +1,31 @@
+model,scope,n,acc,ci_lo,ci_hi
+OLMo-3 7B,Overall,1030,46.12,43.09,49.17
+OLMo-3 7B,Clinical Findings,206,41.75,35.22,48.57
+OLMo-3 7B,Diagnosis,206,41.26,34.76,48.09
+OLMo-3 7B,Mechanism/Pathophysiology,206,54.37,47.55,61.03
+OLMo-3 7B,Next Step/Workup,206,43.2,36.62,50.03
+OLMo-3 7B,Treatment/Management,206,50.0,43.23,56.77
+OLMo-3 32B,Overall,1030,58.64,55.61,61.61
+OLMo-3 32B,Clinical Findings,206,50.97,44.19,57.72
+OLMo-3 32B,Diagnosis,206,56.8,49.97,63.38
+OLMo-3 32B,Mechanism/Pathophysiology,206,62.14,55.35,68.48
+OLMo-3 32B,Next Step/Workup,206,60.19,53.38,66.63
+OLMo-3 32B,Treatment/Management,206,63.11,56.33,69.4
+Qwen2.5 7B,Overall,1030,67.96,65.05,70.74
+Qwen2.5 7B,Clinical Findings,206,57.28,50.45,63.84
+Qwen2.5 7B,Diagnosis,206,65.05,58.32,71.23
+Qwen2.5 7B,Mechanism/Pathophysiology,206,72.33,65.85,77.99
+Qwen2.5 7B,Next Step/Workup,206,70.87,64.33,76.65
+Qwen2.5 7B,Treatment/Management,206,74.27,67.9,79.76
+Qwen2.5 14B,Overall,1030,68.45,65.54,71.21
+Qwen2.5 14B,Clinical Findings,206,57.77,50.94,64.31
+Qwen2.5 14B,Diagnosis,206,65.53,58.81,71.69
+Qwen2.5 14B,Mechanism/Pathophysiology,206,72.82,66.36,78.43
+Qwen2.5 14B,Next Step/Workup,206,71.36,64.84,77.1
+Qwen2.5 14B,Treatment/Management,206,74.76,68.41,80.2
+Qwen2.5 32B,Overall,1030,73.4,70.62,76.01
+Qwen2.5 32B,Clinical Findings,206,66.99,60.31,73.05
+Qwen2.5 32B,Diagnosis,206,70.87,64.33,76.65
+Qwen2.5 32B,Mechanism/Pathophysiology,206,76.21,69.95,81.51
+Qwen2.5 32B,Next Step/Workup,206,75.73,69.44,81.08
+Qwen2.5 32B,Treatment/Management,206,77.18,70.99,82.39

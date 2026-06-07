@@ -1,0 +1,1031 @@
+question_id,category,models_correct
+0,Treatment/Management,4
+1,Diagnosis,4
+2,Diagnosis,3
+3,Diagnosis,3
+4,Clinical Findings,2
+5,Mechanism/Pathophysiology,5
+6,Diagnosis,5
+7,Treatment/Management,4
+8,Clinical Findings,4
+9,Clinical Findings,1
+10,Clinical Findings,1
+11,Diagnosis,0
+12,Clinical Findings,1
+13,Mechanism/Pathophysiology,5
+14,Diagnosis,2
+15,Mechanism/Pathophysiology,1
+16,Clinical Findings,0
+17,Diagnosis,2
+18,Next Step/Workup,5
+19,Mechanism/Pathophysiology,1
+20,Next Step/Workup,3
+21,Next Step/Workup,5
+22,Mechanism/Pathophysiology,5
+23,Treatment/Management,0
+24,Next Step/Workup,5
+25,Treatment/Management,1
+26,Diagnosis,0
+27,Treatment/Management,5
+28,Diagnosis,1
+29,Clinical Findings,5
+30,Diagnosis,5
+31,Diagnosis,3
+32,Diagnosis,5
+33,Next Step/Workup,0
+34,Next Step/Workup,4
+35,Diagnosis,2
+36,Treatment/Management,0
+37,Next Step/Workup,0
+38,Clinical Findings,4
+39,Treatment/Management,2
+40,Treatment/Management,5
+41,Clinical Findings,5
+42,Diagnosis,0
+43,Diagnosis,1
+44,Diagnosis,1
+45,Clinical Findings,1
+46,Next Step/Workup,3
+47,Next Step/Workup,4
+48,Diagnosis,5
+49,Clinical Findings,0
+50,Clinical Findings,0
+51,Diagnosis,4
+52,Clinical Findings,1
+53,Clinical Findings,3
+54,Next Step/Workup,4
+55,Diagnosis,0
+56,Next Step/Workup,3
+57,Next Step/Workup,2
+58,Treatment/Management,4
+59,Treatment/Management,5
+60,Treatment/Management,4
+61,Clinical Findings,4
+62,Mechanism/Pathophysiology,1
+63,Next Step/Workup,2
+64,Mechanism/Pathophysiology,2
+65,Clinical Findings,2
+66,Treatment/Management,3
+67,Next Step/Workup,5
+68,Next Step/Workup,5
+69,Treatment/Management,4
+70,Mechanism/Pathophysiology,4
+71,Treatment/Management,5
+72,Treatment/Management,3
+73,Diagnosis,4
+74,Mechanism/Pathophysiology,5
+75,Treatment/Management,2
+76,Mechanism/Pathophysiology,5
+77,Diagnosis,1
+78,Treatment/Management,2
+79,Diagnosis,3
+80,Diagnosis,1
+81,Next Step/Workup,5
+82,Clinical Findings,3
+83,Clinical Findings,3
+84,Mechanism/Pathophysiology,3
+85,Next Step/Workup,0
+86,Clinical Findings,0
+87,Mechanism/Pathophysiology,5
+88,Next Step/Workup,5
+89,Clinical Findings,5
+90,Next Step/Workup,5
+91,Next Step/Workup,4
+92,Clinical Findings,1
+93,Next Step/Workup,5
+94,Mechanism/Pathophysiology,3
+95,Clinical Findings,5
+96,Diagnosis,5
+97,Diagnosis,2
+98,Clinical Findings,5
+99,Clinical Findings,5
+100,Clinical Findings,1
+101,Mechanism/Pathophysiology,3
+102,Mechanism/Pathophysiology,4
+103,Treatment/Management,4
+104,Treatment/Management,4
+105,Treatment/Management,3
+106,Diagnosis,4
+107,Clinical Findings,4
+108,Next Step/Workup,4
+109,Treatment/Management,1
+110,Next Step/Workup,0
+111,Clinical Findings,2
+112,Mechanism/Pathophysiology,5
+113,Treatment/Management,3
+114,Treatment/Management,5
+115,Clinical Findings,4
+116,Next Step/Workup,2
+117,Next Step/Workup,5
+118,Diagnosis,4
+119,Mechanism/Pathophysiology,4
+120,Treatment/Management,3
+121,Treatment/Management,4
+122,Clinical Findings,5
+123,Clinical Findings,1
+124,Next Step/Workup,3
+125,Mechanism/Pathophysiology,0
+126,Next Step/Workup,1
+127,Clinical Findings,5
+128,Diagnosis,2
+129,Diagnosis,5
+130,Next Step/Workup,4
+131,Diagnosis,5
+132,Mechanism/Pathophysiology,5
+133,Diagnosis,1
+134,Clinical Findings,4
+135,Treatment/Management,3
+136,Mechanism/Pathophysiology,3
+137,Clinical Findings,0
+138,Mechanism/Pathophysiology,1
+139,Diagnosis,0
+140,Treatment/Management,2
+141,Next Step/Workup,5
+142,Mechanism/Pathophysiology,4
+143,Mechanism/Pathophysiology,2
+144,Diagnosis,5
+145,Next Step/Workup,4
+146,Clinical Findings,3
+147,Next Step/Workup,1
+148,Clinical Findings,4
+149,Mechanism/Pathophysiology,0
+150,Diagnosis,3
+151,Clinical Findings,0
+152,Next Step/Workup,5
+153,Treatment/Management,0
+154,Clinical Findings,5
+155,Treatment/Management,4
+156,Mechanism/Pathophysiology,0
+157,Mechanism/Pathophysiology,4
+158,Treatment/Management,1
+159,Clinical Findings,5
+160,Diagnosis,0
+161,Clinical Findings,5
+162,Clinical Findings,0
+163,Diagnosis,3
+164,Clinical Findings,0
+165,Mechanism/Pathophysiology,0
+166,Clinical Findings,5
+167,Mechanism/Pathophysiology,5
+168,Clinical Findings,5
+169,Treatment/Management,4
+170,Next Step/Workup,3
+171,Mechanism/Pathophysiology,3
+172,Mechanism/Pathophysiology,1
+173,Diagnosis,0
+174,Treatment/Management,5
+175,Treatment/Management,3
+176,Clinical Findings,5
+177,Treatment/Management,1
+178,Mechanism/Pathophysiology,5
+179,Mechanism/Pathophysiology,1
+180,Treatment/Management,3
+181,Next Step/Workup,4
+182,Diagnosis,3
+183,Next Step/Workup,5
+184,Treatment/Management,5
+185,Clinical Findings,5
+186,Next Step/Workup,5
+187,Treatment/Management,3
+188,Treatment/Management,0
+189,Diagnosis,4
+190,Next Step/Workup,0
+191,Treatment/Management,5
+192,Clinical Findings,0
+193,Mechanism/Pathophysiology,4
+194,Next Step/Workup,0
+195,Mechanism/Pathophysiology,5
+196,Mechanism/Pathophysiology,5
+197,Next Step/Workup,3
+198,Diagnosis,1
+199,Mechanism/Pathophysiology,0
+200,Treatment/Management,5
+201,Mechanism/Pathophysiology,5
+202,Diagnosis,5
+203,Clinical Findings,1
+204,Clinical Findings,1
+205,Mechanism/Pathophysiology,4
+206,Next Step/Workup,0
+207,Treatment/Management,5
+208,Diagnosis,1
+209,Next Step/Workup,1
+210,Diagnosis,4
+211,Treatment/Management,4
+212,Diagnosis,4
+213,Treatment/Management,5
+214,Next Step/Workup,1
+215,Next Step/Workup,1
+216,Next Step/Workup,3
+217,Mechanism/Pathophysiology,0
+218,Diagnosis,5
+219,Next Step/Workup,0
+220,Mechanism/Pathophysiology,5
+221,Next Step/Workup,4
+222,Clinical Findings,4
+223,Next Step/Workup,0
+224,Diagnosis,5
+225,Diagnosis,4
+226,Mechanism/Pathophysiology,4
+227,Diagnosis,4
+228,Treatment/Management,2
+229,Next Step/Workup,5
+230,Diagnosis,2
+231,Diagnosis,2
+232,Next Step/Workup,4
+233,Diagnosis,3
+234,Mechanism/Pathophysiology,2
+235,Mechanism/Pathophysiology,5
+236,Next Step/Workup,5
+237,Clinical Findings,0
+238,Clinical Findings,3
+239,Mechanism/Pathophysiology,5
+240,Clinical Findings,0
+241,Treatment/Management,4
+242,Diagnosis,2
+243,Treatment/Management,5
+244,Mechanism/Pathophysiology,5
+245,Clinical Findings,1
+246,Diagnosis,4
+247,Diagnosis,5
+248,Clinical Findings,3
+249,Treatment/Management,1
+250,Diagnosis,5
+251,Mechanism/Pathophysiology,0
+252,Diagnosis,0
+253,Mechanism/Pathophysiology,5
+254,Treatment/Management,4
+255,Clinical Findings,2
+256,Diagnosis,5
+257,Next Step/Workup,2
+258,Next Step/Workup,4
+259,Clinical Findings,5
+260,Treatment/Management,4
+261,Treatment/Management,2
+262,Treatment/Management,5
+263,Clinical Findings,4
+264,Diagnosis,5
+265,Next Step/Workup,5
+266,Mechanism/Pathophysiology,4
+267,Treatment/Management,5
+268,Diagnosis,5
+269,Mechanism/Pathophysiology,2
+270,Treatment/Management,4
+271,Clinical Findings,3
+272,Treatment/Management,3
+273,Treatment/Management,5
+274,Treatment/Management,1
+275,Clinical Findings,5
+276,Next Step/Workup,5
+277,Next Step/Workup,5
+278,Treatment/Management,5
+279,Treatment/Management,0
+280,Next Step/Workup,5
+281,Next Step/Workup,5
+282,Clinical Findings,0
+283,Treatment/Management,3
+284,Diagnosis,0
+285,Treatment/Management,4
+286,Treatment/Management,4
+287,Next Step/Workup,4
+288,Next Step/Workup,3
+289,Mechanism/Pathophysiology,5
+290,Next Step/Workup,4
+291,Treatment/Management,4
+292,Treatment/Management,5
+293,Next Step/Workup,5
+294,Next Step/Workup,4
+295,Diagnosis,5
+296,Next Step/Workup,2
+297,Next Step/Workup,5
+298,Clinical Findings,3
+299,Next Step/Workup,0
+300,Diagnosis,4
+301,Diagnosis,5
+302,Diagnosis,0
+303,Treatment/Management,4
+304,Diagnosis,3
+305,Treatment/Management,4
+306,Next Step/Workup,5
+307,Clinical Findings,1
+308,Clinical Findings,3
+309,Mechanism/Pathophysiology,3
+310,Clinical Findings,5
+311,Clinical Findings,1
+312,Treatment/Management,4
+313,Treatment/Management,5
+314,Mechanism/Pathophysiology,5
+315,Mechanism/Pathophysiology,5
+316,Mechanism/Pathophysiology,2
+317,Next Step/Workup,5
+318,Diagnosis,5
+319,Next Step/Workup,4
+320,Treatment/Management,4
+321,Mechanism/Pathophysiology,1
+322,Diagnosis,1
+323,Clinical Findings,4
+324,Treatment/Management,0
+325,Clinical Findings,4
+326,Treatment/Management,5
+327,Next Step/Workup,4
+328,Diagnosis,5
+329,Treatment/Management,4
+330,Next Step/Workup,5
+331,Mechanism/Pathophysiology,5
+332,Mechanism/Pathophysiology,3
+333,Mechanism/Pathophysiology,5
+334,Treatment/Management,5
+335,Clinical Findings,0
+336,Diagnosis,5
+337,Clinical Findings,3
+338,Clinical Findings,4
+339,Mechanism/Pathophysiology,2
+340,Mechanism/Pathophysiology,3
+341,Mechanism/Pathophysiology,3
+342,Mechanism/Pathophysiology,5
+343,Clinical Findings,4
+344,Diagnosis,1
+345,Diagnosis,2
+346,Treatment/Management,4
+347,Diagnosis,5
+348,Diagnosis,3
+349,Diagnosis,4
+350,Next Step/Workup,4
+351,Next Step/Workup,5
+352,Next Step/Workup,3
+353,Clinical Findings,3
+354,Clinical Findings,3
+355,Next Step/Workup,1
+356,Next Step/Workup,1
+357,Diagnosis,0
+358,Mechanism/Pathophysiology,5
+359,Next Step/Workup,1
+360,Next Step/Workup,3
+361,Treatment/Management,0
+362,Diagnosis,3
+363,Next Step/Workup,5
+364,Mechanism/Pathophysiology,4
+365,Mechanism/Pathophysiology,4
+366,Next Step/Workup,4
+367,Diagnosis,3
+368,Mechanism/Pathophysiology,0
+369,Clinical Findings,5
+370,Clinical Findings,1
+371,Treatment/Management,4
+372,Diagnosis,5
+373,Mechanism/Pathophysiology,0
+374,Mechanism/Pathophysiology,1
+375,Clinical Findings,1
+376,Mechanism/Pathophysiology,4
+377,Clinical Findings,0
+378,Treatment/Management,4
+379,Mechanism/Pathophysiology,3
+380,Clinical Findings,5
+381,Clinical Findings,2
+382,Treatment/Management,5
+383,Clinical Findings,4
+384,Next Step/Workup,0
+385,Clinical Findings,4
+386,Mechanism/Pathophysiology,5
+387,Clinical Findings,5
+388,Treatment/Management,0
+389,Mechanism/Pathophysiology,5
+390,Diagnosis,5
+391,Mechanism/Pathophysiology,1
+392,Diagnosis,0
+393,Diagnosis,0
+394,Mechanism/Pathophysiology,4
+395,Clinical Findings,4
+396,Clinical Findings,5
+397,Mechanism/Pathophysiology,5
+398,Clinical Findings,3
+399,Mechanism/Pathophysiology,1
+400,Diagnosis,2
+401,Mechanism/Pathophysiology,5
+402,Treatment/Management,4
+403,Mechanism/Pathophysiology,2
+404,Mechanism/Pathophysiology,3
+405,Treatment/Management,5
+406,Diagnosis,5
+407,Diagnosis,5
+408,Treatment/Management,2
+409,Diagnosis,5
+410,Mechanism/Pathophysiology,4
+411,Treatment/Management,5
+412,Clinical Findings,0
+413,Mechanism/Pathophysiology,5
+414,Next Step/Workup,4
+415,Next Step/Workup,4
+416,Treatment/Management,1
+417,Mechanism/Pathophysiology,0
+418,Mechanism/Pathophysiology,3
+419,Mechanism/Pathophysiology,5
+420,Clinical Findings,2
+421,Treatment/Management,5
+422,Diagnosis,0
+423,Next Step/Workup,2
+424,Clinical Findings,4
+425,Treatment/Management,5
+426,Next Step/Workup,5
+427,Clinical Findings,4
+428,Next Step/Workup,4
+429,Next Step/Workup,5
+430,Next Step/Workup,2
+431,Diagnosis,0
+432,Treatment/Management,4
+433,Treatment/Management,2
+434,Mechanism/Pathophysiology,0
+435,Diagnosis,5
+436,Next Step/Workup,1
+437,Mechanism/Pathophysiology,5
+438,Treatment/Management,3
+439,Treatment/Management,4
+440,Clinical Findings,5
+441,Clinical Findings,4
+442,Treatment/Management,2
+443,Mechanism/Pathophysiology,5
+444,Treatment/Management,5
+445,Clinical Findings,3
+446,Mechanism/Pathophysiology,0
+447,Next Step/Workup,0
+448,Clinical Findings,0
+449,Treatment/Management,2
+450,Clinical Findings,5
+451,Treatment/Management,5
+452,Mechanism/Pathophysiology,5
+453,Diagnosis,0
+454,Treatment/Management,3
+455,Next Step/Workup,0
+456,Next Step/Workup,0
+457,Clinical Findings,5
+458,Diagnosis,3
+459,Treatment/Management,5
+460,Mechanism/Pathophysiology,3
+461,Treatment/Management,5
+462,Clinical Findings,5
+463,Diagnosis,1
+464,Treatment/Management,0
+465,Diagnosis,4
+466,Diagnosis,1
+467,Treatment/Management,2
+468,Treatment/Management,5
+469,Treatment/Management,3
+470,Diagnosis,5
+471,Next Step/Workup,3
+472,Diagnosis,0
+473,Treatment/Management,1
+474,Clinical Findings,4
+475,Next Step/Workup,4
+476,Clinical Findings,0
+477,Mechanism/Pathophysiology,5
+478,Clinical Findings,4
+479,Clinical Findings,5
+480,Diagnosis,1
+481,Mechanism/Pathophysiology,2
+482,Next Step/Workup,5
+483,Treatment/Management,5
+484,Mechanism/Pathophysiology,2
+485,Clinical Findings,4
+486,Treatment/Management,1
+487,Treatment/Management,4
+488,Clinical Findings,4
+489,Clinical Findings,0
+490,Diagnosis,4
+491,Treatment/Management,5
+492,Next Step/Workup,3
+493,Clinical Findings,1
+494,Clinical Findings,3
+495,Diagnosis,4
+496,Treatment/Management,4
+497,Treatment/Management,5
+498,Next Step/Workup,4
+499,Diagnosis,2
+500,Mechanism/Pathophysiology,0
+501,Next Step/Workup,4
+502,Diagnosis,4
+503,Diagnosis,1
+504,Treatment/Management,0
+505,Treatment/Management,5
+506,Mechanism/Pathophysiology,4
+507,Clinical Findings,0
+508,Mechanism/Pathophysiology,2
+509,Mechanism/Pathophysiology,0
+510,Diagnosis,4
+511,Treatment/Management,0
+512,Clinical Findings,0
+513,Next Step/Workup,4
+514,Diagnosis,1
+515,Clinical Findings,4
+516,Mechanism/Pathophysiology,5
+517,Treatment/Management,4
+518,Clinical Findings,0
+519,Mechanism/Pathophysiology,1
+520,Clinical Findings,0
+521,Mechanism/Pathophysiology,0
+522,Clinical Findings,0
+523,Next Step/Workup,4
+524,Next Step/Workup,5
+525,Mechanism/Pathophysiology,2
+526,Mechanism/Pathophysiology,4
+527,Diagnosis,4
+528,Clinical Findings,1
+529,Next Step/Workup,5
+530,Diagnosis,5
+531,Mechanism/Pathophysiology,5
+532,Diagnosis,5
+533,Treatment/Management,5
+534,Diagnosis,5
+535,Mechanism/Pathophysiology,5
+536,Mechanism/Pathophysiology,1
+537,Diagnosis,0
+538,Treatment/Management,2
+539,Next Step/Workup,4
+540,Mechanism/Pathophysiology,5
+541,Mechanism/Pathophysiology,5
+542,Next Step/Workup,4
+543,Diagnosis,3
+544,Next Step/Workup,4
+545,Next Step/Workup,0
+546,Next Step/Workup,3
+547,Next Step/Workup,0
+548,Mechanism/Pathophysiology,1
+549,Clinical Findings,1
+550,Next Step/Workup,2
+551,Treatment/Management,5
+552,Treatment/Management,5
+553,Next Step/Workup,5
+554,Next Step/Workup,5
+555,Mechanism/Pathophysiology,0
+556,Next Step/Workup,0
+557,Mechanism/Pathophysiology,4
+558,Diagnosis,3
+559,Mechanism/Pathophysiology,1
+560,Treatment/Management,4
+561,Clinical Findings,5
+562,Mechanism/Pathophysiology,0
+563,Diagnosis,5
+564,Mechanism/Pathophysiology,5
+565,Treatment/Management,5
+566,Treatment/Management,5
+567,Mechanism/Pathophysiology,3
+568,Mechanism/Pathophysiology,5
+569,Clinical Findings,2
+570,Mechanism/Pathophysiology,4
+571,Treatment/Management,5
+572,Mechanism/Pathophysiology,4
+573,Mechanism/Pathophysiology,5
+574,Clinical Findings,2
+575,Treatment/Management,2
+576,Treatment/Management,4
+577,Mechanism/Pathophysiology,3
+578,Treatment/Management,1
+579,Clinical Findings,2
+580,Treatment/Management,4
+581,Mechanism/Pathophysiology,4
+582,Clinical Findings,2
+583,Treatment/Management,2
+584,Diagnosis,5
+585,Diagnosis,1
+586,Treatment/Management,5
+587,Next Step/Workup,3
+588,Clinical Findings,3
+589,Clinical Findings,5
+590,Clinical Findings,5
+591,Next Step/Workup,4
+592,Treatment/Management,1
+593,Clinical Findings,3
+594,Treatment/Management,5
+595,Diagnosis,0
+596,Treatment/Management,5
+597,Clinical Findings,1
+598,Treatment/Management,2
+599,Diagnosis,3
+600,Diagnosis,4
+601,Mechanism/Pathophysiology,3
+602,Diagnosis,5
+603,Mechanism/Pathophysiology,3
+604,Next Step/Workup,1
+605,Diagnosis,4
+606,Mechanism/Pathophysiology,3
+607,Clinical Findings,3
+608,Treatment/Management,5
+609,Treatment/Management,5
+610,Clinical Findings,0
+611,Clinical Findings,2
+612,Mechanism/Pathophysiology,4
+613,Diagnosis,1
+614,Treatment/Management,5
+615,Next Step/Workup,3
+616,Clinical Findings,0
+617,Next Step/Workup,5
+618,Treatment/Management,5
+619,Treatment/Management,0
+620,Clinical Findings,2
+621,Next Step/Workup,5
+622,Mechanism/Pathophysiology,5
+623,Diagnosis,5
+624,Next Step/Workup,4
+625,Treatment/Management,3
+626,Diagnosis,0
+627,Mechanism/Pathophysiology,4
+628,Next Step/Workup,4
+629,Diagnosis,5
+630,Treatment/Management,5
+631,Clinical Findings,5
+632,Diagnosis,4
+633,Treatment/Management,1
+634,Next Step/Workup,2
+635,Treatment/Management,5
+636,Clinical Findings,4
+637,Treatment/Management,4
+638,Treatment/Management,0
+639,Next Step/Workup,5
+640,Mechanism/Pathophysiology,4
+641,Mechanism/Pathophysiology,4
+642,Diagnosis,4
+643,Mechanism/Pathophysiology,5
+644,Diagnosis,0
+645,Clinical Findings,0
+646,Mechanism/Pathophysiology,5
+647,Next Step/Workup,5
+648,Next Step/Workup,4
+649,Treatment/Management,1
+650,Mechanism/Pathophysiology,0
+651,Diagnosis,5
+652,Clinical Findings,5
+653,Clinical Findings,2
+654,Clinical Findings,1
+655,Clinical Findings,2
+656,Treatment/Management,0
+657,Next Step/Workup,0
+658,Mechanism/Pathophysiology,2
+659,Next Step/Workup,3
+660,Clinical Findings,4
+661,Diagnosis,3
+662,Next Step/Workup,3
+663,Diagnosis,0
+664,Mechanism/Pathophysiology,5
+665,Next Step/Workup,3
+666,Clinical Findings,3
+667,Mechanism/Pathophysiology,5
+668,Treatment/Management,5
+669,Clinical Findings,4
+670,Diagnosis,3
+671,Next Step/Workup,3
+672,Next Step/Workup,0
+673,Mechanism/Pathophysiology,3
+674,Diagnosis,1
+675,Diagnosis,2
+676,Treatment/Management,5
+677,Clinical Findings,0
+678,Mechanism/Pathophysiology,5
+679,Diagnosis,2
+680,Treatment/Management,4
+681,Diagnosis,4
+682,Next Step/Workup,0
+683,Next Step/Workup,4
+684,Mechanism/Pathophysiology,3
+685,Diagnosis,4
+686,Diagnosis,1
+687,Clinical Findings,0
+688,Clinical Findings,0
+689,Mechanism/Pathophysiology,5
+690,Clinical Findings,1
+691,Treatment/Management,5
+692,Next Step/Workup,1
+693,Mechanism/Pathophysiology,4
+694,Diagnosis,0
+695,Clinical Findings,5
+696,Treatment/Management,5
+697,Mechanism/Pathophysiology,4
+698,Next Step/Workup,5
+699,Diagnosis,5
+700,Mechanism/Pathophysiology,4
+701,Clinical Findings,1
+702,Clinical Findings,0
+703,Next Step/Workup,0
+704,Treatment/Management,4
+705,Diagnosis,3
+706,Next Step/Workup,5
+707,Next Step/Workup,4
+708,Treatment/Management,4
+709,Diagnosis,3
+710,Treatment/Management,0
+711,Clinical Findings,5
+712,Mechanism/Pathophysiology,5
+713,Diagnosis,1
+714,Clinical Findings,3
+715,Next Step/Workup,2
+716,Next Step/Workup,4
+717,Clinical Findings,0
+718,Next Step/Workup,4
+719,Clinical Findings,4
+720,Next Step/Workup,0
+721,Treatment/Management,0
+722,Next Step/Workup,0
+723,Next Step/Workup,4
+724,Next Step/Workup,3
+725,Clinical Findings,4
+726,Next Step/Workup,3
+727,Diagnosis,4
+728,Diagnosis,4
+729,Next Step/Workup,3
+730,Diagnosis,5
+731,Diagnosis,3
+732,Mechanism/Pathophysiology,5
+733,Next Step/Workup,4
+734,Clinical Findings,0
+735,Next Step/Workup,5
+736,Treatment/Management,5
+737,Clinical Findings,5
+738,Diagnosis,5
+739,Diagnosis,5
+740,Next Step/Workup,5
+741,Clinical Findings,3
+742,Next Step/Workup,5
+743,Next Step/Workup,1
+744,Diagnosis,1
+745,Mechanism/Pathophysiology,3
+746,Next Step/Workup,5
+747,Treatment/Management,5
+748,Treatment/Management,5
+749,Diagnosis,4
+750,Clinical Findings,2
+751,Treatment/Management,2
+752,Diagnosis,5
+753,Clinical Findings,5
+754,Diagnosis,4
+755,Treatment/Management,0
+756,Diagnosis,5
+757,Next Step/Workup,4
+758,Mechanism/Pathophysiology,5
+759,Next Step/Workup,4
+760,Next Step/Workup,5
+761,Treatment/Management,3
+762,Treatment/Management,0
+763,Treatment/Management,5
+764,Clinical Findings,5
+765,Clinical Findings,5
+766,Mechanism/Pathophysiology,3
+767,Next Step/Workup,5
+768,Next Step/Workup,3
+769,Mechanism/Pathophysiology,2
+770,Clinical Findings,4
+771,Next Step/Workup,5
+772,Diagnosis,1
+773,Mechanism/Pathophysiology,4
+774,Diagnosis,3
+775,Next Step/Workup,3
+776,Treatment/Management,2
+777,Diagnosis,2
+778,Clinical Findings,0
+779,Mechanism/Pathophysiology,1
+780,Mechanism/Pathophysiology,5
+781,Diagnosis,4
+782,Next Step/Workup,4
+783,Next Step/Workup,4
+784,Diagnosis,0
+785,Next Step/Workup,4
+786,Clinical Findings,0
+787,Clinical Findings,4
+788,Clinical Findings,5
+789,Clinical Findings,4
+790,Next Step/Workup,5
+791,Mechanism/Pathophysiology,4
+792,Treatment/Management,4
+793,Mechanism/Pathophysiology,4
+794,Diagnosis,5
+795,Clinical Findings,0
+796,Mechanism/Pathophysiology,5
+797,Diagnosis,5
+798,Diagnosis,5
+799,Diagnosis,4
+800,Clinical Findings,5
+801,Diagnosis,4
+802,Clinical Findings,0
+803,Treatment/Management,1
+804,Diagnosis,5
+805,Treatment/Management,5
+806,Clinical Findings,4
+807,Mechanism/Pathophysiology,5
+808,Treatment/Management,5
+809,Next Step/Workup,3
+810,Next Step/Workup,0
+811,Treatment/Management,5
+812,Clinical Findings,5
+813,Mechanism/Pathophysiology,5
+814,Clinical Findings,3
+815,Treatment/Management,5
+816,Diagnosis,3
+817,Treatment/Management,4
+818,Next Step/Workup,1
+819,Next Step/Workup,5
+820,Diagnosis,4
+821,Clinical Findings,5
+822,Next Step/Workup,5
+823,Clinical Findings,5
+824,Mechanism/Pathophysiology,5
+825,Mechanism/Pathophysiology,4
+826,Next Step/Workup,0
+827,Next Step/Workup,2
+828,Next Step/Workup,5
+829,Diagnosis,3
+830,Diagnosis,5
+831,Mechanism/Pathophysiology,0
+832,Next Step/Workup,5
+833,Diagnosis,0
+834,Clinical Findings,0
+835,Next Step/Workup,5
+836,Diagnosis,5
+837,Next Step/Workup,0
+838,Next Step/Workup,0
+839,Diagnosis,0
+840,Diagnosis,5
+841,Next Step/Workup,5
+842,Mechanism/Pathophysiology,4
+843,Clinical Findings,5
+844,Clinical Findings,4
+845,Next Step/Workup,0
+846,Mechanism/Pathophysiology,1
+847,Clinical Findings,4
+848,Next Step/Workup,4
+849,Clinical Findings,1
+850,Treatment/Management,5
+851,Mechanism/Pathophysiology,5
+852,Treatment/Management,5
+853,Mechanism/Pathophysiology,5
+854,Clinical Findings,1
+855,Diagnosis,3
+856,Mechanism/Pathophysiology,4
+857,Mechanism/Pathophysiology,0
+858,Clinical Findings,5
+859,Treatment/Management,5
+860,Treatment/Management,3
+861,Clinical Findings,3
+862,Next Step/Workup,1
+863,Treatment/Management,5
+864,Next Step/Workup,4
+865,Next Step/Workup,3
+866,Diagnosis,5
+867,Diagnosis,5
+868,Treatment/Management,5
+869,Treatment/Management,1
+870,Mechanism/Pathophysiology,5
+871,Next Step/Workup,4
+872,Diagnosis,2
+873,Clinical Findings,3
+874,Mechanism/Pathophysiology,3
+875,Next Step/Workup,4
+876,Treatment/Management,4
+877,Diagnosis,3
+878,Treatment/Management,4
+879,Mechanism/Pathophysiology,4
+880,Diagnosis,4
+881,Next Step/Workup,5
+882,Clinical Findings,4
+883,Diagnosis,5
+884,Mechanism/Pathophysiology,5
+885,Diagnosis,0
+886,Mechanism/Pathophysiology,5
+887,Next Step/Workup,3
+888,Treatment/Management,1
+889,Diagnosis,3
+890,Diagnosis,5
+891,Mechanism/Pathophysiology,4
+892,Mechanism/Pathophysiology,0
+893,Mechanism/Pathophysiology,5
+894,Clinical Findings,0
+895,Treatment/Management,5
+896,Mechanism/Pathophysiology,4
+897,Next Step/Workup,4
+898,Mechanism/Pathophysiology,1
+899,Mechanism/Pathophysiology,5
+900,Treatment/Management,5
+901,Diagnosis,4
+902,Next Step/Workup,3
+903,Diagnosis,4
+904,Clinical Findings,3
+905,Treatment/Management,1
+906,Treatment/Management,4
+907,Mechanism/Pathophysiology,5
+908,Next Step/Workup,3
+909,Diagnosis,4
+910,Mechanism/Pathophysiology,5
+911,Treatment/Management,5
+912,Next Step/Workup,4
+913,Treatment/Management,1
+914,Diagnosis,0
+915,Clinical Findings,3
+916,Treatment/Management,3
+917,Clinical Findings,0
+918,Treatment/Management,5
+919,Next Step/Workup,5
+920,Mechanism/Pathophysiology,5
+921,Mechanism/Pathophysiology,1
+922,Clinical Findings,1
+923,Diagnosis,0
+924,Clinical Findings,1
+925,Treatment/Management,1
+926,Mechanism/Pathophysiology,4
+927,Diagnosis,4
+928,Mechanism/Pathophysiology,1
+929,Mechanism/Pathophysiology,5
+930,Treatment/Management,2
+931,Mechanism/Pathophysiology,5
+932,Diagnosis,3
+933,Next Step/Workup,1
+934,Mechanism/Pathophysiology,4
+935,Diagnosis,2
+936,Next Step/Workup,5
+937,Treatment/Management,5
+938,Clinical Findings,2
+939,Treatment/Management,4
+940,Next Step/Workup,4
+941,Clinical Findings,5
+942,Mechanism/Pathophysiology,1
+943,Clinical Findings,0
+944,Treatment/Management,5
+945,Treatment/Management,5
+946,Diagnosis,3
+947,Clinical Findings,4
+948,Mechanism/Pathophysiology,5
+949,Mechanism/Pathophysiology,3
+950,Clinical Findings,4
+951,Mechanism/Pathophysiology,5
+952,Diagnosis,5
+953,Clinical Findings,4
+954,Next Step/Workup,5
+955,Diagnosis,3
+956,Next Step/Workup,3
+957,Next Step/Workup,4
+958,Next Step/Workup,5
+959,Clinical Findings,4
+960,Clinical Findings,5
+961,Mechanism/Pathophysiology,4
+962,Next Step/Workup,0
+963,Treatment/Management,0
+964,Mechanism/Pathophysiology,3
+965,Diagnosis,4
+966,Treatment/Management,5
+967,Clinical Findings,5
+968,Mechanism/Pathophysiology,4
+969,Diagnosis,1
+970,Diagnosis,0
+971,Clinical Findings,5
+972,Treatment/Management,1
+973,Mechanism/Pathophysiology,3
+974,Next Step/Workup,4
+975,Mechanism/Pathophysiology,4
+976,Next Step/Workup,5
+977,Next Step/Workup,2
+978,Diagnosis,4
+979,Mechanism/Pathophysiology,3
+980,Clinical Findings,1
+981,Clinical Findings,3
+982,Mechanism/Pathophysiology,5
+983,Mechanism/Pathophysiology,5
+984,Mechanism/Pathophysiology,4
+985,Treatment/Management,0
+986,Next Step/Workup,4
+987,Clinical Findings,5
+988,Treatment/Management,0
+989,Mechanism/Pathophysiology,3
+990,Treatment/Management,5
+991,Mechanism/Pathophysiology,5
+992,Next Step/Workup,1
+993,Treatment/Management,4
+994,Clinical Findings,5
+995,Diagnosis,1
+996,Diagnosis,5
+997,Diagnosis,1
+998,Clinical Findings,4
+999,Mechanism/Pathophysiology,4
+1000,Clinical Findings,5
+1001,Mechanism/Pathophysiology,5
+1002,Next Step/Workup,5
+1003,Treatment/Management,4
+1004,Diagnosis,5
+1005,Treatment/Management,4
+1006,Next Step/Workup,0
+1007,Diagnosis,4
+1008,Mechanism/Pathophysiology,5
+1009,Next Step/Workup,3
+1010,Mechanism/Pathophysiology,1
+1011,Diagnosis,4
+1012,Clinical Findings,1
+1013,Treatment/Management,1
+1014,Clinical Findings,0
+1015,Next Step/Workup,3
+1016,Diagnosis,3
+1017,Diagnosis,4
+1018,Mechanism/Pathophysiology,5
+1019,Diagnosis,1
+1020,Mechanism/Pathophysiology,0
+1021,Clinical Findings,1
+1022,Treatment/Management,5
+1023,Treatment/Management,3
+1024,Treatment/Management,5
+1025,Diagnosis,3
+1026,Mechanism/Pathophysiology,3
+1027,Treatment/Management,5
+1028,Treatment/Management,3
+1029,Diagnosis,1

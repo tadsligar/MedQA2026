@@ -1,0 +1,6 @@
+model,acc_t0.0,acc_t0.7,overall_drop_pp,drop_Clinical Findings,drop_Diagnosis,drop_Mechanism/Pathophysiology,drop_Next Step/Workup,drop_Treatment/Management
+OLMo-3 7B,46.18,41.1,5.08,3.4,3.56,8.41,4.53,5.5
+OLMo-3 32B,58.64,50.87,7.77,5.99,5.99,8.25,8.25,10.36
+Qwen2.5 7B,67.96,57.67,10.29,4.05,9.39,12.62,10.68,14.72
+Qwen2.5 14B,68.48,59.19,9.29,3.4,5.18,11.17,15.05,11.65
+Qwen2.5 32B,73.4,64.5,8.9,7.77,9.55,7.28,11.81,8.09

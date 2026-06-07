@@ -1,0 +1,4 @@
+variant,overall_acc,ci_lo,ci_hi,vs_random_pp,vs_qwen32b_pp,mcnemar_p_vs_qwen32b
+overlap,25.63,23.06,28.38,0.63,-47.77,5.14e-98
+relation,23.2,20.73,25.88,-1.8,-50.19,3.92e-106
+tfidf,24.47,21.94,27.18,-0.53,-48.93,2.35e-102

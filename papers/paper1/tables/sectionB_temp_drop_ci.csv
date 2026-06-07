@@ -1,0 +1,6 @@
+model,drop_pp_t0_minus_t7,boot_ci_lo,boot_ci_hi
+OLMo-3 7B,2.91,0.0,5.83
+OLMo-3 32B,7.57,4.76,10.39
+Qwen2.5 7B,10.19,7.38,13.01
+Qwen2.5 14B,9.42,6.7,12.23
+Qwen2.5 32B,9.03,6.7,11.46

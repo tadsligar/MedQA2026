@@ -1,0 +1,6 @@
+category,OLMo-3 7B,OLMo-3 32B,Qwen2.5 7B,Qwen2.5 14B,Qwen2.5 32B,best_model
+Clinical Findings,41.7,51.0,57.3,57.8,67.0,Qwen2.5 32B
+Diagnosis,41.3,56.8,65.0,65.5,70.9,Qwen2.5 32B
+Mechanism/Pathophysiology,54.4,62.1,72.3,72.8,76.2,Qwen2.5 32B
+Next Step/Workup,43.2,60.2,70.9,71.4,75.7,Qwen2.5 32B
+Treatment/Management,50.0,63.1,74.3,74.8,77.2,Qwen2.5 32B

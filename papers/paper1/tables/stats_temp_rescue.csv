@@ -1,0 +1,6 @@
+model,rescued_by_sampling,lost_by_sampling,net_pp
+OLMo-3 7B,90,106,-1.55
+OLMo-3 32B,69,109,-3.88
+Qwen2.5 7B,53,124,-6.89
+Qwen2.5 14B,57,113,-5.44
+Qwen2.5 32B,32,80,-4.66

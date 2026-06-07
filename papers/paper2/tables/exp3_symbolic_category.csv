@@ -1,0 +1,16 @@
+variant,category,acc
+overlap,Clinical Findings,24.27
+overlap,Diagnosis,28.64
+overlap,Mechanism/Pathophysiology,23.3
+overlap,Next Step/Workup,25.24
+overlap,Treatment/Management,26.7
+relation,Clinical Findings,18.93
+relation,Diagnosis,23.79
+relation,Mechanism/Pathophysiology,22.82
+relation,Next Step/Workup,31.07
+relation,Treatment/Management,19.42
+tfidf,Clinical Findings,19.9
+tfidf,Diagnosis,31.07
+tfidf,Mechanism/Pathophysiology,17.96
+tfidf,Next Step/Workup,23.3
+tfidf,Treatment/Management,30.1

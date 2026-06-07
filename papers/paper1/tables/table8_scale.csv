@@ -1,0 +1,6 @@
+family,size_b,model,acc_t0.0
+OLMo-3,7,OLMo-3 7B,46.181
+OLMo-3,32,OLMo-3 32B,58.641
+Qwen2.5,7,Qwen2.5 7B,67.961
+Qwen2.5,14,Qwen2.5 14B,68.479
+Qwen2.5,32,Qwen2.5 32B,73.398

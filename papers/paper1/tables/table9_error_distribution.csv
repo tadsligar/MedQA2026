@@ -1,0 +1,26 @@
+model,category,errors,total_errors,share_of_errors_pct,category_error_rate_pct
+OLMo-3 7B,Clinical Findings,120,555,21.62,58.25
+OLMo-3 7B,Diagnosis,121,555,21.8,58.74
+OLMo-3 7B,Mechanism/Pathophysiology,94,555,16.94,45.63
+OLMo-3 7B,Next Step/Workup,117,555,21.08,56.8
+OLMo-3 7B,Treatment/Management,103,555,18.56,50.0
+OLMo-3 32B,Clinical Findings,101,426,23.71,49.03
+OLMo-3 32B,Diagnosis,89,426,20.89,43.2
+OLMo-3 32B,Mechanism/Pathophysiology,78,426,18.31,37.86
+OLMo-3 32B,Next Step/Workup,82,426,19.25,39.81
+OLMo-3 32B,Treatment/Management,76,426,17.84,36.89
+Qwen2.5 7B,Clinical Findings,88,330,26.67,42.72
+Qwen2.5 7B,Diagnosis,72,330,21.82,34.95
+Qwen2.5 7B,Mechanism/Pathophysiology,57,330,17.27,27.67
+Qwen2.5 7B,Next Step/Workup,60,330,18.18,29.13
+Qwen2.5 7B,Treatment/Management,53,330,16.06,25.73
+Qwen2.5 14B,Clinical Findings,87,325,26.77,42.23
+Qwen2.5 14B,Diagnosis,71,325,21.85,34.47
+Qwen2.5 14B,Mechanism/Pathophysiology,56,325,17.23,27.18
+Qwen2.5 14B,Next Step/Workup,59,325,18.15,28.64
+Qwen2.5 14B,Treatment/Management,52,325,16.0,25.24
+Qwen2.5 32B,Clinical Findings,68,274,24.82,33.01
+Qwen2.5 32B,Diagnosis,60,274,21.9,29.13
+Qwen2.5 32B,Mechanism/Pathophysiology,49,274,17.88,23.79
+Qwen2.5 32B,Next Step/Workup,50,274,18.25,24.27
+Qwen2.5 32B,Treatment/Management,47,274,17.15,22.82

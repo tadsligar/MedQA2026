@@ -1,0 +1,6 @@
+model,chi2,dof,p_value,interaction_sig_0.05
+OLMo-3 7B,2.6,8,9.57e-01,False
+OLMo-3 32B,1.85,8,9.85e-01,False
+Qwen2.5 7B,3.55,8,8.95e-01,False
+Qwen2.5 14B,5.01,8,7.57e-01,False
+Qwen2.5 32B,0.74,8,9.99e-01,False

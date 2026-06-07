@@ -1,0 +1,7 @@
+scope,n,best_single_model,best_single_acc,majority_of_5,oracle_any_of_5,headroom_oracle_minus_best
+Overall,1030,Qwen2.5 32B,73.4,69.3,86.0,12.6
+Clinical Findings,206,Qwen2.5 32B,67.0,59.7,80.1,13.1
+Diagnosis,206,Qwen2.5 32B,70.9,67.0,85.4,14.6
+Mechanism/Pathophysiology,206,Qwen2.5 32B,76.2,75.2,89.3,13.1
+Next Step/Workup,206,Qwen2.5 32B,75.7,73.3,85.4,9.7
+Treatment/Management,206,Qwen2.5 32B,77.2,71.4,89.8,12.6

@@ -1,0 +1,7 @@
+model_A,model_B,A_right_B_wrong,B_right_A_wrong,discordant,p_value,significant_0.05
+OLMo-3 7B,Qwen2.5 7B,66,291,357,7.92e-35,True
+OLMo-3 32B,Qwen2.5 32B,69,221,290,1.01e-19,True
+Qwen2.5 7B,Qwen2.5 14B,2,7,9,1.80e-01,False
+Qwen2.5 14B,Qwen2.5 32B,70,121,191,2.75e-04,True
+OLMo-3 7B,OLMo-3 32B,98,227,325,6.22e-13,True
+Qwen2.5 7B,OLMo-3 32B,184,88,272,5.90e-09,True

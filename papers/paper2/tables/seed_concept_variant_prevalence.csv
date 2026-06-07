@@ -1,0 +1,6 @@
+concept,n_questions_any_variant,n_distinct_surface_forms_present,surface_forms
+Chest pain / discomfort,55,6,chest pain(48); substernal(4); retrosternal(3); chest discomfort(2); chest pressure(2); chest tightness(1)
+Dyspnea / shortness of breath,113,6,shortness of breath(57); dyspnea(28); difficulty breathing(21); breathless(8); short of breath(7); respiratory distress(7)
+Myocardial infarction,27,5,myocardial infarction(14); stemi(10); \bmi\b(3); heart attack(1); acute coronary(1)
+Hypertension,125,3,hypertension(121); high blood pressure(3); elevated blood pressure(3)
+Fever,148,2,fever(136); febrile(16)

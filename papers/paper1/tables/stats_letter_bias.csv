@@ -1,0 +1,7 @@
+model,pred_A,pred_B,pred_C,pred_D,chi2_vs_gold,p_value,bias_sig_0.05
+OLMo-3 7B,272,286,276,196,5.97,1.13e-01,False
+OLMo-3 32B,231,257,271,271,5.3,1.51e-01,False
+Qwen2.5 7B,237,279,292,222,4.96,1.75e-01,False
+Qwen2.5 14B,235,283,291,221,5.14,1.62e-01,False
+Qwen2.5 32B,267,308,243,212,3.47,3.25e-01,False
+GOLD,261,278,251,240,0.0,1.0,False
