@@ -24,6 +24,10 @@ conda activate medqa
 export HF_HOME=/aiau010_scratch/tzs0128/hf_cache
 export TRANSFORMERS_CACHE=/aiau010_scratch/tzs0128/hf_cache
 
+# Run number to write (run2/run3 for the repeat/determinism chain); default 1.
+RUN_INDEX="${RUN_INDEX:-1}"
+echo "RUN_INDEX=$RUN_INDEX"
+
 mkdir -p logs results/base_runs_logprobs/olmo3_7b
 
 echo "Starting vLLM server for allenai/Olmo-3-1025-7B (BASE MODEL)..."
@@ -57,6 +61,7 @@ python scripts/base_runs/test_base_model_logprobs.py \
     --output-dir "results/base_runs_logprobs/olmo3_7b" \
     --dataset "data/datasets/medqa_focused_1030.json" \
     --vllm-url "http://localhost:8000" \
+    --run-index "$RUN_INDEX" \
     --temperatures "0.0" \
     --n-runs 1
 EXIT=$?
@@ -69,7 +74,7 @@ if [ $EXIT -eq 0 ]; then
     echo "Committing results to git..."
     cd /aiau010_scratch/tzs0128/repo/MedQA2026
     git add results/base_runs_logprobs/olmo3_7b
-    if git commit -m "EXP1 logprobs: OLMo-3-7B calibration results (job ${SLURM_JOB_ID})"; then
+    if git commit -m "EXP1 logprobs: OLMo-3-7B calibration results (run ${RUN_INDEX}, job ${SLURM_JOB_ID})"; then
         git push origin master && echo "Pushed results to GitHub." \
             || echo "WARN: git push failed; commit is local. Flush from login node: git push origin master"
     else

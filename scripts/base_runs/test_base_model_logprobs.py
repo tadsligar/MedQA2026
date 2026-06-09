@@ -238,6 +238,10 @@ def main():
     ap.add_argument('--temperatures', default='0.0',
                     help='comma-separated, e.g. "0.0" or "0.0,0.3,0.7"')
     ap.add_argument('--n-runs', type=int, default=1)
+    ap.add_argument('--run-index', type=int, default=None,
+                    help='Write exactly this single run number (e.g. 2 -> temp{T}_run2_results.json). '
+                         'Takes precedence over --n-runs. Everything else (prompt, greedy t=0.0, '
+                         'logprobs, first-valid-letter extraction) is identical.')
     args = ap.parse_args()
 
     out = Path(args.output_dir); out.mkdir(parents=True, exist_ok=True)
@@ -247,8 +251,12 @@ def main():
 
     temps = [float(t) for t in args.temperatures.split(',')]
     for temp in temps:
-        for run in range(1, args.n_runs + 1):
-            run_one(questions, temp, run, out, args.model_name, args.vllm_url)
+        if args.run_index is not None:
+            # Explicit single run number; takes precedence over --n-runs.
+            run_one(questions, temp, args.run_index, out, args.model_name, args.vllm_url)
+        else:
+            for run in range(1, args.n_runs + 1):
+                run_one(questions, temp, run, out, args.model_name, args.vllm_url)
 
 
 if __name__ == "__main__":
