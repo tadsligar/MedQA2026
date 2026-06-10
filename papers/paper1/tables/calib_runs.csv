@@ -1,0 +1,6 @@
+model,runs_available,acc_run1,acc_run2,acc_run3,median_acc,acc_spread_pp,cross_run_agreement_pct,median_run_used,warning
+OLMo-3 7B,"1,2,3",46.12,46.12,46.12,46.12,0.0,100.0,1,
+OLMo-3 32B,"1,2,3",58.64,58.64,58.64,58.64,0.0,100.0,1,
+Qwen2.5 7B,"1,2,3",59.71,59.71,59.71,59.71,0.0,100.0,1,
+Qwen2.5 14B,"1,2,3",67.67,67.96,67.77,67.77,0.29,97.18,3,cross-run agreement 97.18% (<100%); 29 questions differ
+Qwen2.5 32B,"1,2,3",72.82,73.01,73.11,73.01,0.29,98.16,2,cross-run agreement 98.16% (<100%); 19 questions differ

@@ -41,7 +41,9 @@ of questions, and that scale gains are uneven: Qwen2.5 7B significantly outperfo
 four-times-larger OLMo-3 32B, while the Qwen2.5 7B→14B step is not statistically significant
 on this balanced set. We further show that cross-run answer stability is a strong,
 logit-free predictor of correctness (a +23 to +42 pp accuracy gap between stable and
-unstable items), a property we [TBD-EXP1: corroborate with token-logprob calibration].
+unstable items), a property corroborated by token-logprob calibration: greedy confidence
+correlates negatively with run-to-run instability (r = −0.34 to −0.62) and models are
+reasonably calibrated (ECE 0.02–0.08).
 These results argue that medical-reasoning evaluation should move beyond aggregate accuracy
 toward category-resolved, stability-aware reporting, and they motivate the verification and
 neuro-symbolic methods we pursue in subsequent work. We release all data, configurations,
@@ -136,7 +138,7 @@ categories* for medical QA and connect it to scaling conclusions.
 
 **Reliability, uncertainty, and calibration in medical AI.** Calibration/ECE, selective
 prediction, abstention. *Position:* we show stability is a usable confidence proxy and
-[TBD-EXP1: ground it in logprob calibration]. *Gap this paper fills:* a controlled,
+ground it in logprob calibration (ECE + confidence–stability correlation, EXP1). *Gap this paper fills:* a controlled,
 category-balanced, temperature-and-stability characterization of open base models with
 proper statistics — a foundation absent from prior aggregate-accuracy reports.
 
@@ -277,8 +279,22 @@ main effects: every category degrades, roughly proportionally, as temperature ri
 
 **6.3 Stability as a confidence signal.** At t=0.7, questions on which all three runs agree
 ("stable") are far more often correct than unstable ones — a **+22.9 to +42.2 pp** accuracy
-gap. Cross-run stability is thus a logit-free confidence proxy. [TBD-EXP1: correlate with
-token-logprob confidence (r=…) and report ECE / reliability diagrams.]
+gap. Cross-run stability is thus a logit-free confidence proxy, and a logprob re-run (EXP1)
+confirms it: per-question greedy confidence (softmax over the four option-letter logprobs)
+correlates **negatively with t=0.7 answer instability for every model** (r = −0.34 to −0.62) —
+higher confidence, lower instability. Models are reasonably calibrated (ECE 0.024–0.078;
+reliability diagram in Figure 7), so the stability signal reflects genuine model confidence,
+not an artifact. This is the empirical hook for the verification/abstention methods in later
+work.
+
+*Reproducibility note (EXP1).* The logprob re-run repeated greedy decoding three times per
+model. OLMo-3 7B/32B and Qwen2.5 7B are bit-for-bit deterministic across launches, but the two
+larger Qwen models are mildly **nondeterministic** even at t=0.0 (Qwen2.5 14B / 32B agree on
+97.2% / 98.2% of questions across runs; ≈0.29 pp accuracy spread), consistent with
+non-deterministic GPU kernels / tensor-parallel reductions — hence we report run medians.
+One caveat: Qwen2.5 7B reproduced 59.71% in the logprob environment vs 67.96% in the main
+benchmark environment (a reproducible 8.3 pp gap traced to a differing model snapshot / vLLM
+runtime, not to decoding); calibration for Qwen2.5 7B is reported from the logprob environment.
 
 **6.4 When sampling helps vs hurts.** Sampling rescues a non-trivial set of items wrong under
 greedy (32–90 per model) but loses more (80–124), so greedy dominates on average while not
@@ -368,7 +384,7 @@ released for full reproducibility.
 - Figure 1 study-design overview *(to draw)* · Figure 2 accuracy by model×temp
   (`figures/fig2_…png`) · Figure 3 category heatmap (`fig3_…`) · Figure 4 answer instability
   (`fig4_…`) · Figure 5 error by category (`fig5_…`) · Figure 6 per-category accuracy w/ CIs
-  (`fig6_…`) · [TBD-EXP1: reliability diagram] · [TBD-EXP5: self-consistency curve].
+  (`fig6_…`) · Figure 7 reliability diagram (`fig7_reliability.png`, EXP1) · [TBD-EXP5: self-consistency curve].
 
 ## Publication strategy (notes)
 arXiv-first. Target ML/medical-AI workshops (e.g., ML4H, clinical-NLP venues) for the

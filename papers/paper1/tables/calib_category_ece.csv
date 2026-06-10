@@ -1,0 +1,26 @@
+model,category,n,ECE
+OLMo-3 7B,Clinical Findings,206,0.124
+OLMo-3 7B,Diagnosis,206,0.1176
+OLMo-3 7B,Mechanism/Pathophysiology,206,0.0636
+OLMo-3 7B,Next Step/Workup,206,0.117
+OLMo-3 7B,Treatment/Management,206,0.0884
+OLMo-3 32B,Clinical Findings,206,0.0988
+OLMo-3 32B,Diagnosis,206,0.0977
+OLMo-3 32B,Mechanism/Pathophysiology,206,0.0688
+OLMo-3 32B,Next Step/Workup,206,0.0495
+OLMo-3 32B,Treatment/Management,206,0.0524
+Qwen2.5 7B,Clinical Findings,206,0.075
+Qwen2.5 7B,Diagnosis,206,0.0494
+Qwen2.5 7B,Mechanism/Pathophysiology,206,0.0615
+Qwen2.5 7B,Next Step/Workup,206,0.0834
+Qwen2.5 7B,Treatment/Management,206,0.0534
+Qwen2.5 14B,Clinical Findings,206,0.0819
+Qwen2.5 14B,Diagnosis,206,0.0823
+Qwen2.5 14B,Mechanism/Pathophysiology,206,0.0735
+Qwen2.5 14B,Next Step/Workup,206,0.063
+Qwen2.5 14B,Treatment/Management,206,0.079
+Qwen2.5 32B,Clinical Findings,206,0.0677
+Qwen2.5 32B,Diagnosis,206,0.0786
+Qwen2.5 32B,Mechanism/Pathophysiology,206,0.0527
+Qwen2.5 32B,Next Step/Workup,206,0.056
+Qwen2.5 32B,Treatment/Management,206,0.0725
