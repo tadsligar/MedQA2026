@@ -84,3 +84,7 @@ data/umls/
 # --- secrets ---
 .env
 *.apikey
+results/reasoning_ops/batch_input.jsonl
+results/reasoning_ops/chunks/
+results/reasoning_ops/batch_output.jsonl
+results/reasoning_ops/.chunk_state.json

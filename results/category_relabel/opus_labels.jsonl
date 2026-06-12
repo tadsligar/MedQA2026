@@ -1,0 +1,172 @@
+{"qid": 0, "category": "Clinical Findings", "confidence": "high", "legacy": "Treatment/Management"}
+{"qid": 1, "category": "Diagnosis", "confidence": "high", "legacy": "Diagnosis"}
+{"qid": 2, "category": "Treatment/Management", "confidence": "med", "legacy": "Diagnosis"}
+{"qid": 3, "category": "Treatment/Management", "confidence": "high", "legacy": "Diagnosis"}
+{"qid": 4, "category": "Mechanism/Pathophysiology", "confidence": "high", "legacy": "Clinical Findings"}
+{"qid": 5, "category": "Treatment/Management", "confidence": "high", "legacy": "Mechanism/Pathophysiology"}
+{"qid": 6, "category": "Clinical Findings", "confidence": "med", "legacy": "Diagnosis"}
+{"qid": 7, "category": "Other", "confidence": "high", "legacy": "Treatment/Management"}
+{"qid": 8, "category": "Other", "confidence": "med", "legacy": "Clinical Findings"}
+{"qid": 9, "category": "Other", "confidence": "med", "legacy": "Clinical Findings"}
+{"qid": 10, "category": "Treatment/Management", "confidence": "high", "legacy": "Clinical Findings"}
+{"qid": 11, "category": "Clinical Findings", "confidence": "high", "legacy": "Diagnosis"}
+{"qid": 12, "category": "Clinical Findings", "confidence": "high", "legacy": "Clinical Findings"}
+{"qid": 13, "category": "Treatment/Management", "confidence": "high", "legacy": "Mechanism/Pathophysiology"}
+{"qid": 14, "category": "Clinical Findings", "confidence": "high", "legacy": "Diagnosis"}
+{"qid": 15, "category": "Clinical Findings", "confidence": "med", "legacy": "Mechanism/Pathophysiology"}
+{"qid": 16, "category": "Next Step/Workup", "confidence": "high", "legacy": "Clinical Findings"}
+{"qid": 17, "category": "Clinical Findings", "confidence": "high", "legacy": "Diagnosis"}
+{"qid": 18, "category": "Treatment/Management", "confidence": "med", "legacy": "Next Step/Workup"}
+{"qid": 19, "category": "Treatment/Management", "confidence": "med", "legacy": "Mechanism/Pathophysiology"}
+{"qid": 20, "category": "Treatment/Management", "confidence": "high", "legacy": "Next Step/Workup"}
+{"qid": 21, "category": "Clinical Findings", "confidence": "high", "legacy": "Next Step/Workup"}
+{"qid": 22, "category": "Mechanism/Pathophysiology", "confidence": "high", "legacy": "Mechanism/Pathophysiology"}
+{"qid": 23, "category": "Mechanism/Pathophysiology", "confidence": "med", "legacy": "Treatment/Management"}
+{"qid": 24, "category": "Treatment/Management", "confidence": "high", "legacy": "Next Step/Workup"}
+{"qid": 25, "category": "Clinical Findings", "confidence": "high", "legacy": "Treatment/Management"}
+{"qid": 26, "category": "Mechanism/Pathophysiology", "confidence": "high", "legacy": "Diagnosis"}
+{"qid": 27, "category": "Clinical Findings", "confidence": "high", "legacy": "Treatment/Management"}
+{"qid": 28, "category": "Clinical Findings", "confidence": "med", "legacy": "Diagnosis"}
+{"qid": 29, "category": "Next Step/Workup", "confidence": "med", "legacy": "Clinical Findings"}
+{"qid": 30, "category": "Diagnosis", "confidence": "high", "legacy": "Diagnosis"}
+{"qid": 31, "category": "Clinical Findings", "confidence": "high", "legacy": "Diagnosis"}
+{"qid": 32, "category": "Clinical Findings", "confidence": "high", "legacy": "Diagnosis"}
+{"qid": 33, "category": "Diagnosis", "confidence": "high", "legacy": "Next Step/Workup"}
+{"qid": 34, "category": "Other", "confidence": "med", "legacy": "Next Step/Workup"}
+{"qid": 35, "category": "Clinical Findings", "confidence": "high", "legacy": "Diagnosis"}
+{"qid": 36, "category": "Clinical Findings", "confidence": "high", "legacy": "Treatment/Management"}
+{"qid": 37, "category": "Treatment/Management", "confidence": "high", "legacy": "Next Step/Workup"}
+{"qid": 38, "category": "Other", "confidence": "med", "legacy": "Clinical Findings"}
+{"qid": 39, "category": "Next Step/Workup", "confidence": "med", "legacy": "Treatment/Management"}
+{"qid": 40, "category": "Next Step/Workup", "confidence": "high", "legacy": "Treatment/Management"}
+{"qid": 41, "category": "Next Step/Workup", "confidence": "high", "legacy": "Clinical Findings"}
+{"qid": 42, "category": "Clinical Findings", "confidence": "med", "legacy": "Diagnosis"}
+{"qid": 43, "category": "Treatment/Management", "confidence": "med", "legacy": "Diagnosis"}
+{"qid": 44, "category": "Treatment/Management", "confidence": "high", "legacy": "Diagnosis"}
+{"qid": 45, "category": "Treatment/Management", "confidence": "high", "legacy": "Clinical Findings"}
+{"qid": 46, "category": "Clinical Findings", "confidence": "high", "legacy": "Next Step/Workup"}
+{"qid": 47, "category": "Mechanism/Pathophysiology", "confidence": "high", "legacy": "Next Step/Workup"}
+{"qid": 48, "category": "Clinical Findings", "confidence": "med", "legacy": "Diagnosis"}
+{"qid": 49, "category": "Clinical Findings", "confidence": "high", "legacy": "Clinical Findings"}
+{"qid": 50, "category": "Mechanism/Pathophysiology", "confidence": "med", "legacy": "Clinical Findings"}
+{"qid": 51, "category": "Treatment/Management", "confidence": "med", "legacy": "Diagnosis"}
+{"qid": 52, "category": "Clinical Findings", "confidence": "high", "legacy": "Clinical Findings"}
+{"qid": 53, "category": "Treatment/Management", "confidence": "high", "legacy": "Clinical Findings"}
+{"qid": 54, "category": "Treatment/Management", "confidence": "med", "legacy": "Next Step/Workup"}
+{"qid": 55, "category": "Clinical Findings", "confidence": "high", "legacy": "Diagnosis"}
+{"qid": 56, "category": "Other", "confidence": "med", "legacy": "Next Step/Workup"}
+{"qid": 57, "category": "Clinical Findings", "confidence": "high", "legacy": "Next Step/Workup"}
+{"qid": 58, "category": "Treatment/Management", "confidence": "high", "legacy": "Treatment/Management"}
+{"qid": 59, "category": "Treatment/Management", "confidence": "high", "legacy": "Treatment/Management"}
+{"qid": 60, "category": "Other", "confidence": "high", "legacy": "Treatment/Management"}
+{"qid": 61, "category": "Clinical Findings", "confidence": "high", "legacy": "Clinical Findings"}
+{"qid": 62, "category": "Mechanism/Pathophysiology", "confidence": "high", "legacy": "Mechanism/Pathophysiology"}
+{"qid": 63, "category": "Mechanism/Pathophysiology", "confidence": "high", "legacy": "Next Step/Workup"}
+{"qid": 64, "category": "Mechanism/Pathophysiology", "confidence": "high", "legacy": "Mechanism/Pathophysiology"}
+{"qid": 65, "category": "Next Step/Workup", "confidence": "high", "legacy": "Clinical Findings"}
+{"qid": 66, "category": "Treatment/Management", "confidence": "high", "legacy": "Treatment/Management"}
+{"qid": 67, "category": "Diagnosis", "confidence": "med", "legacy": "Next Step/Workup"}
+{"qid": 68, "category": "Diagnosis", "confidence": "high", "legacy": "Next Step/Workup"}
+{"qid": 69, "category": "Treatment/Management", "confidence": "high", "legacy": "Treatment/Management"}
+{"qid": 70, "category": "Other", "confidence": "med", "legacy": "Mechanism/Pathophysiology"}
+{"qid": 71, "category": "Clinical Findings", "confidence": "high", "legacy": "Treatment/Management"}
+{"qid": 72, "category": "Next Step/Workup", "confidence": "high", "legacy": "Treatment/Management"}
+{"qid": 73, "category": "Treatment/Management", "confidence": "med", "legacy": "Diagnosis"}
+{"qid": 74, "category": "Diagnosis", "confidence": "med", "legacy": "Mechanism/Pathophysiology"}
+{"qid": 75, "category": "Clinical Findings", "confidence": "high", "legacy": "Treatment/Management"}
+{"qid": 76, "category": "Diagnosis", "confidence": "high", "legacy": "Mechanism/Pathophysiology"}
+{"qid": 77, "category": "Clinical Findings", "confidence": "high", "legacy": "Diagnosis"}
+{"qid": 78, "category": "Treatment/Management", "confidence": "high", "legacy": "Treatment/Management"}
+{"qid": 79, "category": "Next Step/Workup", "confidence": "med", "legacy": "Diagnosis"}
+{"qid": 80, "category": "Treatment/Management", "confidence": "high", "legacy": "Diagnosis"}
+{"qid": 81, "category": "Diagnosis", "confidence": "high", "legacy": "Next Step/Workup"}
+{"qid": 82, "category": "Next Step/Workup", "confidence": "high", "legacy": "Clinical Findings"}
+{"qid": 83, "category": "Clinical Findings", "confidence": "high", "legacy": "Clinical Findings"}
+{"qid": 84, "category": "Mechanism/Pathophysiology", "confidence": "high", "legacy": "Mechanism/Pathophysiology"}
+{"qid": 85, "category": "Clinical Findings", "confidence": "med", "legacy": "Next Step/Workup"}
+{"qid": 86, "category": "Mechanism/Pathophysiology", "confidence": "high", "legacy": "Clinical Findings"}
+{"qid": 87, "category": "Next Step/Workup", "confidence": "low", "legacy": "Mechanism/Pathophysiology"}
+{"qid": 88, "category": "Mechanism/Pathophysiology", "confidence": "high", "legacy": "Next Step/Workup"}
+{"qid": 89, "category": "Mechanism/Pathophysiology", "confidence": "high", "legacy": "Clinical Findings"}
+{"qid": 90, "category": "Other", "confidence": "med", "legacy": "Next Step/Workup"}
+{"qid": 91, "category": "Mechanism/Pathophysiology", "confidence": "med", "legacy": "Next Step/Workup"}
+{"qid": 92, "category": "Clinical Findings", "confidence": "high", "legacy": "Clinical Findings"}
+{"qid": 93, "category": "Treatment/Management", "confidence": "med", "legacy": "Next Step/Workup"}
+{"qid": 94, "category": "Treatment/Management", "confidence": "med", "legacy": "Mechanism/Pathophysiology"}
+{"qid": 95, "category": "Treatment/Management", "confidence": "high", "legacy": "Clinical Findings"}
+{"qid": 96, "category": "Next Step/Workup", "confidence": "high", "legacy": "Diagnosis"}
+{"qid": 97, "category": "Mechanism/Pathophysiology", "confidence": "med", "legacy": "Diagnosis"}
+{"qid": 98, "category": "Diagnosis", "confidence": "high", "legacy": "Clinical Findings"}
+{"qid": 99, "category": "Clinical Findings", "confidence": "high", "legacy": "Clinical Findings"}
+{"qid": 100, "category": "Clinical Findings", "confidence": "high", "legacy": "Clinical Findings"}
+{"qid": 101, "category": "Diagnosis", "confidence": "high", "legacy": "Mechanism/Pathophysiology"}
+{"qid": 102, "category": "Clinical Findings", "confidence": "high", "legacy": "Mechanism/Pathophysiology"}
+{"qid": 103, "category": "Diagnosis", "confidence": "med", "legacy": "Treatment/Management"}
+{"qid": 104, "category": "Diagnosis", "confidence": "high", "legacy": "Treatment/Management"}
+{"qid": 105, "category": "Diagnosis", "confidence": "high", "legacy": "Treatment/Management"}
+{"qid": 106, "category": "Mechanism/Pathophysiology", "confidence": "high", "legacy": "Diagnosis"}
+{"qid": 107, "category": "Clinical Findings", "confidence": "high", "legacy": "Clinical Findings"}
+{"qid": 108, "category": "Clinical Findings", "confidence": "high", "legacy": "Next Step/Workup"}
+{"qid": 109, "category": "Treatment/Management", "confidence": "high", "legacy": "Treatment/Management"}
+{"qid": 110, "category": "Clinical Findings", "confidence": "low", "legacy": "Next Step/Workup"}
+{"qid": 111, "category": "Diagnosis", "confidence": "high", "legacy": "Clinical Findings"}
+{"qid": 112, "category": "Treatment/Management", "confidence": "high", "legacy": "Mechanism/Pathophysiology"}
+{"qid": 113, "category": "Treatment/Management", "confidence": "high", "legacy": "Treatment/Management"}
+{"qid": 114, "category": "Mechanism/Pathophysiology", "confidence": "med", "legacy": "Treatment/Management"}
+{"qid": 115, "category": "Treatment/Management", "confidence": "high", "legacy": "Clinical Findings"}
+{"qid": 116, "category": "Mechanism/Pathophysiology", "confidence": "med", "legacy": "Next Step/Workup"}
+{"qid": 117, "category": "Treatment/Management", "confidence": "high", "legacy": "Next Step/Workup"}
+{"qid": 118, "category": "Mechanism/Pathophysiology", "confidence": "med", "legacy": "Diagnosis"}
+{"qid": 119, "category": "Mechanism/Pathophysiology", "confidence": "high", "legacy": "Mechanism/Pathophysiology"}
+{"qid": 120, "category": "Mechanism/Pathophysiology", "confidence": "high", "legacy": "Treatment/Management"}
+{"qid": 121, "category": "Clinical Findings", "confidence": "med", "legacy": "Treatment/Management"}
+{"qid": 122, "category": "Diagnosis", "confidence": "high", "legacy": "Clinical Findings"}
+{"qid": 123, "category": "Other", "confidence": "med", "legacy": "Clinical Findings"}
+{"qid": 124, "category": "Mechanism/Pathophysiology", "confidence": "high", "legacy": "Next Step/Workup"}
+{"qid": 125, "category": "Other", "confidence": "high", "legacy": "Mechanism/Pathophysiology"}
+{"qid": 126, "category": "Next Step/Workup", "confidence": "high", "legacy": "Next Step/Workup"}
+{"qid": 127, "category": "Diagnosis", "confidence": "med", "legacy": "Clinical Findings"}
+{"qid": 128, "category": "Clinical Findings", "confidence": "high", "legacy": "Diagnosis"}
+{"qid": 129, "category": "Diagnosis", "confidence": "high", "legacy": "Diagnosis"}
+{"qid": 130, "category": "Diagnosis", "confidence": "high", "legacy": "Next Step/Workup"}
+{"qid": 131, "category": "Diagnosis", "confidence": "high", "legacy": "Diagnosis"}
+{"qid": 132, "category": "Mechanism/Pathophysiology", "confidence": "high", "legacy": "Mechanism/Pathophysiology"}
+{"qid": 133, "category": "Diagnosis", "confidence": "high", "legacy": "Diagnosis"}
+{"qid": 134, "category": "Mechanism/Pathophysiology", "confidence": "med", "legacy": "Clinical Findings"}
+{"qid": 135, "category": "Mechanism/Pathophysiology", "confidence": "high", "legacy": "Treatment/Management"}
+{"qid": 136, "category": "Clinical Findings", "confidence": "med", "legacy": "Mechanism/Pathophysiology"}
+{"qid": 137, "category": "Clinical Findings", "confidence": "high", "legacy": "Clinical Findings"}
+{"qid": 138, "category": "Mechanism/Pathophysiology", "confidence": "high", "legacy": "Mechanism/Pathophysiology"}
+{"qid": 139, "category": "Diagnosis", "confidence": "med", "legacy": "Diagnosis"}
+{"qid": 140, "category": "Treatment/Management", "confidence": "high", "legacy": "Treatment/Management"}
+{"qid": 141, "category": "Diagnosis", "confidence": "med", "legacy": "Next Step/Workup"}
+{"qid": 142, "category": "Mechanism/Pathophysiology", "confidence": "med", "legacy": "Mechanism/Pathophysiology"}
+{"qid": 143, "category": "Mechanism/Pathophysiology", "confidence": "high", "legacy": "Mechanism/Pathophysiology"}
+{"qid": 144, "category": "Clinical Findings", "confidence": "high", "legacy": "Diagnosis"}
+{"qid": 145, "category": "Treatment/Management", "confidence": "high", "legacy": "Next Step/Workup"}
+{"qid": 146, "category": "Mechanism/Pathophysiology", "confidence": "high", "legacy": "Clinical Findings"}
+{"qid": 147, "category": "Diagnosis", "confidence": "high", "legacy": "Next Step/Workup"}
+{"qid": 148, "category": "Mechanism/Pathophysiology", "confidence": "high", "legacy": "Clinical Findings"}
+{"qid": 149, "category": "Clinical Findings", "confidence": "high", "legacy": "Mechanism/Pathophysiology"}
+{"qid": 150, "category": "Mechanism/Pathophysiology", "confidence": "high", "legacy": "Diagnosis"}
+{"qid": 151, "category": "Clinical Findings", "confidence": "high", "legacy": "Clinical Findings"}
+{"qid": 152, "category": "Clinical Findings", "confidence": "med", "legacy": "Next Step/Workup"}
+{"qid": 153, "category": "Next Step/Workup", "confidence": "med", "legacy": "Treatment/Management"}
+{"qid": 154, "category": "Mechanism/Pathophysiology", "confidence": "low", "legacy": "Clinical Findings"}
+{"qid": 155, "category": "Treatment/Management", "confidence": "high", "legacy": "Treatment/Management"}
+{"qid": 156, "category": "Mechanism/Pathophysiology", "confidence": "high", "legacy": "Mechanism/Pathophysiology"}
+{"qid": 157, "category": "Other", "confidence": "med", "legacy": "Mechanism/Pathophysiology"}
+{"qid": 158, "category": "Treatment/Management", "confidence": "high", "legacy": "Treatment/Management"}
+{"qid": 159, "category": "Diagnosis", "confidence": "high", "legacy": "Clinical Findings"}
+{"qid": 160, "category": "Diagnosis", "confidence": "high", "legacy": "Diagnosis"}
+{"qid": 161, "category": "Diagnosis", "confidence": "high", "legacy": "Clinical Findings"}
+{"qid": 162, "category": "Clinical Findings", "confidence": "high", "legacy": "Clinical Findings"}
+{"qid": 163, "category": "Mechanism/Pathophysiology", "confidence": "med", "legacy": "Diagnosis"}
+{"qid": 164, "category": "Clinical Findings", "confidence": "high", "legacy": "Clinical Findings"}
+{"qid": 165, "category": "Mechanism/Pathophysiology", "confidence": "high", "legacy": "Mechanism/Pathophysiology"}
+{"qid": 166, "category": "Treatment/Management", "confidence": "med", "legacy": "Clinical Findings"}
+{"qid": 167, "category": "Mechanism/Pathophysiology", "confidence": "high", "legacy": "Mechanism/Pathophysiology"}
+{"qid": 168, "category": "Mechanism/Pathophysiology", "confidence": "med", "legacy": "Clinical Findings"}
+{"qid": 169, "category": "Other", "confidence": "med", "legacy": "Treatment/Management"}
+{"qid": 170, "category": "Clinical Findings", "confidence": "high", "legacy": "Next Step/Workup"}
+{"qid": 171, "category": "Mechanism/Pathophysiology", "confidence": "high", "legacy": "Mechanism/Pathophysiology"}

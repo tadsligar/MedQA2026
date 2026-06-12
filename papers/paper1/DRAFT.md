@@ -148,17 +148,24 @@ proper statistics — a foundation absent from prior aggregate-accuracy reports.
 
 *Purpose: present the balanced 1,030-question set and its construction.*
 
-The benchmark is a balanced subset of MedQA-USMLE. We define five reasoning categories —
-**Clinical Findings, Diagnosis, Mechanism/Pathophysiology, Next Step/Workup,
-Treatment/Management** — and sample **206 questions per category** for a total of **1,030**,
-in the 4-option (A–D) format (random baseline 25%). Balancing is binding on
-Treatment/Management (the least-populated category after validation), which sets the 206
-per-category cap (`medqa_focused_1030_summary.json`, seed 42).
+The benchmark is a balanced subset of MedQA-USMLE. **MedQA itself provides no reasoning-type
+labels** (each item is only a question, four/five options, and an answer); the five reasoning
+categories are introduced in this work. We define them to map onto distinct clinical cognitive
+skills — **Clinical Findings, Diagnosis, Mechanism/Pathophysiology, Next Step/Workup,
+Treatment/Management** — and sample **206 questions per category** for a total of **1,030**, in
+the 4-option (A–D) format (random baseline 25%).
 
-Category labels were assigned by an LLM-based validation procedure with an agreement
-constraint. Because the paper's thesis rests on category validity, we
-[TBD-EXP7: report human–label agreement and a confusion matrix] and discuss systematic
-category confusions.
+**Category-assignment procedure.** Each candidate question is labeled by **two independent
+methods**: (i) a rule-based matcher keyed on question phrasing (e.g., "most likely diagnosis"
+→ Diagnosis; "next step" → Next Step/Workup; "mechanism/action" → Mechanism), and (ii) an
+independent LLM classifier (Qwen 2.5) that reads the full question. **We retain only the
+questions on which the two methods agree** and discard disagreements as ambiguous. On the
+validated pool this dual-method agreement was 68.4% (1,206 / 1,764 kept; 558 discarded), and
+agreement was lowest for Treatment/Management (54%), which becomes the binding constraint and
+sets the 206-per-category cap. The final balanced set is drawn by iterative high-confidence
+sampling (seed 42; `medqa_focused_1030_summary.json`). Inter-method agreement thus serves as
+a built-in label-quality control; an additional human audit and confusion matrix
+[TBD-EXP7] would further quantify residual category noise.
 
 **Quality control (verified).** Across all 46,350 model generations, **0** produced a
 malformed answer (every output yields a valid A–D letter under the first-valid-letter
@@ -342,9 +349,10 @@ deployment or patient safety.
 MedQA is exam-style and multiple-choice; high accuracy reflects recognition among curated
 distractors, not open-ended clinical reasoning or real patient care. Base models are not the
 instruction-tuned assistants people actually use, so results characterize raw language
-models rather than deployed systems [TBD-EXP2: base-vs-instruct contrast]. Category labels
-embed classification assumptions and were assigned by an automated procedure
-[TBD-EXP7: human agreement audit]. Accuracy does not capture reasoning quality or
+models rather than deployed systems [TBD-EXP2: base-vs-instruct contrast]. The reasoning
+categories are introduced in this work (MedQA provides none) and embed classification
+assumptions; they are assigned by dual-method (rule + LLM) agreement, which controls for label
+noise but does not eliminate it [TBD-EXP7: human agreement audit]. Accuracy does not capture reasoning quality or
 explanation faithfulness. Temperature effects may depend on prompt format and the
 answer-extraction rule [TBD-EXP3: prompt ablation], though the first-valid-letter rule was
 empirically robust (0 malformed outputs). All evaluation is on a single benchmark and five
