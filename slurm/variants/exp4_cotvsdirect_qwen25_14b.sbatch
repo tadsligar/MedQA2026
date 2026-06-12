@@ -9,7 +9,7 @@
 #SBATCH --error=logs/exp4_cotvsdirect_qwen25_14b_%j.err
 
 # Paper 1 EXP4 -- CoT vs direct decoding
-cd /aiau010_scratch/tzs0128/projects/MedQA2026
+cd /aiau010_scratch/tzs0128/repo/MedQA2026
 source ~/.bashrc
 conda activate medqa
 export HF_HOME=/aiau010_scratch/tzs0128/hf_cache

@@ -9,7 +9,7 @@
 #SBATCH --error=logs/exp5_selfconsistency_qwen25_14b_%j.err
 
 # Paper 1 EXP5 -- self-consistency k=20 at t=0.7
-cd /aiau010_scratch/tzs0128/projects/MedQA2026
+cd /aiau010_scratch/tzs0128/repo/MedQA2026
 source ~/.bashrc
 conda activate medqa
 export HF_HOME=/aiau010_scratch/tzs0128/hf_cache

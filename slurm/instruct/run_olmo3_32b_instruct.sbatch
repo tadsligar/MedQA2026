@@ -8,18 +8,18 @@
 #SBATCH --output=logs/olmo3_32b_instruct_%j.out
 #SBATCH --error=logs/olmo3_32b_instruct_%j.err
 
-# Paper 1 EXP2 -- instruction-tuned comparison for allenai/Olmo-3-1125-32B-Instruct
+# Paper 1 EXP2 -- instruction-tuned comparison for allenai/Olmo-3.1-32B-Instruct
 # Chat endpoint (model's chat template). For a quick headline table use t=0.0 x1 run:
 #   ... --temperatures "0.0" --n-runs 1
 # NOTE: confirm the exact instruct model ID on HuggingFace before launching.
 
 echo "=========================================="
-echo "EXP2 instruct -- allenai/Olmo-3-1125-32B-Instruct"
+echo "EXP2 instruct -- allenai/Olmo-3.1-32B-Instruct"
 echo "Job ID: $SLURM_JOB_ID  Node: $SLURM_NODELIST  GPUs: $CUDA_VISIBLE_DEVICES"
 echo "Start: $(date)"
 echo "=========================================="
 
-cd /aiau010_scratch/tzs0128/projects/MedQA2026
+cd /aiau010_scratch/tzs0128/repo/MedQA2026
 source ~/.bashrc
 conda activate medqa
 export HF_HOME=/aiau010_scratch/tzs0128/hf_cache
@@ -27,10 +27,10 @@ export TRANSFORMERS_CACHE=/aiau010_scratch/tzs0128/hf_cache
 
 mkdir -p logs results/instruct_runs/olmo3_32b_instruct
 
-echo "Starting vLLM server for allenai/Olmo-3-1125-32B-Instruct (INSTRUCT -- chat template)..."
+echo "Starting vLLM server for allenai/Olmo-3.1-32B-Instruct (INSTRUCT -- chat template)..."
 RANDOM_SEED=$(($(date +%s%N) % 2147483647))
 echo "Using random seed: $RANDOM_SEED"
-vllm serve allenai/Olmo-3-1125-32B-Instruct \
+vllm serve allenai/Olmo-3.1-32B-Instruct \
     --port 8000 \
     --tensor-parallel-size 2 \
     --gpu-memory-utilization 0.9 \
@@ -54,7 +54,7 @@ done
 echo "vLLM ready."
 
 python scripts/instruct_runs/test_instruct_model.py \
-    --model-name "allenai/Olmo-3-1125-32B-Instruct" \
+    --model-name "allenai/Olmo-3.1-32B-Instruct" \
     --output-dir "results/instruct_runs/olmo3_32b_instruct" \
     --dataset "data/datasets/medqa_focused_1030.json" \
     --vllm-url "http://localhost:8000" \

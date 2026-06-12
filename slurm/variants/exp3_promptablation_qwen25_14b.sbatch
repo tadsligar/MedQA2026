@@ -9,7 +9,7 @@
 #SBATCH --error=logs/exp3_promptablation_qwen25_14b_%j.err
 
 # Paper 1 EXP3 -- prompt-format ablation (4 variants, t=0.0)
-cd /aiau010_scratch/tzs0128/projects/MedQA2026
+cd /aiau010_scratch/tzs0128/repo/MedQA2026
 source ~/.bashrc
 conda activate medqa
 export HF_HOME=/aiau010_scratch/tzs0128/hf_cache
