@@ -8,7 +8,7 @@ data egress.
 
 ## Launch
 ```bash
-cd /aiau010_scratch/tzs0128/projects/MedQA2026
+cd /aiau010_scratch/tzs0128/repo/MedQA2026
 sbatch slurm/reasoning_ops/run_label_vllm.sbatch                      # Qwen2.5-32B-Instruct, 2 GPU (default)
 # stronger annotator (72B needs 4 GPUs):
 sbatch --gres=gpu:4 --export=ALL,MODEL=Qwen/Qwen2.5-72B-Instruct,TP=4 slurm/reasoning_ops/run_label_vllm.sbatch
