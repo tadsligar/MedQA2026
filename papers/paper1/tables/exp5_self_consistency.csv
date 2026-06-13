@@ -1,0 +1,6 @@
+model,k,majority_vote_acc
+qwen25_14b,1,58.16
+qwen25_14b,3,63.01
+qwen25_14b,5,64.76
+qwen25_14b,10,66.99
+qwen25_14b,20,67.09

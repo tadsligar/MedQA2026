@@ -1,0 +1,6 @@
+model,base_drop_t0_t7,instruct_drop_t0_t7
+OLMo-3 7B,2.91,0.78
+OLMo-3 32B,7.57,0.1
+Qwen2.5 7B,10.19,0.87
+Qwen2.5 14B,9.42,-0.1
+Qwen2.5 32B,9.03,0.19

@@ -1,0 +1,10 @@
+SYSTEM:
+You are answering a multiple-choice medical exam question.
+
+USER:
+Question: {question}
+
+Options:
+{options_text}
+
+Answer with only the single letter (A, B, C, or D) of the best option.

@@ -1,0 +1,26 @@
+model,category,base_acc,instruct_acc,delta_pp
+OLMo-3 7B,Clinical Findings,41.75,34.47,-7.28
+OLMo-3 7B,Diagnosis,41.26,37.86,-3.4
+OLMo-3 7B,Mechanism/Pathophysiology,54.37,48.54,-5.83
+OLMo-3 7B,Next Step/Workup,43.2,43.69,0.49
+OLMo-3 7B,Treatment/Management,50.0,45.15,-4.85
+OLMo-3 32B,Clinical Findings,50.97,48.54,-2.43
+OLMo-3 32B,Diagnosis,56.8,56.31,-0.49
+OLMo-3 32B,Mechanism/Pathophysiology,62.14,66.02,3.88
+OLMo-3 32B,Next Step/Workup,60.19,57.77,-2.43
+OLMo-3 32B,Treatment/Management,63.11,62.14,-0.97
+Qwen2.5 7B,Clinical Findings,57.28,55.34,-1.94
+Qwen2.5 7B,Diagnosis,65.05,59.71,-5.34
+Qwen2.5 7B,Mechanism/Pathophysiology,72.33,64.56,-7.77
+Qwen2.5 7B,Next Step/Workup,70.87,59.71,-11.17
+Qwen2.5 7B,Treatment/Management,74.27,62.62,-11.65
+Qwen2.5 14B,Clinical Findings,57.77,58.25,0.49
+Qwen2.5 14B,Diagnosis,65.53,65.05,-0.49
+Qwen2.5 14B,Mechanism/Pathophysiology,72.82,70.39,-2.43
+Qwen2.5 14B,Next Step/Workup,71.36,70.87,-0.49
+Qwen2.5 14B,Treatment/Management,74.76,76.21,1.46
+Qwen2.5 32B,Clinical Findings,66.99,67.96,0.97
+Qwen2.5 32B,Diagnosis,70.87,70.39,-0.49
+Qwen2.5 32B,Mechanism/Pathophysiology,76.21,75.24,-0.97
+Qwen2.5 32B,Next Step/Workup,75.73,72.33,-3.4
+Qwen2.5 32B,Treatment/Management,77.18,77.18,0.0
