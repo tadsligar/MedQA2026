@@ -27,6 +27,7 @@ from statistics import mean, median
 
 import numpy as np
 import pandas as pd
+import _full_common as fc
 
 _REPO = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", ".."))  # repo root from papers/<paper>/analysis/
 REPO = _REPO
@@ -157,11 +158,17 @@ def qwen7b_diagnosis(runs_by_model):
 
 
 def main():
+    global LP_DIR
+    args = fc.add_full_arg("EXP1 calibration (focused or --full)")
+    full = args.full
+    sfx = "_full" if full else ""
+    if full:
+        LP_DIR = os.path.join(REPO, "results", "base_runs_logprobs_full")
     runs_by_model = {m: load_runs(m) for m in MODELS}
     present = [m for m in MODELS if runs_by_model[m]]
     if not present:
         print("No logprob results found under", LP_DIR)
-        print("Run the SLURM jobs in slurm/logprobs/ first, then re-run this script.")
+        print("Run the SLURM jobs first, then re-run this script.")
         return
 
     # --- Multi-run summary: per-run acc, median, spread, cross-run determinism ---
@@ -196,8 +203,10 @@ def main():
             "warning": "; ".join(warn) if warn else "",
         })
 
-    ece_rows, rel_rows, rc_rows, catece_rows, check_rows = [], [], [], [], []
-    instab = t07_instability()
+    ece_rows, rel_rows, rc_rows, catece_rows, check_rows, slice_rows = [], [], [], [], [], []
+    # t=0.7 cross-run instability is a focused-set, 3-run quantity; the full EXP1 grid is 1-run
+    # and its qids don't align with the focused base_runs, so disable the correlation in --full.
+    instab = {m: None for m in MODELS} if full else t07_instability()
 
     import matplotlib
     matplotlib.use("Agg")
@@ -214,13 +223,24 @@ def main():
         acc = 100 * mean(1 if r["is_correct"] else 0 for r in have[m])
         check_rows.append({"model": NAME[m], "median_run": median_run[m],
                            "rerun_acc": round(acc, 2),
-                           "verified_acc": VERIFIED[m],
-                           "abs_diff": round(abs(acc - VERIFIED[m]), 2),
+                           "verified_acc": (None if full else VERIFIED[m]),
+                           "abs_diff": (None if full else round(abs(acc - VERIFIED[m]), 2)),
                            "logprob_coverage_pct": round(cov, 1)})
         e, bins = ece(confs, corr)
         ece_rows.append({"model": NAME[m], "ECE": round(e, 4), "n": len(recs),
                          "mean_conf": round(mean(confs), 4),
                          "accuracy": round(mean(corr), 4)})
+        if full:  # held-out test slice: accuracy + ECE
+            shave = fc.slice_to_test(have[m])
+            srecs = [r for r in shave if r.get("confidence") is not None]
+            if shave:
+                slice_rows.append({
+                    "model": NAME[m], "n": len(shave),
+                    "accuracy": round(100 * mean(1 if r["is_correct"] else 0 for r in shave), 2),
+                    "ECE": round(ece([r["confidence"] for r in srecs],
+                                     [1 if r["is_correct"] else 0 for r in srecs])[0], 4) if srecs else None,
+                    "mean_conf": round(mean(r["confidence"] for r in srecs), 4) if srecs else None,
+                    "logprob_coverage_pct": round(100 * len(srecs) / len(shave), 1)})
         for b in bins:
             rel_rows.append({"model": NAME[m], **b})
         # reliability curve
@@ -234,13 +254,14 @@ def main():
             sub = order[:k]
             rc_rows.append({"model": NAME[m], "coverage": frac,
                             "selective_acc": round(100 * mean(1 if r["is_correct"] else 0 for r in sub), 2)})
-        # per-category ECE
-        for c in CATS:
-            cr = [r for r in recs if r["category"] == c]
-            if cr:
-                ec, _ = ece([r["confidence"] for r in cr], [r["is_correct"] for r in cr])
-                catece_rows.append({"model": NAME[m], "category": c, "n": len(cr),
-                                    "ECE": round(ec, 4)})
+        # per-category ECE (focused only — full per-category labels are under revision)
+        if not full:
+            for c in CATS:
+                cr = [r for r in recs if r["category"] == c]
+                if cr:
+                    ec, _ = ece([r["confidence"] for r in cr], [r["is_correct"] for r in cr])
+                    catece_rows.append({"model": NAME[m], "category": c, "n": len(cr),
+                                        "ECE": round(ec, 4)})
         # confidence vs stability correlation
         if instab.get(m) is not None:
             byqid_conf = {r["question_id"]: r["confidence"] for r in recs}
@@ -255,16 +276,19 @@ def main():
     ax_rel.set_xlabel("Mean predicted confidence"); ax_rel.set_ylabel("Empirical accuracy")
     ax_rel.set_title("Reliability diagram (t=0.0, option-letter confidence)")
     ax_rel.legend(fontsize=8); ax_rel.grid(alpha=0.3)
-    fig_rel.tight_layout(); fig_rel.savefig(os.path.join(FIG, "fig7_reliability.png"))
+    fig_rel.tight_layout(); fig_rel.savefig(os.path.join(FIG, f"fig7_reliability{sfx}.png"))
 
-    diag_rows = qwen7b_diagnosis(runs_by_model)
+    diag_rows = [] if full else qwen7b_diagnosis(runs_by_model)
 
-    pd.DataFrame(runs_rows).to_csv(os.path.join(OUT, "calib_runs.csv"), index=False)
-    pd.DataFrame(ece_rows).to_csv(os.path.join(OUT, "calib_ece.csv"), index=False)
-    pd.DataFrame(rel_rows).to_csv(os.path.join(OUT, "calib_reliability_bins.csv"), index=False)
-    pd.DataFrame(rc_rows).to_csv(os.path.join(OUT, "calib_risk_coverage.csv"), index=False)
-    pd.DataFrame(catece_rows).to_csv(os.path.join(OUT, "calib_category_ece.csv"), index=False)
-    pd.DataFrame(check_rows).to_csv(os.path.join(OUT, "calib_selfcheck.csv"), index=False)
+    pd.DataFrame(runs_rows).to_csv(os.path.join(OUT, f"calib_runs{sfx}.csv"), index=False)
+    pd.DataFrame(ece_rows).to_csv(os.path.join(OUT, f"calib_ece{sfx}.csv"), index=False)
+    pd.DataFrame(rel_rows).to_csv(os.path.join(OUT, f"calib_reliability_bins{sfx}.csv"), index=False)
+    pd.DataFrame(rc_rows).to_csv(os.path.join(OUT, f"calib_risk_coverage{sfx}.csv"), index=False)
+    if catece_rows:
+        pd.DataFrame(catece_rows).to_csv(os.path.join(OUT, "calib_category_ece.csv"), index=False)
+    pd.DataFrame(check_rows).to_csv(os.path.join(OUT, f"calib_selfcheck{sfx}.csv"), index=False)
+    if slice_rows:
+        pd.DataFrame(slice_rows).to_csv(os.path.join(OUT, "calib_ece_full_testslice.csv"), index=False)
     if diag_rows:
         pd.DataFrame(diag_rows).to_csv(os.path.join(OUT, "calib_qwen7b_diagnosis.csv"), index=False)
 
@@ -279,10 +303,14 @@ def main():
         print("\n  All models: 100% cross-run agreement and spread <= "
               f"{SPREAD_WARN_PP} pp (or single-run only).")
 
-    print("\n=== Self-check (median-run acc vs verified) ===")
+    print("\n=== Accuracy + coverage" + (" (FULL 12,723, 5-option)" if full
+          else " vs verified") + " ===")
     print(pd.DataFrame(check_rows).to_string(index=False))
     print("\n=== ECE per model (median run) ===")
     print(pd.DataFrame(ece_rows).to_string(index=False))
+    if slice_rows:
+        print("\n=== Held-out test slice (1,273): accuracy + ECE ===")
+        print(pd.DataFrame(slice_rows).to_string(index=False))
 
     if diag_rows:
         print("\n=== Qwen2.5-7B diagnosis: logprob runs vs verified base run "
