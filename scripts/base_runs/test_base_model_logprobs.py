@@ -3,17 +3,18 @@ Paper 1 EXP1 — Base Model evaluation WITH token log-probabilities (calibration
 
 Identical decoding/prompt/extraction to scripts/base_runs/test_base_model.py so accuracy
 reproduces the verified numbers, but requests vLLM `logprobs` and records, per question,
-the model's probability distribution over the four option letters (A-D) at the first
-answer-letter position. This enables true calibration analysis (ECE, reliability diagrams,
-risk-coverage) instead of the stability proxy used in Paper 1.
+the model's probability distribution over the option letters present for THAT question
+(A-D for the 4-option focused set, A-E for the 5-option full set) at the first answer-letter
+position. This enables true calibration analysis (ECE, reliability diagrams, risk-coverage)
+instead of the stability proxy used in Paper 1.
 
 Output schema extends the base-run schema with:
     answer_logprob   : logprob assigned to the predicted letter at the answer position
-    option_logprobs  : {A,B,C,D} raw logprobs at the answer position (missing -> None)
-    option_probs     : softmax of option_logprobs over the 4 letters (sums to 1)
+    option_logprobs  : per-present-letter raw logprobs at the answer position (missing -> None)
+    option_probs     : softmax of option_logprobs over the present letters (sums to 1)
     confidence       : max(option_probs)
     margin           : top1 - top2 option probability
-    answer_pos       : index of the first A-D token in the generated sequence (or -1)
+    answer_pos       : index of the first option-letter token in the generated sequence (or -1)
 
 By default runs only t=0.0, run 1 (the deterministic headline condition). Use
 --temperatures / --n-runs to extend (e.g. for confidence-vs-temperature).
@@ -38,8 +39,8 @@ import requests
 
 project_root = Path(__file__).parent.parent.parent
 sys.path.insert(0, str(project_root))
-
-VALID_LETTERS = ['A', 'B', 'C', 'D']
+sys.path.insert(0, str(Path(__file__).parent.parent))  # scripts/ -> shared mcq_options
+import mcq_options as mcq
 
 
 def categorize_question(question_text):
@@ -58,57 +59,39 @@ def categorize_question(question_text):
         return 'Other/Mixed'
 
 
-def extract_answer(response_text, valid_letters):
-    """Identical to the base runner: first valid A-D letter (multi-strategy)."""
-    valid_set = set(valid_letters)
-    response_text = response_text.strip()
-    if response_text and response_text[0].upper() in valid_set:
-        return response_text[0].upper()
-    for pattern in [r'ANSWER[:\s]+([A-D])', r'Answer[:\s]+([A-D])', r'answer[:\s]+([A-D])']:
-        match = re.search(pattern, response_text, re.IGNORECASE)
-        if match and match.group(1).upper() in valid_set:
-            return match.group(1).upper()
-    first_part = response_text[:50]
-    for char in first_part:
-        if char.upper() in valid_set:
-            return char.upper()
-    for char in response_text:
-        if char.upper() in valid_set:
-            return char.upper()
-    return 'A'
-
-
-def softmax_over_letters(option_logprobs):
+def softmax_over_letters(option_logprobs, letters):
     """Softmax over present (non-None) letter logprobs; returns dict letter->prob."""
     present = {k: v for k, v in option_logprobs.items() if v is not None}
     if not present:
-        return {l: None for l in VALID_LETTERS}
+        return {l: None for l in letters}
     m = max(present.values())
     exps = {k: math.exp(v - m) for k, v in present.items()}
     z = sum(exps.values())
-    probs = {l: (exps[l] / z if l in exps else 0.0) for l in VALID_LETTERS}
+    probs = {l: (exps[l] / z if l in exps else 0.0) for l in letters}
     return probs
 
 
-def parse_letter_logprobs(logprobs_obj):
+def parse_letter_logprobs(logprobs_obj, letters):
     """
     From a vLLM completions `logprobs` object, locate the first generated token whose
-    stripped text is an A-D letter, and read that position's top-k distribution to get
-    a logprob for each of A/B/C/D (max over surface variants like ' A' vs 'A').
+    stripped text is one of THIS question's option letters, and read that position's top-k
+    distribution to get a logprob for each present letter (max over surface variants like
+    ' A' vs 'A').
 
-    Returns (answer_pos, {A,B,C,D: logprob-or-None}).
+    Returns (answer_pos, {letter: logprob-or-None}).
     """
+    letter_set = {l.upper() for l in letters}
     tokens = logprobs_obj.get('tokens') or []
     top = logprobs_obj.get('top_logprobs') or []
     answer_pos = -1
     for i, tok in enumerate(tokens):
-        if tok is not None and tok.strip().upper() in set(VALID_LETTERS):
+        if tok is not None and tok.strip().upper() in letter_set:
             answer_pos = i
             break
     if answer_pos == -1 or answer_pos >= len(top) or top[answer_pos] is None:
-        return answer_pos, {l: None for l in VALID_LETTERS}
+        return answer_pos, {l: None for l in letters}
     dist = top[answer_pos]  # dict: token-string -> logprob
-    letter_lp = {l: None for l in VALID_LETTERS}
+    letter_lp = {l: None for l in letters}
     for tok_str, lp in dist.items():
         key = tok_str.strip().upper()
         if key in letter_lp:
@@ -171,12 +154,12 @@ def run_one(questions, temperature, run_number, output_dir, model_name, vllm_url
     for idx in range(start_idx, len(questions)):
         item = questions[idx]
         question = item['question']
-        options_dict = item['options']
-        correct_text = item['answer']
+        options = mcq.normalize_options(item['options'])
+        letters = mcq.option_letters(options)
         category = item.get('validated_category', categorize_question(question))
 
-        correct_answer = next((l for l, t in options_dict.items() if t == correct_text), 'A')
-        options_text = "\n".join(f"{l}. {t}" for l, t in sorted(options_dict.items()))
+        correct_answer = mcq.answer_letter(item, options)
+        options_text = mcq.render_options(options)
         prompt = f"""Question: {question}
 
 Options:
@@ -188,10 +171,10 @@ Answer:"""
         text, tokens, lp_obj = call_vllm_logprobs(prompt, temperature, vllm_url)
         latency = time.time() - t0
 
-        predicted = extract_answer(text, VALID_LETTERS)
+        predicted = mcq.extract_first(text, letters)
         is_correct = (predicted == correct_answer)
-        answer_pos, option_logprobs = parse_letter_logprobs(lp_obj)
-        option_probs = softmax_over_letters(option_logprobs)
+        answer_pos, option_logprobs = parse_letter_logprobs(lp_obj, letters)
+        option_probs = softmax_over_letters(option_logprobs, letters)
         # confidence + margin from probs
         present_probs = sorted([p for p in option_probs.values() if p is not None], reverse=True)
         confidence = present_probs[0] if present_probs else None

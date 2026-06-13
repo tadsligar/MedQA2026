@@ -31,7 +31,8 @@ import requests
 
 project_root = Path(__file__).parent.parent.parent
 sys.path.insert(0, str(project_root))
-VALID = ['A', 'B', 'C', 'D']
+sys.path.insert(0, str(Path(__file__).parent.parent))  # scripts/ -> shared mcq_options
+import mcq_options as mcq
 
 # EXP3 prompt variants (v0 = the original base prompt)
 PROMPT_VARIANTS = {
@@ -54,32 +55,6 @@ def categorize_question(t):
     return 'Other/Mixed'
 
 
-def extract_first(text):
-    s = text.strip()
-    if s and s[0].upper() in VALID:
-        return s[0].upper()
-    for pat in [r'ANSWER[:\s]+([A-D])', r'Answer[:\s]+([A-D])', r'answer[:\s]+([A-D])']:
-        m = re.search(pat, s, re.IGNORECASE)
-        if m and m.group(1).upper() in VALID:
-            return m.group(1).upper()
-    for ch in s[:50]:
-        if ch.upper() in VALID:
-            return ch.upper()
-    for ch in s:
-        if ch.upper() in VALID:
-            return ch.upper()
-    return 'A'
-
-
-def extract_cot(text):
-    """For CoT: prefer the letter after the final 'answer', else last valid letter."""
-    matches = list(re.finditer(r'answer[:\s]*\(?([A-D])\)?', text, re.IGNORECASE))
-    if matches:
-        return matches[-1].group(1).upper()
-    letters = [c.upper() for c in text if c.upper() in VALID]
-    return letters[-1] if letters else 'A'
-
-
 def call_completions(prompt, temperature, base_url, max_tokens, n, timeout=180):
     url = f"{base_url}/v1/completions"
     payload = {"prompt": prompt, "temperature": temperature, "max_tokens": max_tokens,
@@ -96,8 +71,8 @@ def call_completions(prompt, temperature, base_url, max_tokens, n, timeout=180):
         print(f"  ERROR: {e}"); return ["A"] * n, 0
 
 
-def build_prompt(item, mode, variant):
-    opts = "\n".join(f"{l}. {t}" for l, t in sorted(item['options'].items()))
+def build_prompt(item, options, mode, variant):
+    opts = mcq.render_options(options)
     if mode == "cot":
         return COT_PROMPT.format(q=item['question'], opts=opts)
     return PROMPT_VARIANTS[variant].format(q=item['question'], opts=opts)
@@ -118,16 +93,18 @@ def save_ckpt(d, temp, run, results, nxt):
 def run_one(questions, temp, run, out, model, url, mode, variant, max_tokens, n_samples):
     print(f"\n{'='*80}\nTEMP {temp} RUN {run} mode={mode} variant={variant} k={n_samples}\n{'='*80}")
     results, start = load_ckpt(out, temp, run)
-    extract = extract_cot if mode == "cot" else extract_first
     for idx in range(start, len(questions)):
         item = questions[idx]
-        correct = next((l for l, t in item['options'].items() if t == item['answer']), 'A')
+        options = mcq.normalize_options(item['options'])
+        letters = mcq.option_letters(options)
+        correct = mcq.answer_letter(item, options)
         cat = item.get('validated_category', categorize_question(item['question']))
-        prompt = build_prompt(item, mode, variant)
+        prompt = build_prompt(item, options, mode, variant)
         t0 = time.time()
         texts, tokens = call_completions(prompt, temp, url, max_tokens, n_samples)
         latency = time.time() - t0
-        preds = [extract(t) for t in texts]
+        preds = [(mcq.extract_cot(t, letters) if mode == "cot" else mcq.extract_first(t, letters))
+                 for t in texts]
         if n_samples > 1:
             modal = Counter(preds).most_common(1)[0][0]
             predicted = modal

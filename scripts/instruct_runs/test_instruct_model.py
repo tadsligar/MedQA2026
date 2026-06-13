@@ -32,17 +32,19 @@ import requests
 
 project_root = Path(__file__).parent.parent.parent
 sys.path.insert(0, str(project_root))
-
-VALID_LETTERS = ['A', 'B', 'C', 'D']
+sys.path.insert(0, str(Path(__file__).parent.parent))  # scripts/ -> shared mcq_options
+import mcq_options as mcq
 
 # Minimal instruction mirroring base-prompt content (logged for the appendix).
+# {letters} is filled per-question from the options actually present (e.g. four letters for a
+# 4-option item, five for a 5-option item) so the model always sees every option.
 SYSTEM_MSG = "You are answering a multiple-choice medical exam question."
 USER_TEMPLATE = """Question: {question}
 
 Options:
 {options_text}
 
-Answer with only the single letter (A, B, C, or D) of the best option."""
+Answer with only the single letter ({letters}) of the best option."""
 
 
 def categorize_question(question_text):
@@ -61,32 +63,14 @@ def categorize_question(question_text):
         return 'Other/Mixed'
 
 
-def extract_answer(response_text, valid_letters):
-    """First valid A-D letter (identical strategy to the base runner)."""
-    valid_set = set(valid_letters)
-    response_text = response_text.strip()
-    if response_text and response_text[0].upper() in valid_set:
-        return response_text[0].upper()
-    for pattern in [r'ANSWER[:\s]+([A-D])', r'Answer[:\s]+([A-D])', r'answer[:\s]+([A-D])']:
-        match = re.search(pattern, response_text, re.IGNORECASE)
-        if match and match.group(1).upper() in valid_set:
-            return match.group(1).upper()
-    for char in response_text[:50]:
-        if char.upper() in valid_set:
-            return char.upper()
-    for char in response_text:
-        if char.upper() in valid_set:
-            return char.upper()
-    return 'A'
-
-
-def call_vllm_chat(question, options_text, temperature, base_url, max_tokens=512, timeout=120):
+def call_vllm_chat(question, options_text, letters_text, temperature, base_url, max_tokens=512, timeout=120):
     """Call vLLM /v1/chat/completions with the model's chat template."""
     url = f"{base_url}/v1/chat/completions"
     payload = {
         "messages": [
             {"role": "system", "content": SYSTEM_MSG},
-            {"role": "user", "content": USER_TEMPLATE.format(question=question, options_text=options_text)},
+            {"role": "user", "content": USER_TEMPLATE.format(
+                question=question, options_text=options_text, letters=letters_text)},
         ],
         "temperature": temperature,
         "max_tokens": max_tokens,
@@ -133,16 +117,17 @@ def run_one(questions, temperature, run_number, output_dir, model_name, vllm_url
     for idx in range(start_idx, len(questions)):
         item = questions[idx]
         question = item['question']
-        options_dict = item['options']
-        correct_text = item['answer']
+        options = mcq.normalize_options(item['options'])
+        letters = mcq.option_letters(options)
         category = item.get('validated_category', categorize_question(question))
-        correct_answer = next((l for l, t in options_dict.items() if t == correct_text), 'A')
-        options_text = "\n".join(f"{l}. {t}" for l, t in sorted(options_dict.items()))
+        correct_answer = mcq.answer_letter(item, options)
+        options_text = mcq.render_options(options)
+        letters_text = mcq.letters_phrase(letters)
 
         t0 = time.time()
-        text, tokens = call_vllm_chat(question, options_text, temperature, vllm_url)
+        text, tokens = call_vllm_chat(question, options_text, letters_text, temperature, vllm_url)
         latency = time.time() - t0
-        predicted = extract_answer(text, VALID_LETTERS)
+        predicted = mcq.extract_first(text, letters)
         is_correct = (predicted == correct_answer)
 
         results.append({
