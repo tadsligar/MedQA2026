@@ -166,6 +166,29 @@ Translate each measured deficit into a symbolic scaffold:
 
 ---
 
+### 6.6 Lead-in-conditioned reasoning orchestration (constructive extension)
+Grounded in the NBME closed-lead-in principle (see `LABELING_RATIONALE.md`): the **lead-in** (final
+sentence) reliably signals the reasoning operation, so it can *route* the solver. Pipeline:
+1. **Parse** each question into stem (vignette) + lead-in (final sentence).
+2. **Route** on the lead-in → operation R/F/B/I/W (the labeling classifier, used live).
+3. **Solve** with an operation-specific reasoning path, given the full stem + lead-in:
+   - B (abductive diagnosis) → generate-and-rank differential with base-rate weighting / Bayesian belief.
+   - F (forward mechanism) → ontology / knowledge-graph path lookup.
+   - I (intervention) → guideline / contraindication check.
+   - W (workup) → value-of-information test-selection.
+   - R (recognition) → direct recall.
+Evaluate **orchestration × operation**: does routing to an operation-matched solver beat a single
+uniform prompt, and *differentially* by operation? This is the compute-bearing arm (new model runs)
+and the bridge that turns §6.5's prescription into an implemented system. Reuses Paper 2 grounding/
+verifiers and Paper 3 belief/controller modules. *(Depends on the asymmetry/structure results first.)*
+
+### 6.7 External validity — second dataset
+Replicate the operation taxonomy + lead-in routing on a second corpus to show it isn't a MedQA
+artifact. Candidates: **MedMCQA** (already carries reasoning-type labels — lets us validate our
+lead-in operation labels against an independent scheme) and/or a non-MCQ / free-response medical set
+(tests whether the lead-in signal survives outside multiple-choice). Report operation-distribution
+and the asymmetry on the second set alongside MedQA.
+
 ## 7. Metrics & deliverables (tables/figures)
 
 - **T1.** Per-operation accuracy × model (t=0.0), Wilson CIs, natural N per operation.
@@ -228,4 +251,7 @@ the repo**. This is its biggest practical advantage and should be stated up fron
 5. `analysis/structure_probes.py` — breadth / integration / cue strength via UMLS index.
 6. `analysis/stability_by_op.py` — reuse Paper 1 stability.
 7. Figures F1–F5; tables T1–T5.
-8. DRAFT.md prose + PDF (match Papers 1–3 format).
+8. **Lead-in router + operation-conditioned solvers (§6.6)** — the constructive orchestration arm
+   (new model runs; reuses Paper 2/3 modules). Build only after the asymmetry/structure results.
+9. **Second-dataset replication (§6.7)** — MedMCQA (reasoning-type labels) and/or a non-MCQ set.
+10. DRAFT.md prose + PDF (match Papers 1–3 format). Methods cite `LABELING_RATIONALE.md` (NBME lead-in).
