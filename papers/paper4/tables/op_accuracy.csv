@@ -1,0 +1,26 @@
+model,operation,code,n,acc,ci_lo,ci_hi
+OLMo-3 7B,Interventional,I,3456,40.74,39.11,42.39
+OLMo-3 7B,Diagnostic (backward),B,5768,38.19,36.95,39.45
+OLMo-3 7B,Mechanistic (forward),F,1792,41.35,39.09,43.65
+OLMo-3 7B,Workup,W,763,40.76,37.33,44.28
+OLMo-3 7B,Recognition,R,944,43.33,40.2,46.51
+OLMo-3 32B,Interventional,I,3456,51.5,49.84,53.17
+OLMo-3 32B,Diagnostic (backward),B,5768,51.54,50.25,52.83
+OLMo-3 32B,Mechanistic (forward),F,1792,53.46,51.15,55.76
+OLMo-3 32B,Workup,W,763,51.64,48.09,55.17
+OLMo-3 32B,Recognition,R,944,55.72,52.53,58.86
+Qwen2.5 7B,Interventional,I,3456,53.36,51.69,55.02
+Qwen2.5 7B,Diagnostic (backward),B,5768,54.14,52.86,55.43
+Qwen2.5 7B,Mechanistic (forward),F,1792,53.24,50.92,55.54
+Qwen2.5 7B,Workup,W,763,50.33,46.79,53.86
+Qwen2.5 7B,Recognition,R,944,56.14,52.96,59.28
+Qwen2.5 14B,Interventional,I,3456,60.1,58.46,61.72
+Qwen2.5 14B,Diagnostic (backward),B,5768,61.44,60.18,62.69
+Qwen2.5 14B,Mechanistic (forward),F,1792,60.55,58.26,62.78
+Qwen2.5 14B,Workup,W,763,59.5,55.98,62.93
+Qwen2.5 14B,Recognition,R,944,61.97,58.83,65.01
+Qwen2.5 32B,Interventional,I,3456,66.72,65.14,68.28
+Qwen2.5 32B,Diagnostic (backward),B,5768,67.02,65.8,68.23
+Qwen2.5 32B,Mechanistic (forward),F,1792,66.07,63.85,68.23
+Qwen2.5 32B,Workup,W,763,65.92,62.49,69.2
+Qwen2.5 32B,Recognition,R,944,71.19,68.22,73.99

@@ -32,7 +32,9 @@ _spec = importlib.util.spec_from_file_location("ol", os.path.join(HERE, "operati
 ol = importlib.util.module_from_spec(_spec); _spec.loader.exec_module(ol)
 
 MODEL = os.environ.get("CLASSIFIER_MODEL", "gpt-5.4-mini")
-REASONING_EFFORT = os.environ.get("REASONING_EFFORT", "minimal")
+# gpt-5.4-mini supports reasoning_effort in {none, low, medium, high, xhigh} — NOT 'minimal'.
+# 'none' disables reasoning (cheapest/fastest), which is what this easy classification wants.
+REASONING_EFFORT = os.environ.get("REASONING_EFFORT", "none")
 MAX_COMPLETION_TOKENS = int(os.environ.get("MAX_COMPLETION_TOKENS", "512"))
 # stay safely under the org enqueued-token cap (2,000,000); count input + reserved output
 ENQUEUE_BUDGET = int(os.environ.get("ENQUEUE_BUDGET", "1700000"))
@@ -253,13 +255,67 @@ def status():
     print(f"\nlabels so far in op_labels.jsonl: {len(_done_qids())}")
 
 
+def test(dataset):
+    """Full round-trip on a few questions (TEST_N, default 8) to validate params + parsing BEFORE
+    a big run. Writes/touches nothing real (own input file, no state, no op_labels)."""
+    c = _client()
+    n = int(os.environ.get("TEST_N", "8"))
+    data = json.load(open(dataset, encoding="utf-8"))[:n]
+    path = os.path.join(OUTDIR, "batch_test_input.jsonl"); os.makedirs(OUTDIR, exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        for i, item in enumerate(data):
+            qid = int(item.get("question_id", i))
+            body = {"model": MODEL, "reasoning_effort": REASONING_EFFORT,
+                    "max_completion_tokens": MAX_COMPLETION_TOKENS,
+                    "messages": [{"role": "system", "content": ol.RUBRIC},
+                                 {"role": "user", "content": f"Question: {item['question']}\n\nOptions:\n{_opts_text(item)}"}]}
+            f.write(json.dumps({"custom_id": f"q-{qid}", "method": "POST",
+                                "url": "/v1/chat/completions", "body": body}, ensure_ascii=False) + "\n")
+    print(f"TEST: {n} requests, model={MODEL}, reasoning_effort={REASONING_EFFORT}, "
+          f"max_completion_tokens={MAX_COMPLETION_TOKENS}")
+    bid = _submit_file(c, path)
+    print(f"submitted {bid}; polling...")
+    while True:
+        b = _retry(lambda: c.batches.retrieve(bid), what="poll")
+        print(" ", b.status, b.request_counts)
+        if b.status in ("completed", "failed", "expired", "cancelled"):
+            break
+        time.sleep(15)
+    if getattr(b, "error_file_id", None):
+        print("----- ERRORS -----"); print(c.files.content(b.error_file_id).text[:2000])
+    if getattr(b, "output_file_id", None):
+        print("----- OUTPUTS (parsed) -----")
+        ok = fail = 0
+        for line in c.files.content(b.output_file_id).text.splitlines():
+            if not line.strip(): continue
+            row = json.loads(line); cid = row["custom_id"]
+            try: content = row["response"]["body"]["choices"][0]["message"]["content"]
+            except Exception: content = ""
+            res = ol.parse(content)
+            if res:
+                ok += 1
+                ys = [s for s, v in res["systems"].items() if v == "Y"]
+                print(f"  {cid}: op={res['reasoning_operation']}  systems_Y={ys}")
+            else:
+                fail += 1
+                print(f"  {cid}: PARSE_FAIL  raw={content[:200]!r}")
+        print(f"\nparsed OK={ok}  parse_fail={fail}")
+        if ok and not fail:
+            print("✓ looks good — safe to run the full `auto`.")
+        else:
+            print("✗ fix before the full run (see raw output / errors above).")
+
+
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("step", choices=["build", "split", "auto", "status", "submit", "poll", "fetch"])
+    ap.add_argument("step", choices=["build", "split", "auto", "status", "submit", "poll", "fetch", "test"])
     ap.add_argument("--dataset", default=os.path.join(REPO, "data/datasets/medqa_full_combined.json"))
     a = ap.parse_args()
-    {"build": lambda: build(a.dataset), "split": split, "auto": auto, "status": status,
-     "submit": submit, "poll": poll, "fetch": fetch}[a.step]()
+    if a.step == "build": build(a.dataset)
+    elif a.step == "test": test(a.dataset)
+    else:
+        {"split": split, "auto": auto, "status": status,
+         "submit": submit, "poll": poll, "fetch": fetch}[a.step]()
 
 
 if __name__ == "__main__":

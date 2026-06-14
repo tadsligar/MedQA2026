@@ -37,7 +37,8 @@ python scripts/dataset_generation/operation_labeler.py
 
 ## Option C — gpt-5.4-mini via Batch API (chosen; ~$8, 50% off)
 Batch only runs on the hosted OpenAI API (not vLLM). GPT-5 reasoning params are preset
-(`reasoning_effort=minimal`, `max_completion_tokens=512`). The org has a **2,000,000 enqueued-token
+(`reasoning_effort=none` — gpt-5.4-mini does NOT accept 'minimal'; valid: none/low/medium/high/xhigh —
+and `max_completion_tokens=512`). The org has a **2,000,000 enqueued-token
 cap**, and the full set is ~10M tokens, so it is auto-split into ~11 chunks submitted SEQUENTIALLY.
 ```bash
 pip install --upgrade openai                 # need >=1.x (modern client + Batch support)
