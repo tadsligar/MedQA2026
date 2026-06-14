@@ -1,0 +1,44 @@
+{
+  "chunk_000.jsonl": {
+    "batch_id": "batch_6a2e168492a481909b42c943e6ef9280",
+    "status": "appended",
+    "ok": 1834,
+    "fail": 0
+  },
+  "chunk_001.jsonl": {
+    "batch_id": "batch_6a2e5428fb908190919f2d50d313d463",
+    "status": "appended",
+    "ok": 1834,
+    "fail": 0
+  },
+  "chunk_002.jsonl": {
+    "batch_id": "batch_6a2e553c2c5c8190b3ea499a1459a70c",
+    "status": "appended",
+    "ok": 1831,
+    "fail": 0
+  },
+  "chunk_003.jsonl": {
+    "batch_id": "batch_6a2e566ed1188190a61259584395be2f",
+    "status": "appended",
+    "ok": 1835,
+    "fail": 0
+  },
+  "chunk_004.jsonl": {
+    "batch_id": "batch_6a2e5b8d97548190974c9043d185a999",
+    "status": "appended",
+    "ok": 1834,
+    "fail": 0
+  },
+  "chunk_005.jsonl": {
+    "batch_id": "batch_6a2e5d92d19081909aaf1e0396c310c7",
+    "status": "appended",
+    "ok": 1831,
+    "fail": 0
+  },
+  "chunk_006.jsonl": {
+    "batch_id": "batch_6a2e628951e081909a1f3136aa2cccb2",
+    "status": "appended",
+    "ok": 1724,
+    "fail": 0
+  }
+}
